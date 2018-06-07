@@ -1,0 +1,134 @@
+html {
+	font-size: 30px;
+}
+body {
+	position: relative;
+	background-color: #333;
+	color: #fff;
+	font-weight: lighter;
+	text-align: center;
+}
+h1, .lightWeight {
+	font-weight: lighter;
+	text-align: center;
+}
+h6 {
+	font-weight: lighter;
+	text-align: center;
+}
+#main {
+	background-image: url("https://farm1.staticflickr.com/821/39604131530_c0f94cc581_o.jpg");
+	background-size: cover;
+  	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+  	height: 100vh;
+	width: 100vw;
+	opacity: .5;
+	z-index: -1;
+}
+.outer {
+	position: absolute;
+  	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 100vh;
+	width: 100vw;
+}
+#head {
+	margin: 5% 5% 3% 5%;
+}
+.contain {
+	max-width: 100%;
+	padding: 0;
+	margin: 0 10px;
+}
+#temperature {
+	height: 216px;
+	padding-left: 3%;
+	margin: 2% 0 0 0;
+}
+#buttons {
+	position: absolute;
+	bottom: 3%;
+	width: 100%;
+	height: 8%;
+}
+#random {
+	float: left;
+}
+#convert {
+	float: right;
+}
+.btn {
+	color: #555;
+	width: 67px;
+	height: 70px;
+	margin: 0 25px 0 25px;
+}
+.btnRandom {
+	padding: .5rem;
+}
+.btn:hover {
+	cursor: pointer;
+	opacity: .8;
+	width: 70px;
+	height: 73px;
+}
+
+
+/*// Medium-width devices (tablets & landscape phones, less than 764px) */
+@media screen and (min-height: 600px) and (max-height: 763.98px){
+	html {
+	font-size: 25px;
+	}
+	.btn {
+		height: 62px;
+	}
+
+	.btn:hover {
+		width: 69px;
+		height: 64px;
+	}
+}
+
+
+
+/*// Small-width devices (portrait phones, less than 600px) */
+@media screen and (max-height: 599.98px) {
+	html {
+	font-size: 20px;
+	}
+	#main {
+	  	height: 550px;
+	}
+	.outer {
+	  	top: 50%;
+	  	height: 550px;
+	}
+	.btn {
+		width: 55px;
+		height: 51px;
+	}
+	.btn:hover {
+		width: 57px;
+		height: 53px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
