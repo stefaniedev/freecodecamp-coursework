@@ -1,5 +1,5 @@
-# Tribute Page
-This is my FreeCodeCamp Tribute Page from the Basic Front End Development Projects section. I chose to make a tribute page to Dr. Sigmund Freud.
+# Random Quote Machine
+This is my FreeCodeCamp Random Quote Machine Generator from the Intermediate Front End Development Projects section. I chose to feature quotes from the TV Series Futurama.
 
 --Made with 💗 by Stefanie Feltman
 

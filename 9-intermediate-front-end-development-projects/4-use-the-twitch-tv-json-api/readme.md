@@ -1,5 +1,5 @@
-# Tribute Page
-This is my FreeCodeCamp Tribute Page from the Basic Front End Development Projects section. I chose to make a tribute page to Dr. Sigmund Freud.
+# Twitch TV Streamers
+This is my FreeCodeCamp Twitch TV Streamers App from the Intermediate Front End Development Projects section. I added a feature to sort streamers by those who are online or offline.
 
 --Made with 💗 by Stefanie Feltman
 

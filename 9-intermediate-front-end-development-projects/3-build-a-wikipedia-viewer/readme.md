@@ -1,5 +1,5 @@
-# Tribute Page
-This is my FreeCodeCamp Tribute Page from the Basic Front End Development Projects section. I chose to make a tribute page to Dr. Sigmund Freud.
+# Wikipedia Viewer
+This is my FreeCodeCamp Wikipedia Viewer Webpage from the Intermediate Front End Development Projects section. Food-based search terms auto-populate and randomize upon refresh.
 
 --Made with 💗 by Stefanie Feltman
 

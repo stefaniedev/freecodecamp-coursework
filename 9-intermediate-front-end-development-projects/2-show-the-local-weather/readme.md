@@ -1,5 +1,5 @@
-# Tribute Page
-This is my FreeCodeCamp Tribute Page from the Basic Front End Development Projects section. I chose to make a tribute page to Dr. Sigmund Freud.
+# Local Weather
+This is my FreeCodeCamp Local Weather Website from the Intermediate Front End Development Projects section. I included a feature to get random weather reports from around the globe.
 
 --Made with 💗 by Stefanie Feltman
 
