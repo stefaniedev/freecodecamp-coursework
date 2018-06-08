@@ -26,7 +26,7 @@ Each challenge has tests that you can run at any time by clicking the "Run tests
 
 To pass the test on this challenge, change your h1 element's text to say "Hello World" instead of "Hello". Then click the "Run tests" button.
 
--[x] Your h1 element should have the text "Hello World".
+- [x] Your h1 element should have the text "Hello World".
 
 ```
 <h1>Hello World</h1>
@@ -45,10 +45,10 @@ This element tells the browser about the structure of your website. h1 elements 
 
 Add an h2 tag that says "CatPhotoApp" to create a second HTML element below your "Hello World" h1 element.
 
-+ Create an h2 element.
-+ Make sure your h2 element has a closing tag.
-+ Your h2 element should have the text "CatPhotoApp".
-+ Your h1 element should have the text "Hello World".
+- [x] Create an h2 element.
+- [x] Make sure your h2 element has a closing tag.
+- [x] Your h2 element should have the text "CatPhotoApp".
+- [x] Your h1 element should have the text "Hello World".
 
 ```
 <h1>Hello World</h1>
@@ -64,9 +64,9 @@ You can create a p element like this:
 
 Create a p element below your h2 element, and give it the text "Hello Paragraph".
 
-+ Create a p element.
-+ Your p element should have the text "Hello Paragraph".
-+ Make sure your p element has a closing tag.
+- [x] Create a p element.
+- [x] Your p element should have the text "Hello Paragraph".
+- [x] Make sure your p element has a closing tag.
 
 ```
 <h1>Hello World</h1>
@@ -81,11 +81,11 @@ Here you'll need to end the comment before your h2 element begins.
 
 Comment out your h1 element and your p element, but leave your h2 element uncommented.
 
-+ Comment out your h1 element so that it is not visible on your page.
-+ Leave your h2 element uncommented so that it is visible on your page.
-+ Comment out your p element so that it is not visible on your page.
-+ Be sure to close each of your comments with -->.
-+ Do not change the order of the h1 h2 or p in the code.
+- [x] Comment out your h1 element so that it is not visible on your page.
+- [x] Leave your h2 element uncommented so that it is visible on your page.
+- [x] Comment out your p element so that it is not visible on your page.
+- [x] Be sure to close each of your comments with -->.
+- [x] Do not change the order of the h1 h2 or p in the code.
 
 
 ```
@@ -103,7 +103,7 @@ Well, 5 centuries is long enough. Since we're building a CatPhotoApp, let's use 
 
 Replace the text inside your p element with the first few words of this kitty ipsum text: Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
 
-+ Your p element should contain the first few words of the provided kitty ipsum text.
+- [x] Your p element should contain the first few words of the provided kitty ipsum text.
 
 ```
 <h1>Hello World</h1>
@@ -120,9 +120,9 @@ Let's remove the unnecessary elements so we can start building our CatPhotoApp.
 
 Delete your h1 element so we can simplify our view.
 
-+ Delete your h1 element.
-+ Leave your h2 element on the page.
-+ Leave your p element on the page.
+- [x] Delete your h1 element.
+- [x] Leave your h2 element on the page.
+- [x] Leave your p element on the page.
 
 ```
 <h2>CatPhotoApp</h2>
@@ -143,7 +143,7 @@ Here's how you would set your h2 element's text color to blue:
 
 Change your h2 element's style so that its text color is red.
 
-Your h2 element should be red.
+- [x] Your h2 element should be red.
 
 
 ```
@@ -174,11 +174,11 @@ Note that it's important to have both opening and closing curly braces ({ and })
 
 Delete your h2 element's style attribute and instead create a CSS style element. Add the necessary CSS to turn all h2 elements blue.
 
-+ Remove the style attribute from your h2 element.
-+ Create a style element.
-+ Your h2 element should be blue.
-+ Ensure that your stylesheet h2 declaration is valid with a semicolon and closing brace.
-+ Make sure all your style elements are valid and have a closing tag.
+- [x] Remove the style attribute from your h2 element.
+- [x] Create a style element.
+- [x] Your h2 element should be blue.
+- [x] Ensure that your stylesheet h2 declaration is valid with a semicolon and closing brace.
+- [x] Make sure all your style elements are valid and have a closing tag.
 ```
 <style>
   h2 {
@@ -213,10 +213,10 @@ Inside your style element, change the h2 selector to .red-text and update the co
 
 Give your h2 element the class attribute with a value of 'red-text'.
 
-+ Your h2 element should be red.
-+ Your h2 element should have the class red-text.
-+ Your stylesheet should declare a red-text class and have its color set to red.
-+ Do not use inline style declarations like `style="color: red"` in your h2 element.
+- [x] Your h2 element should be red.
+- [x] Your h2 element should have the class red-text.
+- [x] Your stylesheet should declare a red-text class and have its color set to red.
+- [x] Do not use inline style declarations like `style="color: red"` in your h2 element.
 
 
 ```
@@ -246,10 +246,10 @@ But also remember that class declarations don't use a period, like this:
 
 Apply the red-text class to your h2 and p elements.
 
-+ Your h2 element should be red.
-+ Your h2 element should have the class red-text.
-+ Your p element should be red.
-+ Your p element should have the class red-text.
+- [x] Your h2 element should be red.
+- [x] Your h2 element should have the class red-text.
+- [x] Your p element should be red.
+- [x] Your p element should have the class red-text.
 
 ```
 <style>
@@ -279,12 +279,12 @@ Due to browser implementation differences, you may need to be at 100% zoom to pa
 
 Also, please do not add a class attribute to your new p element.
 
-+ You need 2 p elements with Kitty Ipsum text.
-+ Make sure each of your p elements has a closing tag.
-+ Your p element should contain the first few words of the provided additional kitty ipsum text.
-+ The first p element should have the class red-text.
-+ Do not add a class attribute to the second p element.
-+ Between the style tags, give the p elements font-size of 16px. Browser and Text zoom should be at 100%.
+- [x] You need 2 p elements with Kitty Ipsum text.
+- [x] Make sure each of your p elements has a closing tag.
+- [x] Your p element should contain the first few words of the provided additional kitty ipsum text.
+- [x] The first p element should have the class red-text.
+- [x] Do not add a class attribute to the second p element.
+- [x] Between the style tags, give the p elements font-size of 16px. Browser and Text zoom should be at 100%.
 
 ```
 <style>
@@ -313,7 +313,7 @@ h2 {
 ```
 Make all of your p elements use the Monospace font.
 
-+ Your p elements should use the font Monospace.
+- [x] Your p elements should use the font Monospace.
 
 ```
 <style>
@@ -346,9 +346,9 @@ Now you can set Lobster as a font-family value on your h2 element.
 
 Apply the font-family of Lobster to your h2 element.
 
-+ Import the Lobster font.
-+ Your h2 element should use the font Lobster.
-+ Your p element should still use the font Monospace.
+- [x] Import the Lobster font.
+- [x] Your h2 element should use the font Lobster.
+- [x] Your p element should still use the font Monospace.
 ```
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
@@ -386,10 +386,10 @@ p {
 ```
 Now comment out your call to Google Fonts, so that the Lobster font isn't available. Notice how it degrades to the Monospace font.
 
-+ Your h2 element should use the font Lobster.
-+ Your h2 element should degrade to the font Monospace when Lobster is not available.
-+ Comment out your call to Google for the Lobster font by putting <!-- in front of it.
-+ Be sure to close your comment by adding -->.
+- [x] Your h2 element should use the font Lobster.
+- [x] Your h2 element should degrade to the font Monospace when Lobster is not available.
+- [x] Comment out your call to Google for the Lobster font by putting <!-- in front of it.
+- [x] Be sure to close your comment by adding -->.
 ```
 <!--
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
@@ -434,11 +434,11 @@ Try it with this image:
 ```
 https://bit.ly/fcc-relaxing-cat
 ```
-Your page should have an image element.
-Your image should have a src attribute that points to the kitten image.
-Your image element must have an alt attribute.
+- [x] Your page should have an image element.
+- [x] Your image should have a src attribute that points to the kitten image.
+- [x] Your image element must have an alt attribute.
 
-
+```
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
   .red-text {
@@ -459,27 +459,28 @@ Your image element must have an alt attribute.
 <img src="https://bit.ly/fcc-relaxing-cat" alt="Relaxing Cat">
 <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 <p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
-
+```
 
 ## Size your Images 
 CSS has a property called width that controls an element's width. Just like with fonts, we'll use px (pixels) to specify the image's width.
 
 For example, if we wanted to create a CSS class called larger-image that gave HTML elements a width of 500 pixels, we'd use:
-
+```
 <style>
   .larger-image {
     width: 500px;
   }
 </style>
+```
 Create a class called smaller-image and use it to resize the image so that it's only 100 pixels wide.
 
 Note
 Due to browser implementation differences, you may need to be at 100% zoom to pass the tests on this challenge.
 
-Your img element should have the class smaller-image.
-Your image should be 100 pixels wide. Browser zoom should be at 100%.
+- [x] Your img element should have the class smaller-image.
+- [x] Your image should be 100 pixels wide. Browser zoom should be at 100%.
 
-
+```
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
   .red-text {
@@ -505,13 +506,13 @@ Your image should be 100 pixels wide. Browser zoom should be at 100%.
 
 <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 <p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
-
+```
 
 ## Add Borders Around your Elements 
 CSS borders have properties like style, color and width
 
 For example, if we wanted to create a red, 5 pixel border around an HTML element, we could use this class:
-
+```
 <style>
   .thin-red-border {
     border-color: red;
@@ -519,23 +520,20 @@ For example, if we wanted to create a red, 5 pixel border around an HTML element
     border-style: solid;
   }
 </style>
+```
 Create a class called thick-green-border that puts a 10-pixel-wide green border with a style of solid around an HTML element, and apply that class to your cat photo.
 
 Remember that you can apply multiple classes to an element by separating each class with a space within its class attribute. For example:
-
+```
 <img class="class1 class2">
+```
+- [x] Your img element should have the class smaller-image.
+- [x] Your img element should have the class thick-green-border.
+- [x] Give your image a border width of 10px.
+- [x] Give your image a border style of solid.
+- [x] The border around your img element should be green.
 
-Run tests (ctrl + enter)
-Reset your code
-Get a hint
-Ask for help on the forum
-Your img element should have the class smaller-image.
-Your img element should have the class thick-green-border.
-Give your image a border width of 10px.
-Give your image a border style of solid.
-The border around your img element should be green.
-
-
+```
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
   .red-text {
@@ -567,7 +565,7 @@ The border around your img element should be green.
 
 <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 <p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
-
+```
 
 ## Add Rounded Corners with a Border Radius 
 Your cat photo currently has sharp corners. We can round out those corners with a CSS property called border-radius.
@@ -576,7 +574,7 @@ You can specify a border-radius with pixels. Give your cat photo a border-radius
 
 Note: this waypoint allows for multiple possible solutions. For example, you may add border-radius to either the .thick-green-border class or .smaller-image class.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -624,7 +622,7 @@ In addition to pixels, you can also specify a border-radius using a percentage.
 
 Give your cat photo a border-radius of 50%.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -679,7 +677,7 @@ Here's an example:
 
 Create an a element that links to http://freecatphotoapp.com and has "cat photos" as its anchor text.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -738,7 +736,7 @@ Nesting just means putting one element inside of another element.
 
 Now nest your existing a element within a new p element (just after the existing h2 element) so that the surrounding paragraph says "View more cat photos", but where only "cat photos" is a link, and the rest of the text is plain text.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -796,7 +794,7 @@ This is also handy when you're changing the behavior of a link using jQuery, whi
 
 Replace the value of your a element's href attribute with a #, also known as a hash symbol, to turn it into a dead link.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -853,7 +851,7 @@ Place the existing image element within an anchor element.
 
 Once you've done this, hover over your image with your cursor. Your cursor's normal pointer should become the link clicking pointer. The photo is now a link.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -921,7 +919,7 @@ would create a bullet point-style list of "milk" and "cheese".
 
 Remove the last two p elements and create an unordered list of three things that cats love at the bottom of the page.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -986,7 +984,7 @@ would create a numbered list of "Garfield" and "Sylvester".
 
 Create an ordered list of the top 3 things cats hate the most.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -1059,7 +1057,7 @@ Note that input elements are self-closing.
 
 Create an input element of type text below your lists.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -1123,7 +1121,7 @@ You can create placeholder text like so:
 
 Set the placeholder value of your text input to "cat photo URL".
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -1189,7 +1187,7 @@ For example:
 
 Nest your text field in a form element. Add the action="/submit-cat-photo" attribute to this form element.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -1257,7 +1255,7 @@ Here's an example submit button:
 
 Add a submit button to your form element with type submit and "Submit" as its text.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -1329,7 +1327,7 @@ Then try to submit the form without inputing any text. See how your HTML5 form n
 
 Note: This field does not work in Safari.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -1402,7 +1400,7 @@ Here's an example of a radio button:
 
 Add a pair of radio buttons to your form. One should have the option of indoor and the other should have the option of outdoor.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -1482,7 +1480,7 @@ Here's an example of a checkbox:
 
 Add to your form a set of three checkboxes. Each checkbox should be nested within its own label element. All three should share the name attribute of personality.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -1557,7 +1555,7 @@ To do this, just add the word "checked" to the inside of an input element. For e
 
 Set the first of your radio buttons and the first of your checkboxes to both be checked by default.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -1632,7 +1630,7 @@ Try putting your opening div tag above your "Things cats love" p element and you
 
 Nest your "Things cats love" and "Things cats hate" lists all within a single div element.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -1709,7 +1707,7 @@ For example, if you wanted an element's background color to be green, you'd put 
 }
 Create a class called silver-background with the background-color of silver. Assign this class to your div element.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -1793,7 +1791,7 @@ Here's an example of how you give your h2 element the id of cat-photo-app:
 
 Give your form element the id cat-photo-form.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -1874,7 +1872,7 @@ Note that inside your style element, you always reference classes by putting a .
 
 Try giving your form, which now has the id attribute of cat-photo-form, a green background.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -1966,7 +1964,7 @@ When you increase the green box's padding, it will increase the distance between
 
 Change the padding of your green box to match that of your red box.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -2018,7 +2016,7 @@ When you increase the green box's margin, it will increase the distance between 
 
 Change the margin of the green box to match that of the red box.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -2072,7 +2070,7 @@ Try to set the margin to a negative value like the one for the red box.
 
 Change the margin of the green box to -15px, so it fills the entire horizontal width of the yellow box around it.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -2123,7 +2121,7 @@ CSS allows you to control the padding of an element on all four sides with paddi
 
 Give the green box a padding of 40px on its top and left side, but only 20px on its bottom and right side.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -2182,7 +2180,7 @@ CSS allows you to control the margin of an element on all four sides with margin
 
 Give the green box a margin of 40px on its top and left side, but only 20px on its bottom and right side.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -2244,7 +2242,7 @@ These four values work like a clock: top, right, bottom, left, and will produce 
 
 Use Clockwise Notation to give the ".green-box" class a padding of 40px on its top and left side, but only 20px on its bottom and right side.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -2301,7 +2299,7 @@ These four values work like a clock: top, right, bottom, left, and will produce 
 
 Use Clockwise Notation to give the element with the green-box class a margin of 40px on its top and left side, but only 20px on its bottom and right side.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -2359,7 +2357,7 @@ We can do this by adding the following to our style element:
 body {
   background-color: black;
 }
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -2386,7 +2384,7 @@ Then, let's give all elements on your page the color of green by adding color: g
 
 Finally, give your body element the font-family of Monospace by adding font-family: Monospace; to your body element's style declaration.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -2421,7 +2419,7 @@ Create a CSS class called pink-text that gives an element the color pink.
 
 Give your h1 element the class of pink-text.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -2460,7 +2458,7 @@ Note: It doesn't matter which order the classes are listed in the HTML element.
 
 However, the order of the class declarations in the <style> section are what is important. The second declaration will always take precedence over the first. Because .blue-text is declared second, it overrides the attributes of .pink-text
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -2506,7 +2504,7 @@ Create a CSS declaration for your orange-text id in your style element. Here's a
 }
 Note: It doesn't matter whether you declare this css above or below pink-text class, since id attribute will always take precedence.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -2548,7 +2546,7 @@ Use an in-line style to try to make our h1 element white. Remember, in line styl
 
 Leave the blue-text and pink-text classes on your h1 element.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -2593,7 +2591,7 @@ An example of how to do this is:
 
 color: red !important;
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -2633,7 +2631,7 @@ In CSS, we can use 6 hexadecimal digits to represent colors, two each for the re
 
 Replace the word black in our body element's background-color with its hex code representation, #000000.
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -2666,7 +2664,7 @@ Dodger Blue	#2998E4
 Green	#00FF00
 Orange	#FFA500
 Red	#FF0000
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -2718,7 +2716,7 @@ Cyan	#0FF
 Green	#0F0
 Red	#F00
 Fuchsia	#F0F
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -2773,7 +2771,7 @@ If you do the math, the two digits for one color equal 16 times 16, which gives 
 
 Let's replace the hex code in our body element's background color with the RGB value for black: rgb(0, 0, 0)
 
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
@@ -2798,7 +2796,7 @@ Blue	rgb(0, 0, 255)
 Red	rgb(255, 0, 0)
 Orchid	rgb(218, 112, 214)
 Sienna	rgb(160, 82, 45)
-Run tests (ctrl + enter)
+Run tests (ctrl - [x]enter)
 Reset your code
 Get a hint
 Ask for help on the forum
