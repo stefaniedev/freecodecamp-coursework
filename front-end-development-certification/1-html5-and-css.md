@@ -26,10 +26,9 @@ Each challenge has tests that you can run at any time by clicking the "Run tests
 
 To pass the test on this challenge, change your h1 element's text to say "Hello World" instead of "Hello". Then click the "Run tests" button.
 
-+Your h1 element should have the text "Hello World".
++ Your h1 element should have the text "Hello World".
 
-```
-<h1>Hello World</h1>
+```<h1>Hello World</h1>
 ```
 
 ## Headline with the h2 Element 
@@ -44,10 +43,10 @@ This element tells the browser about the structure of your website. h1 elements 
 
 Add an h2 tag that says "CatPhotoApp" to create a second HTML element below your "Hello World" h1 element.
 
-+Create an h2 element.
-+Make sure your h2 element has a closing tag.
-+Your h2 element should have the text "CatPhotoApp".
-+Your h1 element should have the text "Hello World".
++ Create an h2 element.
++ Make sure your h2 element has a closing tag.
++ Your h2 element should have the text "CatPhotoApp".
++ Your h1 element should have the text "Hello World".
 
 ```<h1>Hello World</h1>
 <h2>CatPhotoApp</h2>
@@ -58,13 +57,14 @@ p elements are the preferred element for normal-sized paragraph text on websites
 
 You can create a p element like this:
 
-```<p>I'm a p tag!</p>
+```
+<p>I'm a p tag!</p>
 ```
 Create a p element below your h2 element, and give it the text "Hello Paragraph".
 
-+Create a p element.
-+Your p element should have the text "Hello Paragraph".
-+Make sure your p element has a closing tag.
++ Create a p element.
++ Your p element should have the text "Hello Paragraph".
++ Make sure your p element has a closing tag.
 
 ```<h1>Hello World</h1>
 <h2>CatPhotoApp</h2>
@@ -72,26 +72,22 @@ Create a p element below your h2 element, and give it the text "Hello Paragraph"
 ```
 
 ## Comment out HTML 
-Remember that in order to start a comment, you need to use `<!-- and to end a comment, you need to use -->`
+Remember that in order to start a comment, you need to use `<!--`  and to end a comment, you need to use `-->`
 
 Here you'll need to end the comment before your h2 element begins.
 
 Comment out your h1 element and your p element, but leave your h2 element uncommented.
 
-Comment out your h1 element so that it is not visible on your page.
-Leave your h2 element uncommented so that it is visible on your page.
-Comment out your p element so that it is not visible on your page.
-Be sure to close each of your comments with -->.
-Do not change the order of the h1 h2 or p in the code.
++ Comment out your h1 element so that it is not visible on your page.
++ Leave your h2 element uncommented so that it is visible on your page.
++ Comment out your p element so that it is not visible on your page.
++ Be sure to close each of your comments with -->.
++ Do not change the order of the h1 h2 or p in the code.
 
 
-```<!--
-<h1>Hello World</h1>
--->
+```<!--<h1>Hello World</h1>-->
 <h2>CatPhotoApp</h2>
-<!--
-<p>Hello Paragraph</p>
--->
+<!--<p>Hello Paragraph</p>-->
 ```
 
 ## Fill in the Blank with Placeholder Text 
@@ -103,10 +99,9 @@ Well, 5 centuries is long enough. Since we're building a CatPhotoApp, let's use 
 
 Replace the text inside your p element with the first few words of this kitty ipsum text: Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
 
-+Your p element should contain the first few words of the provided kitty ipsum text.
++ Your p element should contain the first few words of the provided kitty ipsum text.
 
-```
-<h1>Hello World</h1>
+```<h1>Hello World</h1>
 
 <h2>CatPhotoApp</h2>
 
@@ -120,16 +115,15 @@ Let's remove the unnecessary elements so we can start building our CatPhotoApp.
 
 Delete your h1 element so we can simplify our view.
 
-+Delete your h1 element.
-+Leave your h2 element on the page.
-+Leave your p element on the page.
++ Delete your h1 element.
++ Leave your h2 element on the page.
++ Leave your p element on the page.
 
 
-```
-<h2>CatPhotoApp</h2>
+```<h2>CatPhotoApp</h2>
 
 <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
-
+```
 
 ## Change the Color of Text 
 Now let's change the color of some of our text.
@@ -140,17 +134,17 @@ The style that is responsible for the color of an element's text is the "color" 
 
 Here's how you would set your h2 element's text color to blue:
 
-<h2 style="color: blue">CatPhotoApp</h2>
+`<h2 style="color: blue">CatPhotoApp</h2>`
 
 Change your h2 element's style so that its text color is red.
 
 Your h2 element should be red.
 
 
-<h2 style="color:red">CatPhotoApp</h2>
+```<h2 style="color:red">CatPhotoApp</h2>
 
 <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
-
+```
 
 ## Use CSS Selectors to Style Elements 
 With CSS, there are hundreds of CSS properties that you can use to change the way an element looks on your page.
