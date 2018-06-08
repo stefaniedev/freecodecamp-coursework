@@ -14,9 +14,7 @@ Welcome to Free Code Camp's first coding challenge.
 
 You can edit code in your text editor, which we've embedded into this web page.
 
-Do you see the code in your text editor that says
-    <h1>Hello</h1>
-? That's an HTML element.
+Do you see the code in your text editor that says `<h1>Hello</h1>`? That's an HTML element.
 
 Most HTML elements have an opening tag and a closing tag.
 
