@@ -18,13 +18,7 @@ Do you see the code in your text editor that says `<h1>Hello</h1>`? That's an HT
 
 Most HTML elements have an opening tag and a closing tag.
 
-Opening tags look like this:
-
-<h1>
-
-Closing tags look like this:
-
-</h1>
+Opening tags look like this: `<h1>` Closing tags look like this: `</h1>`
 
 Note that the only difference between opening tags and closing tags is that closing tags have a slash after their opening angle bracket.
 
@@ -32,10 +26,11 @@ Each challenge has tests that you can run at any time by clicking the "Run tests
 
 To pass the test on this challenge, change your h1 element's text to say "Hello World" instead of "Hello". Then click the "Run tests" button.
 
-Your h1 element should have the text "Hello World".
++Your h1 element should have the text "Hello World".
 
+```
 <h1>Hello World</h1>
-
+```
 
 ## Headline with the h2 Element 
 
@@ -49,35 +44,35 @@ This element tells the browser about the structure of your website. h1 elements 
 
 Add an h2 tag that says "CatPhotoApp" to create a second HTML element below your "Hello World" h1 element.
 
-Create an h2 element.
-Make sure your h2 element has a closing tag.
-Your h2 element should have the text "CatPhotoApp".
-Your h1 element should have the text "Hello World".
++Create an h2 element.
++Make sure your h2 element has a closing tag.
++Your h2 element should have the text "CatPhotoApp".
++Your h1 element should have the text "Hello World".
 
-<h1>Hello World</h1>
+```<h1>Hello World</h1>
 <h2>CatPhotoApp</h2>
-
+```
 
 ## Inform with the Paragraph Element 
 p elements are the preferred element for normal-sized paragraph text on websites. P is short for "paragraph".
 
 You can create a p element like this:
 
-<p>I'm a p tag!</p>
-
+```<p>I'm a p tag!</p>
+```
 Create a p element below your h2 element, and give it the text "Hello Paragraph".
 
-Create a p element.
-Your p element should have the text "Hello Paragraph".
-Make sure your p element has a closing tag.
++Create a p element.
++Your p element should have the text "Hello Paragraph".
++Make sure your p element has a closing tag.
 
-<h1>Hello World</h1>
+```<h1>Hello World</h1>
 <h2>CatPhotoApp</h2>
 <p>Hello Paragraph</p>
-
+```
 
 ## Comment out HTML 
-Remember that in order to start a comment, you need to use <!-- and to end a comment, you need to use -->
+Remember that in order to start a comment, you need to use `<!-- and to end a comment, you need to use -->`
 
 Here you'll need to end the comment before your h2 element begins.
 
@@ -90,14 +85,14 @@ Be sure to close each of your comments with -->.
 Do not change the order of the h1 h2 or p in the code.
 
 
-<!--
+```<!--
 <h1>Hello World</h1>
 -->
 <h2>CatPhotoApp</h2>
 <!--
 <p>Hello Paragraph</p>
 -->
-
+```
 
 ## Fill in the Blank with Placeholder Text 
 Web developers traditionally use lorem ipsum text as placeholder text. The 'lorem ipsum' text is randomly scraped from a famous passage by Cicero of Ancient Rome.
@@ -108,15 +103,15 @@ Well, 5 centuries is long enough. Since we're building a CatPhotoApp, let's use 
 
 Replace the text inside your p element with the first few words of this kitty ipsum text: Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
 
-Your p element should contain the first few words of the provided kitty ipsum text.
++Your p element should contain the first few words of the provided kitty ipsum text.
 
-
+```
 <h1>Hello World</h1>
 
 <h2>CatPhotoApp</h2>
 
 <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
-
+```
 
 ## Delete HTML Elements 
 Our phone doesn't have much vertical space.
@@ -125,12 +120,12 @@ Let's remove the unnecessary elements so we can start building our CatPhotoApp.
 
 Delete your h1 element so we can simplify our view.
 
-Delete your h1 element.
-Leave your h2 element on the page.
-Leave your p element on the page.
++Delete your h1 element.
++Leave your h2 element on the page.
++Leave your p element on the page.
 
 
-
+```
 <h2>CatPhotoApp</h2>
 
 <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
