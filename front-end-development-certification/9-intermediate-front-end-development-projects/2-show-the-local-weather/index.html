@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- bootstap 4.0.0 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- custom css -->
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+
+    <!-- bootstrap font library open iconic -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.css">
+
+    <!-- mini jQuery 3.3.1 -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <!-- custom js -->
+    <script src="scripts/script.js"></script> 
+</head>
+<body>
+    <div id="main"></div>
+    <div class="outer">
+        <div class="inner">
+            <div id="head">
+                <h1 class="display-5" id="location">
+                    Loading Temperature...
+                </h1>
+                <h6 id="coordinates"></h6>
+            </div>
+        </div>
+        <div class="inner">
+            <div class="contain">
+                <div id="icon">
+                    <h1 class="display-4 lightWeight" id="pic">
+                        <span class="oi oi-star py-5"></span>
+                    </h1>
+                </div>
+                <div id="temperature">
+                    <h1 class="display-1 lightWeight" id="temp"></h1>
+                </div>
+            </div>
+        </div>
+        <div class="inner">
+            <div id="buttons">
+                <div id="random">
+                    <btn class="btn btn-md bg-light lightWeight btnRandom">
+                        <span class="oi oi-random iconRandom"></span>
+                    </btn>
+                </div>
+                <div id="convert">
+                    <btn class="btn btn-md bg-light lightWeight">
+                        <span id="unit" data-unit="C">F</span>
+                    </btn>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+</html>
