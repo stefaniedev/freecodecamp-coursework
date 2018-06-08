@@ -28,7 +28,9 @@ To pass the test on this challenge, change your h1 element's text to say "Hello 
 
 + Your h1 element should have the text "Hello World".
 
-`<h1>Hello World</h1>`
+```
+<h1>Hello World</h1>
+```
 
 
 ## Headline with the h2 Element 
@@ -144,7 +146,8 @@ Change your h2 element's style so that its text color is red.
 Your h2 element should be red.
 
 
-```<h2 style="color:red">CatPhotoApp</h2>
+```
+<h2 style="color:red">CatPhotoApp</h2>
 
 <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 ```
@@ -152,29 +155,31 @@ Your h2 element should be red.
 ## Use CSS Selectors to Style Elements 
 With CSS, there are hundreds of CSS properties that you can use to change the way an element looks on your page.
 
-When you entered <h2 style="color: red">CatPhotoApp</h2>, you were giving that individual h2 element an inline style.
+When you entered `<h2 style="color: red">CatPhotoApp</h2>`, you were giving that individual h2 element an inline style.
 
 That's one way to add style to an element, but a better way is by using CSS, which stands for Cascading Style Sheets.
 
 At the top of your code, create a style element like this:
-
+```
 <style>
 </style>
+```
 Inside that style element, you can create a CSS selector for all h2 elements. For example, if you wanted all h2 elements to be red, your style element would look like this:
-
+```
 <style>
   h2 {color: red;}
 </style>
+```
 Note that it's important to have both opening and closing curly braces ({ and }) around each element's style. You also need to make sure your element's style is between the opening and closing style tags. Finally, be sure to add the semicolon to the end of each of your element's styles.
 
 Delete your h2 element's style attribute and instead create a CSS style element. Add the necessary CSS to turn all h2 elements blue.
 
-Remove the style attribute from your h2 element.
-Create a style element.
-Your h2 element should be blue.
-Ensure that your stylesheet h2 declaration is valid with a semicolon and closing brace.
-Make sure all your style elements are valid and have a closing tag.
-
++ Remove the style attribute from your h2 element.
++ Create a style element.
++ Your h2 element should be blue.
++ Ensure that your stylesheet h2 declaration is valid with a semicolon and closing brace.
++ Make sure all your style elements are valid and have a closing tag.
+```
 <style>
   h2 {
     color:blue;
@@ -183,23 +188,24 @@ Make sure all your style elements are valid and have a closing tag.
 <h2>CatPhotoApp</h2>
 
 <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
-
+```
 
 ## Use a CSS Class to Style an Element 
 Classes are reusable styles that can be added to HTML elements.
 
 Here's an example CSS class declaration:
-
+```
 <style>
   .blue-text {
     color: blue;
   }
 </style>
-You can see that we've created a CSS class called blue-text within the <style> tag.
+```
+You can see that we've created a CSS class called blue-text within the `<style>`  tag.
 
 You can apply a class to an HTML element like this:
 
-<h2 class="blue-text">CatPhotoApp</h2>
+`<h2 class="blue-text">CatPhotoApp</h2>`
 
 Note that in your CSS style element, classes should start with a period. In your HTML elements' class declarations, classes shouldn't start with a period.
 
@@ -207,13 +213,13 @@ Inside your style element, change the h2 selector to .red-text and update the co
 
 Give your h2 element the class attribute with a value of 'red-text'.
 
-Your h2 element should be red.
-Your h2 element should have the class red-text.
-Your stylesheet should declare a red-text class and have its color set to red.
-Do not use inline style declarations like style="color: red" in your h2 element.
++ Your h2 element should be red.
++ Your h2 element should have the class red-text.
++ Your stylesheet should declare a red-text class and have its color set to red.
++ Do not use inline style declarations like `style="color: red"` in your h2 element.
 
 
-
+```
 <style>
   .red-text {
     color: red;
@@ -223,28 +229,29 @@ Do not use inline style declarations like style="color: red" in your h2 element.
 <h2 class="red-text">CatPhotoApp</h2>
 
 <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
-
+```
 
 ## Style Multiple Elements with a CSS Class 
 Remember that you can attach classes to HTML elements by using class="your-class-here" within the relevant element's opening tag.
 
 Remember that CSS class selectors require a period at the beginning like this:
-
+```
 .blue-text {
   color: blue;
 }
+```
 But also remember that class declarations don't use a period, like this:
 
-<h2 class="blue-text">CatPhotoApp</h2>
+`<h2 class="blue-text">CatPhotoApp</h2>`
 
 Apply the red-text class to your h2 and p elements.
 
-Your h2 element should be red.
-Your h2 element should have the class red-text.
-Your p element should be red.
-Your p element should have the class red-text.
++ Your h2 element should be red.
++ Your h2 element should have the class red-text.
++ Your p element should be red.
++ Your p element should have the class red-text.
 
-
+```
 <style>
   .red-text {
     color: red;
@@ -254,31 +261,32 @@ Your p element should have the class red-text.
 <h2 class="red-text">CatPhotoApp</h2>
 
 <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
-
+```
 
 ## Change the Font Size of an Element 
 Font size is controlled by the font-size CSS property, like this:
-
+```
 h1 {
   font-size: 30px;
 }
+```
 Create a second p element after the existing p element with the following kitty ipsum text: Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.
 
-Inside the same <style> tag that contains your red-text class, create an entry for p elements and set the font-size to 16 pixels (16px).
+Inside the same `<style>` tag that contains your red-text class, create an entry for p elements and set the font-size to 16 pixels (16px).
 
 Note
 Due to browser implementation differences, you may need to be at 100% zoom to pass the tests on this challenge.
 
 Also, please do not add a class attribute to your new p element.
 
-You need 2 p elements with Kitty Ipsum text.
-Make sure each of your p elements has a closing tag.
-Your p element should contain the first few words of the provided additional kitty ipsum text.
-The first p element should have the class red-text.
-Do not add a class attribute to the second p element.
-Between the style tags, give the p elements font-size of 16px. Browser and Text zoom should be at 100%.
++ You need 2 p elements with Kitty Ipsum text.
++ Make sure each of your p elements has a closing tag.
++ Your p element should contain the first few words of the provided additional kitty ipsum text.
++ The first p element should have the class red-text.
++ Do not add a class attribute to the second p element.
++ Between the style tags, give the p elements font-size of 16px. Browser and Text zoom should be at 100%.
 
-
+```
 <style>
   .red-text {
     color: red;
@@ -292,21 +300,22 @@ Between the style tags, give the p elements font-size of 16px. Browser and Text 
 
 <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
-
+```
 
 ## Set the Font Family of an Element 
 You can set an element's font by using the font-family property.
 
 For example, if you wanted to set your h2 element's font to Sans-serif, you would use the following CSS:
-
+```
 h2 {
   font-family: Sans-serif;
 }
+```
 Make all of your p elements use the Monospace font.
 
-Your p elements should use the font Monospace.
++ Your p elements should use the font Monospace.
 
-
+```
 <style>
   .red-text {
     color: red;
@@ -322,7 +331,7 @@ Your p elements should use the font Monospace.
 
 <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
-
+```
 
 ## Import a Google Font 
 Now, let's import and apply a Google font (note that if Google is blocked in your country, you will need to skip this challenge).
@@ -330,17 +339,17 @@ Now, let's import and apply a Google font (note that if Google is blocked in you
 First, you'll need to make a call to Google to grab the Lobster font and load it into your HTML.
 
 Copy the following code snippet and paste it into the top of your code editor:
-
+```
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-
+```
 Now you can set Lobster as a font-family value on your h2 element.
 
 Apply the font-family of Lobster to your h2 element.
 
-Import the Lobster font.
-Your h2 element should use the font Lobster.
-Your p element should still use the font Monospace.
-
++ Import the Lobster font.
++ Your h2 element should use the font Lobster.
++ Your p element should still use the font Monospace.
+```
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
   .red-text {
@@ -362,7 +371,7 @@ Your p element should still use the font Monospace.
 
 <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 <p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
-
+```
 
 ## Specify How Fonts Should Degrade 
 There are several default fonts that are available in all browsers. These include Monospace, Serif and Sans-Serif
@@ -370,17 +379,18 @@ There are several default fonts that are available in all browsers. These includ
 When one font isn't available, you can tell the browser to "degrade" to another font.
 
 For example, if you wanted an element to use the Helvetica font, but also degrade to the Sans-Serif font when Helvetica wasn't available, you could use this CSS style:
-
+```
 p {
   font-family: Helvetica, Sans-Serif;
 }
+```
 Now comment out your call to Google Fonts, so that the Lobster font isn't available. Notice how it degrades to the Monospace font.
 
-Your h2 element should use the font Lobster.
-Your h2 element should degrade to the font Monospace when Lobster is not available.
-Comment out your call to Google for the Lobster font by putting <!-- in front of it.
-Be sure to close your comment by adding -->.
-
++ Your h2 element should use the font Lobster.
++ Your h2 element should degrade to the font Monospace when Lobster is not available.
++ Comment out your call to Google for the Lobster font by putting <!-- in front of it.
++ Be sure to close your comment by adding -->.
+```
 <!--
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 -->
@@ -403,27 +413,27 @@ Be sure to close your comment by adding -->.
 
 <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 <p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
-
+```
 
 ## Add Images to your Website 
 You can add images to your website by using the img element, and point to a specific image's URL using the src attribute.
 
 An example of this would be:
-
+```
 <img src="https://www.your-image-source.com/your-image.jpg">
-
+```
 All img elements must have an alt attribute. The text inside an alt attribute is used for screen readers to improve accessibility and is displayed if the image fails to load.
 
 Lets add an alt attribute to our img example above:
-
+```
 <img src="https://www.your-image-source.com/your-image.jpg" alt="Author standing on a beach with two thumbs up. ">
-
+```
 Note that in most cases, img elements are self-closing.
 
 Try it with this image:
-
+```
 https://bit.ly/fcc-relaxing-cat
-
+```
 Your page should have an image element.
 Your image should have a src attribute that points to the kitten image.
 Your image element must have an alt attribute.
