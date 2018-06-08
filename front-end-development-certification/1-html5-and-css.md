@@ -203,9 +203,9 @@ You can apply a class to an HTML element like this:
 
 Note that in your CSS style element, classes should start with a period. In your HTML elements' class declarations, classes shouldn't start with a period.
 
-Inside your style element, change the h2 selector to .red-text and update the color's value from blue to red.
+Inside your style element, change the h2 selector to `.red-text` and update the color's value from blue to red.
 
-Give your h2 element the class attribute with a value of 'red-text'.
+Give your h2 element the class attribute with a value of `'red-text'`.
 
 - [x] Your h2 element should be red.
 - [x] Your h2 element should have the class red-text.
@@ -333,9 +333,9 @@ Now, let's import and apply a Google font (note that if Google is blocked in you
 First, you'll need to make a call to Google to grab the Lobster font and load it into your HTML.
 
 Copy the following code snippet and paste it into the top of your code editor:
-```
-<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-```
+
+`<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">`
+
 Now you can set Lobster as a font-family value on your h2 element.
 
 Apply the font-family of Lobster to your h2 element.
@@ -413,9 +413,9 @@ Now comment out your call to Google Fonts, so that the Lobster font isn't availa
 You can add images to your website by using the img element, and point to a specific image's URL using the src attribute.
 
 An example of this would be:
-```
-<img src="https://www.your-image-source.com/your-image.jpg">
-```
+
+`<img src="https://www.your-image-source.com/your-image.jpg">`
+
 All img elements must have an alt attribute. The text inside an alt attribute is used for screen readers to improve accessibility and is displayed if the image fails to load.
 
 Lets add an alt attribute to our img example above:
@@ -424,10 +424,8 @@ Lets add an alt attribute to our img example above:
 ```
 Note that in most cases, img elements are self-closing.
 
-Try it with this image:
-```
-https://bit.ly/fcc-relaxing-cat
-```
+Try it with this image: `https://bit.ly/fcc-relaxing-cat`
+
 - [x] Your page should have an image element.
 - [x] Your image should have a src attribute that points to the kitten image.
 - [x] Your image element must have an alt attribute.
@@ -517,10 +515,8 @@ For example, if we wanted to create a red, 5 pixel border around an HTML element
 ```
 Create a class called thick-green-border that puts a 10-pixel-wide green border with a style of solid around an HTML element, and apply that class to your cat photo.
 
-Remember that you can apply multiple classes to an element by separating each class with a space within its class attribute. For example:
-```
-<img class="class1 class2">
-```
+Remember that you can apply multiple classes to an element by separating each class with a space within its class attribute. For example: `<img class="class1 class2">`
+
 - [x] Your img element should have the class smaller-image.
 - [x] Your img element should have the class thick-green-border.
 - [x] Give your image a border width of 10px.
@@ -562,13 +558,12 @@ Remember that you can apply multiple classes to an element by separating each cl
 ```
 
 ## Add Rounded Corners with a Border Radius 
-Your cat photo currently has sharp corners. We can round out those corners with a CSS property called border-radius.
+Your cat photo currently has sharp corners. We can round out those corners with a CSS property called `border-radius`.
 
 You can specify a border-radius with pixels. Give your cat photo a border-radius of 10px.
 
-Note: this waypoint allows for multiple possible solutions. For example, you may add border-radius to either the .thick-green-border class or .smaller-image class.
+Note: this waypoint allows for multiple possible solutions. For example, you may add border-radius to either the `.thick-green-border` class or `.smaller-image` class.
 
- 
 - [x] Your image element should have the class "thick-green-border".
 - [x] Your image should have a border radius of 10px
 
@@ -613,7 +608,6 @@ In addition to pixels, you can also specify a border-radius using a percentage.
 
 Give your cat photo a border-radius of 50%.
 
- 
 - [x] Your image should have a border radius of 50%, making it perfectly circular.
 - [x] Be sure to use a percentage instead of a pixel value.
 
@@ -665,9 +659,8 @@ Here's an example:
 ```
 Create an a element that links to `http://freecatphotoapp.com` and has "cat photos" as its anchor text.
 
- 
 - [x] Your a element should have the anchor text of "cat photos".
-- [x] You need an a element that links to http://freecatphotoapp.com
+- [x] You need an a element that links to `http://freecatphotoapp.com`
 - [x] Make sure your a element has a closing tag.
 
 ```
@@ -715,7 +708,7 @@ a diagram of how anchor tags are composed with the same text as on the following
 
 Here's an example:
 
-<p>Here's a <a href="https://freecodecamp.org"> link to Free Code Camp</a> for you to follow.</p>
+`<p>Here's a <a href="https://freecodecamp.org"> link to Free Code Camp</a> for you to follow.</p>`
 
 Nesting just means putting one element inside of another element.
 
@@ -776,7 +769,6 @@ This is also handy when you're changing the behavior of a link using jQuery, whi
 
 Replace the value of your a element's href attribute with a #, also known as a hash symbol, to turn it into a dead link.
 
- 
 - [x] Your a element should be a dead link with a href attribute set to "#".
 
 ```
@@ -821,16 +813,15 @@ Replace the value of your a element's href attribute with a #, also known as a h
 You can make elements into links by nesting them within an a element.
 
 Nest your image within an a element. Here's an example:
-```
-<a href="#"><img src="https://bit.ly/fcc-running-cats" alt="Three kittens running towards the camera. "></a>
-```
+
+`<a href="#"><img src="https://bit.ly/fcc-running-cats" alt="Three kittens running towards the camera. "></a>`
+
 Remember to use # as your a element's href property in order to turn it into a dead link.
 
 Place the existing image element within an anchor element.
 
 Once you've done this, hover over your image with your cursor. Your cursor's normal pointer should become the link clicking pointer. The photo is now a link.
 
- 
 - [x] Nest the existing img element within an a element.
 - [x] Your a element should be a dead link with a href attribute set to #.
 - [x] Make sure each of your a elements has a closing tag.
@@ -896,7 +887,6 @@ would create a bullet point-style list of "milk" and "cheese".
 
 Remove the last two p elements and create an unordered list of three things that cats love at the bottom of the page.
 
- 
 - [x] Create a ul element.
 - [x] You should have three li elements within your ul element.
 - [x] Make sure your ul element has a closing tag.
@@ -959,7 +949,6 @@ would create a numbered list of "Garfield" and "Sylvester".
 
 Create an ordered list of the top 3 things cats hate the most.
 
- 
 - [x] You should have an ordered list for "Top 3 things cats hate:"
 - [x] You should have an unordered list for "Things cats love:"
 - [x] You should have three li elements within your ul element.
@@ -1027,7 +1016,6 @@ Note that input elements are self-closing.
 
 Create an input element of type text below your lists.
 
- 
 - [x] Your app should have an input element of type text.
 
 ```
@@ -1083,12 +1071,11 @@ Create an input element of type text below your lists.
 Your placeholder text is what appears in your text input before your user has input anything.
 
 You can create placeholder text like so:
-```
-<input type="text" placeholder="this is placeholder text">
-```
+
+`<input type="text" placeholder="this is placeholder text">`
+
 Set the placeholder value of your text input to "cat photo URL".
 
- 
 - [x] Add a placeholder attribute text input element.
 - [x] Set the value of your placeholder attribute to "cat photo URL".
 - [x] The finished input element should have valid syntax.
@@ -1146,12 +1133,11 @@ Set the placeholder value of your text input to "cat photo URL".
 You can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an action on your form element.
 
 For example:
-```
-<form action="/url-where-you-want-to-submit-form-data"></form>
-```
+
+`<form action="/url-where-you-want-to-submit-form-data"></form>`
+
 Nest your text field in a form element. Add the `action="/submit-cat-photo"` attribute to this form element.
 
- 
 - [x] Nest your text input element within a form element.
 - [x] Make sure your form has an action attribute which is set to /submit-cat-photo
 - [x] Make sure your form element has a closing tag.
@@ -1211,12 +1197,11 @@ Nest your text field in a form element. Add the `action="/submit-cat-photo"` att
 Let's add a submit button to your form. Clicking this button will send the data from your form to the URL you specified with your form's action attribute.
 
 Here's an example submit button:
-```
-<button type="submit">this button submits the form</button>
-```
+
+`<button type="submit">this button submits the form</button>`
+
 Add a submit button to your form element with type submit and "Submit" as its text.
 
- 
 - [x] Your form should have a button inside it.
 - [x] Your submit button should have the attribute type set to submit.
 - [x] Your submit button should only have the text "Submit".
@@ -1285,7 +1270,6 @@ Then try to submit the form without inputing any text. See how your HTML5 form n
 
 Note: This field does not work in Safari.
 
- 
 - [x] Your text input element should have the required attribute.
 
 ```
@@ -1350,12 +1334,11 @@ Each of your radio buttons should be nested within its own label element.
 All related radio buttons should have the same name attribute.
 
 Here's an example of a radio button:
-```
-<label><input type="radio" name="indoor-outdoor"> Indoor</label>
-```
+
+`<label><input type="radio" name="indoor-outdoor"> Indoor</label>`
+
 Add a pair of radio buttons to your form. One should have the option of indoor and the other should have the option of outdoor.
 
- 
 - [x] Your page should have two radio button elements.
 - [x] Give your radio buttons the name attribute of indoor-outdoor.
 - [x] Each of your two radio button elements should be nested in its own label element.
@@ -1427,12 +1410,11 @@ Each of your checkboxes should be nested within its own label element.
 All related checkbox inputs should have the same name attribute.
 
 Here's an example of a checkbox:
-```
-<label><input type="checkbox" name="personality"> Loving</label>
-```
+
+`<label><input type="checkbox" name="personality"> Loving</label>`
+
 Add to your form a set of three checkboxes. Each checkbox should be nested within its own label element. All three should share the name attribute of personality.
 
- 
 - [x] Your page should have three checkbox elements.
 - [x] Each of your three checkbox elements should be nested in its own label element.
 - [x] Make sure each of your label elements has a closing tag.
@@ -1499,9 +1481,9 @@ Add to your form a set of three checkboxes. Each checkbox should be nested withi
 You can set a checkbox or radio button to be checked by default using the checked attribute.
 
 To do this, just add the word "checked" to the inside of an input element. For example:
-```
-<input type="radio" name="test-name" checked>
-```
+
+`<input type="radio" name="test-name" checked>`
+
 Set the first of your radio buttons and the first of your checkboxes to both be checked by default.
 
 - [x] Your first radio button on your form should be checked by default.
@@ -1724,9 +1706,9 @@ There are several benefits to using id attributes, and you'll learn more about t
 id attributes should be unique. Browsers won't enforce this, but it is a widely agreed upon best practice. So please don't give more than one element the same id attribute.
 
 Here's an example of how you give your h2 element the id of cat-photo-app:
-```
-<h2 id="cat-photo-app">
-```
+
+`<h2 id="cat-photo-app">`
+
 Give your form element the id cat-photo-form.
 
 - [x] Give your form element the id of cat-photo-form.
@@ -2146,9 +2128,9 @@ Give the green box a margin of 40px on its top and left side, but only 20px on i
 
 ## Use Clockwise Notation to Specify the Padding of an Element 
 Instead of specifying an element's padding-top, padding-right, padding-bottom, and padding-left properties, you can specify them all in one line, like this:
-```
-padding: 10px 20px 10px 20px;
-```
+
+`padding: 10px 20px 10px 20px;`
+
 These four values work like a clock: top, right, bottom, left, and will produce the exact same result as using the side-specific padding instructions.
 
 Use Clockwise Notation to give the ".green-box" class a padding of 40px on its top and left side, but only 20px on its bottom and right side.
@@ -2199,9 +2181,9 @@ Use Clockwise Notation to give the ".green-box" class a padding of 40px on its t
 Let's try this again, but with margin this time.
 
 Instead of specifying an element's margin-top, margin-right, margin-bottom, and margin-left properties, you can specify them all in one line, like this:
-```
-margin: 10px 20px 10px 20px;
-```
+
+`margin: 10px 20px 10px 20px;`
+
 These four values work like a clock: top, right, bottom, left, and will produce the exact same result as using the side-specific margin instructions.
 
 Use Clockwise Notation to give the element with the green-box class a margin of 40px on its top and left side, but only 20px on its bottom and right side.
@@ -2310,7 +2292,7 @@ Sometimes your HTML elements will receive multiple styles that conflict with one
 
 For example, your h1 element can't be both green and pink at the same time.
 
-Let's see what happens when we create a class that makes text pink, then apply it to an element. Will our class override the body element's color: green; CSS property?
+Let's see what happens when we create a class that makes text pink, then apply it to an element. Will our class override the body element's `color: green;` CSS property?
 
 Create a CSS class called pink-text that gives an element the color pink.
 
@@ -2344,9 +2326,9 @@ Create an additional CSS class called blue-text that gives an element the color 
 Apply the blue-text class to your h1 element in addition to your pink-text class, and let's see which one wins.
 
 Applying multiple class attributes to a HTML element is done with a space between them like this:
-```
-class="class1 class2"
-```
+
+`class="class1 class2"`
+
 Note: It doesn't matter which order the classes are listed in the HTML element.
 
 However, the order of the class declarations in the `<style>` section are what is important. The second declaration will always take precedence over the first. Because `.blue-text` is declared second, it overrides the attributes of `.pink-text`
@@ -2381,9 +2363,9 @@ But we're not done yet. There are other ways that you can override CSS. Do you r
 Let's override your pink-text and blue-text classes, and make your h1 element orange, by giving the h1 element an id and then styling that id.
 
 Give your h1 element the id attribute of orange-text. Remember, id styles look like this:
-```
-<h1 id="orange-text">
-```
+
+`<h1 id="orange-text">`
+
 Leave the blue-text and pink-text classes on your h1 element.
 
 Create a CSS declaration for your orange-text id in your style element. Here's an example of what this looks like:
@@ -2427,9 +2409,9 @@ So we've proven that id declarations override class declarations, regardless of 
 There are other ways that you can override CSS. Do you remember inline styles?
 
 Use an in-line style to try to make our h1 element white. Remember, in line styles look like this:
-```
-<h1 style="color: green">
-```
+
+`<h1 style="color: green">`
+
 Leave the blue-text and pink-text classes on your h1 element.
 
 - [x] Your h1 element should have the class pink-text.
@@ -2469,10 +2451,8 @@ Let's go all the way back to our pink-text class declaration. Remember that our 
 
 Let's add the keyword !important to your pink-text element's color declaration to make 100% sure that your h1 element will be pink.
 
-An example of how to do this is:
-```
-color: red !important;
-```
+An example of how to do this is: `color: red !important;`
+
 
 - [x] Your h1 element should have the class pink-text.
 - [x] Your h1 element should have the class blue-text.
@@ -2578,9 +2558,9 @@ Red	#FF0000
 ## Use Abbreviated Hex Code 
 Many people feel overwhelmed by the possibilities of more than 16 million colors. And it's difficult to remember hex code. Fortunately, you can shorten it.
 
-For example, red's hex code #FF0000 can be shortened to #F00. This shortened form gives one digit for red, one digit for green, and one digit for blue.
+For example, red's hex code `#FF0000` can be shortened to `#F00`. This shortened form gives one digit for red, one digit for green, and one digit for blue.
 
-This reduces the total number of possible colors to around 4,000. But browsers will interpret #FF0000 and #F00 as exactly the same color.
+This reduces the total number of possible colors to around 4,000. But browsers will interpret `#FF0000` and `#F00` as exactly the same color.
 
 Go ahead, try using the abbreviated hex codes to color the correct elements.
 ```
