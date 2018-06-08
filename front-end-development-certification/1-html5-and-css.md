@@ -28,8 +28,8 @@ To pass the test on this challenge, change your h1 element's text to say "Hello 
 
 + Your h1 element should have the text "Hello World".
 
-```<h1>Hello World</h1>
-```
+`<h1>Hello World</h1>`
+
 
 ## Headline with the h2 Element 
 
@@ -48,7 +48,8 @@ Add an h2 tag that says "CatPhotoApp" to create a second HTML element below your
 + Your h2 element should have the text "CatPhotoApp".
 + Your h1 element should have the text "Hello World".
 
-```<h1>Hello World</h1>
+```
+<h1>Hello World</h1>
 <h2>CatPhotoApp</h2>
 ```
 
@@ -57,16 +58,16 @@ p elements are the preferred element for normal-sized paragraph text on websites
 
 You can create a p element like this:
 
-```
-<p>I'm a p tag!</p>
-```
+`<p>I'm a p tag!</p>`
+
 Create a p element below your h2 element, and give it the text "Hello Paragraph".
 
 + Create a p element.
 + Your p element should have the text "Hello Paragraph".
 + Make sure your p element has a closing tag.
 
-```<h1>Hello World</h1>
+```
+<h1>Hello World</h1>
 <h2>CatPhotoApp</h2>
 <p>Hello Paragraph</p>
 ```
@@ -85,7 +86,8 @@ Comment out your h1 element and your p element, but leave your h2 element uncomm
 + Do not change the order of the h1 h2 or p in the code.
 
 
-```<!--<h1>Hello World</h1>-->
+```
+<!--<h1>Hello World</h1>-->
 <h2>CatPhotoApp</h2>
 <!--<p>Hello Paragraph</p>-->
 ```
@@ -101,7 +103,8 @@ Replace the text inside your p element with the first few words of this kitty ip
 
 + Your p element should contain the first few words of the provided kitty ipsum text.
 
-```<h1>Hello World</h1>
+```
+<h1>Hello World</h1>
 
 <h2>CatPhotoApp</h2>
 
@@ -119,8 +122,8 @@ Delete your h1 element so we can simplify our view.
 + Leave your h2 element on the page.
 + Leave your p element on the page.
 
-
-```<h2>CatPhotoApp</h2>
+```
+<h2>CatPhotoApp</h2>
 
 <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 ```
