@@ -26,7 +26,7 @@ Each challenge has tests that you can run at any time by clicking the "Run tests
 
 To pass the test on this challenge, change your h1 element's text to say "Hello World" instead of "Hello". Then click the "Run tests" button.
 
-+ Your h1 element should have the text "Hello World".
+-[x] Your h1 element should have the text "Hello World".
 
 ```
 <h1>Hello World</h1>
