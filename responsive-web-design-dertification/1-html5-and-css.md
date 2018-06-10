@@ -8,8 +8,8 @@
 [Twitter](https://twitter.com/stefaniedev) |
 [CodePen](https://codepen.io/stefaniedev/)
 
-## Say Hello to HTML Elements 
 
+## Say Hello to HTML Elements 
 Welcome to Free Code Camp's first coding challenge.
 
 You can edit code in your text editor, which we've embedded into this web page.
@@ -28,7 +28,6 @@ Opening tags look like this: `<h1>` Closing tags look like this: `</h1>`
 
 
 ## Headline with the h2 Element 
-
 Over the next few challenges, we'll build an HTML5 app that will look something like this:
 
 A screen shot of our finished Cat Photo App
@@ -49,6 +48,7 @@ Add an h2 tag that says "CatPhotoApp" to create a second HTML element below your
 <h2>CatPhotoApp</h2>
 ```
 
+
 ## Inform with the Paragraph Element 
 p elements are the preferred element for normal-sized paragraph text on websites. P is short for "paragraph".
 
@@ -68,6 +68,7 @@ Create a p element below your h2 element, and give it the text "Hello Paragraph"
 <p>Hello Paragraph</p>
 ```
 
+
 ## Comment out HTML 
 Remember that in order to start a comment, you need to use `<!--`  and to end a comment, you need to use `-->`
 
@@ -81,12 +82,12 @@ Comment out your h1 element and your p element, but leave your h2 element uncomm
 - [x] Be sure to close each of your comments with -->.
 - [x] Do not change the order of the h1 h2 or p in the code.
 
-
 ```
 <!--<h1>Hello World</h1>-->
 <h2>CatPhotoApp</h2>
 <!--<p>Hello Paragraph</p>-->
 ```
+
 
 ## Fill in the Blank with Placeholder Text 
 Web developers traditionally use lorem ipsum text as placeholder text. The 'lorem ipsum' text is randomly scraped from a famous passage by Cicero of Ancient Rome.
@@ -101,11 +102,10 @@ Replace the text inside your p element with the first few words of this kitty ip
 
 ```
 <h1>Hello World</h1>
-
 <h2>CatPhotoApp</h2>
-
 <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 ```
+
 
 ## Delete HTML Elements 
 Our phone doesn't have much vertical space.
@@ -120,16 +120,16 @@ Delete your h1 element so we can simplify our view.
 
 ```
 <h2>CatPhotoApp</h2>
-
 <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 ```
+
 
 ## Change the Color of Text 
 Now let's change the color of some of our text.
 
 We can do this by changing the style of your h2 element.
 
-The style that is responsible for the color of an element's text is the "color" style.
+The style that is responsible for the color of an element's text is the `"color"` style.
 
 Here's how you would set your h2 element's text color to blue:
 
@@ -139,12 +139,11 @@ Change your h2 element's style so that its text color is red.
 
 - [x] Your h2 element should be red.
 
-
 ```
 <h2 style="color:red">CatPhotoApp</h2>
-
 <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 ```
+
 
 ## Use CSS Selectors to Style Elements 
 With CSS, there are hundreds of CSS properties that you can use to change the way an element looks on your page.
@@ -164,7 +163,7 @@ Inside that style element, you can create a CSS selector for all h2 elements. Fo
   h2 {color: red;}
 </style>
 ```
-Note that it's important to have both opening and closing curly braces ({ and }) around each element's style. You also need to make sure your element's style is between the opening and closing style tags. Finally, be sure to add the semicolon to the end of each of your element's styles.
+Note that it's important to have both opening and closing curly braces `({` and `})` around each element's style. You also need to make sure your element's style is between the opening and closing style tags. Finally, be sure to add the semicolon to the end of each of your element's styles.
 
 Delete your h2 element's style attribute and instead create a CSS style element. Add the necessary CSS to turn all h2 elements blue.
 
@@ -173,6 +172,7 @@ Delete your h2 element's style attribute and instead create a CSS style element.
 - [x] Your h2 element should be blue.
 - [x] Ensure that your stylesheet h2 declaration is valid with a semicolon and closing brace.
 - [x] Make sure all your style elements are valid and have a closing tag.
+
 ```
 <style>
   h2 {
@@ -180,9 +180,9 @@ Delete your h2 element's style attribute and instead create a CSS style element.
   }
 </style>
 <h2>CatPhotoApp</h2>
-
 <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 ```
+
 
 ## Use a CSS Class to Style an Element 
 Classes are reusable styles that can be added to HTML elements.
@@ -208,10 +208,9 @@ Inside your style element, change the h2 selector to `.red-text` and update the 
 Give your h2 element the class attribute with a value of `'red-text'`.
 
 - [x] Your h2 element should be red.
-- [x] Your h2 element should have the class red-text.
-- [x] Your stylesheet should declare a red-text class and have its color set to red.
+- [x] Your h2 element should have the class `red-text`.
+- [x] Your stylesheet should declare a `red-text` class and have its color set to red.
 - [x] Do not use inline style declarations like `style="color: red"` in your h2 element.
-
 
 ```
 <style>
@@ -219,14 +218,13 @@ Give your h2 element the class attribute with a value of `'red-text'`.
     color: red;
   }
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
-
 <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 ```
 
+
 ## Style Multiple Elements with a CSS Class 
-Remember that you can attach classes to HTML elements by using class="your-class-here" within the relevant element's opening tag.
+Remember that you can attach classes to HTML elements by using `class="your-class-here"` within the relevant element's opening tag.
 
 Remember that CSS class selectors require a period at the beginning like this:
 ```
@@ -241,9 +239,9 @@ But also remember that class declarations don't use a period, like this:
 Apply the red-text class to your h2 and p elements.
 
 - [x] Your h2 element should be red.
-- [x] Your h2 element should have the class red-text.
+- [x] Your h2 element should have the class `red-text`.
 - [x] Your p element should be red.
-- [x] Your p element should have the class red-text.
+- [x] Your p element should have the class `red-text`.
 
 ```
 <style>
@@ -251,11 +249,10 @@ Apply the red-text class to your h2 and p elements.
     color: red;
   }
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
-
 <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 ```
+
 
 ## Change the Font Size of an Element 
 Font size is controlled by the font-size CSS property, like this:
@@ -266,7 +263,7 @@ h1 {
 ```
 Create a second p element after the existing p element with the following kitty ipsum text: Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.
 
-Inside the same `<style>` tag that contains your red-text class, create an entry for p elements and set the font-size to 16 pixels (16px).
+Inside the same `<style>` tag that contains your `red-text` class, create an entry for p elements and set the `font-size` to 16 pixels (16px).
 
 Note
 Due to browser implementation differences, you may need to be at 100% zoom to pass the tests on this challenge.
@@ -276,9 +273,9 @@ Also, please do not add a class attribute to your new p element.
 - [x] You need 2 p elements with Kitty Ipsum text.
 - [x] Make sure each of your p elements has a closing tag.
 - [x] Your p element should contain the first few words of the provided additional kitty ipsum text.
-- [x] The first p element should have the class red-text.
+- [x] The first p element should have the class `red-text`.
 - [x] Do not add a class attribute to the second p element.
-- [x] Between the style tags, give the p elements font-size of 16px. Browser and Text zoom should be at 100%.
+- [x] Between the style tags, give the p elements `font-size` of 16px. Browser and Text zoom should be at 100%.
 
 ```
 <style>
@@ -289,101 +286,95 @@ Also, please do not add a class attribute to your new p element.
     font-size:16px;
   }
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
-
 <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
 ```
 
-## Set the Font Family of an Element 
-You can set an element's font by using the font-family property.
 
-For example, if you wanted to set your h2 element's font to Sans-serif, you would use the following CSS:
+## Set the Font Family of an Element 
+You can set an element's font by using the `font-family` property.
+
+For example, if you wanted to set your h2 element's font to `Sans-serif`, you would use the following CSS:
 ```
 h2 {
   font-family: Sans-serif;
 }
 ```
-Make all of your p elements use the Monospace font.
+Make all of your p elements use the `Monospace` font.
 
-- [x] Your p elements should use the font Monospace.
+- [x] Your p elements should use the font `Monospace`.
 
 ```
 <style>
   .red-text {
     color: red;
   }
-
   p {
     font-size: 16px;
     font-family: Monospace;
   }
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
-
 <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
 ```
 
+
 ## Import a Google Font 
 Now, let's import and apply a Google font (note that if Google is blocked in your country, you will need to skip this challenge).
 
-First, you'll need to make a call to Google to grab the Lobster font and load it into your HTML.
+First, you'll need to make a call to Google to grab the `Lobster` font and load it into your HTML.
 
 Copy the following code snippet and paste it into the top of your code editor:
 
 `<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">`
 
-Now you can set Lobster as a font-family value on your h2 element.
+Now you can set `Lobster` as a `font-family` value on your h2 element.
 
-Apply the font-family of Lobster to your h2 element.
+Apply the `font-family` of `Lobster` to your h2 element.
 
-- [x] Import the Lobster font.
-- [x] Your h2 element should use the font Lobster.
-- [x] Your p element should still use the font Monospace.
+- [x] Import the `Lobster` font.
+- [x] Your h2 element should use the font `Lobster`.
+- [x] Your p element should still use the font `Monospace`.
 ```
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
   .red-text {
     color: red;
   }
-
   p {
     font-size: 16px;
     font-family: Monospace;
-  }
-  
+  }  
   h2{
     font-family: Lobster;
-  }
-  
+  }  
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
-
 <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 <p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
 ```
 
+
 ## Specify How Fonts Should Degrade 
-There are several default fonts that are available in all browsers. These include Monospace, Serif and Sans-Serif
+There are several default fonts that are available in all browsers. These include `Monospace`, `Serif` and `Sans-Serif`
 
 When one font isn't available, you can tell the browser to "degrade" to another font.
 
-For example, if you wanted an element to use the Helvetica font, but also degrade to the Sans-Serif font when Helvetica wasn't available, you could use this CSS style:
+For example, if you wanted an element to use the `Helvetica` font, but also degrade to the `Sans-Serif` font when `Helvetica` wasn't available, you could use this CSS style:
 ```
 p {
   font-family: Helvetica, Sans-Serif;
 }
 ```
-Now comment out your call to Google Fonts, so that the Lobster font isn't available. Notice how it degrades to the Monospace font.
+Now comment out your call to Google Fonts, so that the `Lobster` font isn't available. Notice how it degrades to the `Monospace` font.
 
-- [x] Your h2 element should use the font Lobster.
-- [x] Your h2 element should degrade to the font Monospace when Lobster is not available.
+- [x] Your h2 element should use the font `Lobster`.
+- [x] Your h2 element should degrade to the font `Monospace` when `Lobster` is not available.
 - [x] Comment out your call to Google for the Lobster font by putting `<!--` in front of it.
 - [x] Be sure to close your comment by adding `-->`.
+
 ```
 <!--
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
@@ -392,43 +383,40 @@ Now comment out your call to Google Fonts, so that the Lobster font isn't availa
   .red-text {
     color: red;
   }
-
   h2 {
     font-family: Lobster, Monospace;
   }
-
   p {
     font-size: 16px;
     font-family: Monospace;
   }
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
-
 <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 <p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
 ```
 
+
 ## Add Images to your Website 
-You can add images to your website by using the img element, and point to a specific image's URL using the src attribute.
+You can add images to your website by using the img element, and point to a specific image's URL using the `src` attribute.
 
 An example of this would be:
 
 `<img src="https://www.your-image-source.com/your-image.jpg">`
 
-All img elements must have an alt attribute. The text inside an alt attribute is used for screen readers to improve accessibility and is displayed if the image fails to load.
+All img elements must have an `alt` attribute. The text inside an `alt` attribute is used for screen readers to improve accessibility and is displayed if the image fails to load.
 
-Lets add an alt attribute to our img example above:
-```
-<img src="https://www.your-image-source.com/your-image.jpg" alt="Author standing on a beach with two thumbs up. ">
-```
+Lets add an `alt` attribute to our img example above:
+
+`<img src="https://www.your-image-source.com/your-image.jpg" alt="Author standing on a beach with two thumbs up. ">`
+
 Note that in most cases, img elements are self-closing.
 
 Try it with this image: `https://bit.ly/fcc-relaxing-cat`
 
 - [x] Your page should have an image element.
-- [x] Your image should have a src attribute that points to the kitten image.
-- [x] Your image element must have an alt attribute.
+- [x] Your image should have a `src` attribute that points to the kitten image.
+- [x] Your image element must have an `alt` attribute.
 
 ```
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
@@ -436,27 +424,25 @@ Try it with this image: `https://bit.ly/fcc-relaxing-cat`
   .red-text {
     color: red;
   }
-
   h2 {
     font-family: Lobster, Monospace;
   }
-
   p {
     font-size: 16px;
     font-family: Monospace;
   }
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
 <img src="https://bit.ly/fcc-relaxing-cat" alt="Relaxing Cat">
 <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 <p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
 ```
 
-## Size your Images 
-CSS has a property called width that controls an element's width. Just like with fonts, we'll use px (pixels) to specify the image's width.
 
-For example, if we wanted to create a CSS class called larger-image that gave HTML elements a width of 500 pixels, we'd use:
+## Size your Images 
+CSS has a property called `width` that controls an element's width. Just like with fonts, we'll use px (pixels) to specify the image's width.
+
+For example, if we wanted to create a CSS class called `larger-image` that gave HTML elements a width of 500 pixels, we'd use:
 ```
 <style>
   .larger-image {
@@ -464,12 +450,12 @@ For example, if we wanted to create a CSS class called larger-image that gave HT
   }
 </style>
 ```
-Create a class called smaller-image and use it to resize the image so that it's only 100 pixels wide.
+Create a class called `smaller-image` and use it to resize the image so that it's only 100 pixels wide.
 
 Note
 Due to browser implementation differences, you may need to be at 100% zoom to pass the tests on this challenge.
 
-- [x] Your img element should have the class smaller-image.
+- [x] Your img element should have the class `smaller-image`.
 - [x] Your image should be 100 pixels wide. Browser zoom should be at 100%.
 
 ```
@@ -491,17 +477,15 @@ Due to browser implementation differences, you may need to be at 100% zoom to pa
     width: 100px;
   }
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
-
 <img class="smaller-image" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back. ">
-
 <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 <p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
 ```
 
+
 ## Add Borders Around your Elements 
-CSS borders have properties like style, color and width
+CSS borders have properties like `style`, `color` and `width`
 
 For example, if we wanted to create a red, 5 pixel border around an HTML element, we could use this class:
 ```
@@ -513,14 +497,14 @@ For example, if we wanted to create a red, 5 pixel border around an HTML element
   }
 </style>
 ```
-Create a class called thick-green-border that puts a 10-pixel-wide green border with a style of solid around an HTML element, and apply that class to your cat photo.
+Create a class called `thick-green-border` that puts a 10-pixel-wide green border with a style of solid around an HTML element, and apply that class to your cat photo.
 
 Remember that you can apply multiple classes to an element by separating each class with a space within its class attribute. For example: `<img class="class1 class2">`
 
-- [x] Your img element should have the class smaller-image.
-- [x] Your img element should have the class thick-green-border.
-- [x] Give your image a border width of 10px.
-- [x] Give your image a border style of solid.
+- [x] Your img element should have the class `smaller-image`.
+- [x] Your img element should have the class `thick-green-border`.
+- [x] Give your image a border width of `10px`.
+- [x] Give your image a border style of `solid`.
 - [x] The border around your img element should be green.
 
 ```
@@ -529,16 +513,13 @@ Remember that you can apply multiple classes to an element by separating each cl
   .red-text {
     color: red;
   }
-
   h2 {
     font-family: Lobster, Monospace;
   }
-
   p {
     font-size: 16px;
     font-family: Monospace;
   }
-
   .smaller-image {
     width: 100px;
   }
@@ -548,24 +529,22 @@ Remember that you can apply multiple classes to an element by separating each cl
     border-style: solid;
   }
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
-
 <img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back. ">
-
 <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 <p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
 ```
 
+
 ## Add Rounded Corners with a Border Radius 
 Your cat photo currently has sharp corners. We can round out those corners with a CSS property called `border-radius`.
 
-You can specify a border-radius with pixels. Give your cat photo a border-radius of 10px.
+You can specify a `border-radius` with pixels. Give your cat photo a `border-radius` of `10px`.
 
-Note: this waypoint allows for multiple possible solutions. For example, you may add border-radius to either the `.thick-green-border` class or `.smaller-image` class.
+Note: this waypoint allows for multiple possible solutions. For example, you may add `border-radius` to either the `.thick-green-border` class or `.smaller-image` class.
 
-- [x] Your image element should have the class "thick-green-border".
-- [x] Your image should have a border radius of 10px
+- [x] Your image element should have the class `"thick-green-border"`.
+- [x] Your image should have a border radius of `10px`
 
 ```
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
@@ -573,42 +552,36 @@ Note: this waypoint allows for multiple possible solutions. For example, you may
   .red-text {
     color: red;
   }
-
   h2 {
     font-family: Lobster, Monospace;
   }
-
   p {
     font-size: 16px;
     font-family: Monospace;
   }
-
   .thick-green-border {
     border-color: green;
     border-width: 10px;
     border-style: solid;
     border-radius: 10px;
   }
-
   .smaller-image {
     width: 100px;
   }
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
-
 <img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back. ">
-
 <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 <p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
 ```
 
+
 ## Make Circular Images with a Border Radius 
-In addition to pixels, you can also specify a border-radius using a percentage.
+In addition to pixels, you can also specify a `border-radius` using a percentage.
 
-Give your cat photo a border-radius of 50%.
+Give your cat photo a `border-radius` of `50%`.
 
-- [x] Your image should have a border radius of 50%, making it perfectly circular.
+- [x] Your image should have a border radius of `50%`, making it perfectly circular.
 - [x] Be sure to use a percentage instead of a pixel value.
 
 ```
@@ -617,36 +590,30 @@ Give your cat photo a border-radius of 50%.
   .red-text {
     color: red;
   }
-
   h2 {
     font-family: Lobster, Monospace;
   }
-
   p {
     font-size: 16px;
     font-family: Monospace;
   }
-
   .thick-green-border {
     border-color: green;
     border-width: 10px;
     border-style: solid;
     border-radius: 10px;
   }
-
   .smaller-image {
     width: 100px;
     border-radius: 50%;
   }
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
-
 <img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back. ">
-
 <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 <p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
 ```
+
 
 ## Link to External Pages with Anchor Elements 
 a elements, also known as anchor elements, are used to link to content outside of the current page.
@@ -654,9 +621,9 @@ a elements, also known as anchor elements, are used to link to content outside o
 Here's a diagram of an a element. In this case, the a element is used in the middle of a paragraph element, which means the link will appear in the middle of a sentence.
 
 Here's an example:
-```
-<p>Here's a <a href="http://freecodecamp.org"> link to Free Code Camp</a> for you to follow.</p>
-```
+
+`<p>Here's a <a href="http://freecodecamp.org"> link to Free Code Camp</a> for you to follow.</p>`
+
 Create an a element that links to `http://freecatphotoapp.com` and has "cat photos" as its anchor text.
 
 - [x] Your a element should have the anchor text of "cat photos".
@@ -669,37 +636,30 @@ Create an a element that links to `http://freecatphotoapp.com` and has "cat phot
   .red-text {
     color: red;
   }
-
   h2 {
     font-family: Lobster, Monospace;
   }
-
   p {
     font-size: 16px;
     font-family: Monospace;
   }
-
   .thick-green-border {
     border-color: green;
     border-width: 10px;
     border-style: solid;
     border-radius: 50%;
   }
-
   .smaller-image {
     width: 100px;
   }
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
-
 <img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back. ">
-
 <p><a href="http://freecatphotoapp.com"> cat photos </a></p>
-
 <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 <p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
 ```
+
 
 ## Nest an Anchor Element within a Paragraph 
 Again, here's a diagram of an a element for your reference:
@@ -713,7 +673,6 @@ Here's an example:
 Nesting just means putting one element inside of another element.
 
 Now nest your existing a element within a new p element (just after the existing h2 element) so that the surrounding paragraph says "View more cat photos", but where only "cat photos" is a link, and the rest of the text is plain text.
-
  
 - [x] You need an a element that links to `"http://www.freecatphotoapp.com"`.
 - [x] Your a element should have the anchor text of "cat photos"
@@ -730,44 +689,37 @@ Now nest your existing a element within a new p element (just after the existing
   .red-text {
     color: red;
   }
-
   h2 {
     font-family: Lobster, Monospace;
   }
-
   p {
     font-size: 16px;
     font-family: Monospace;
   }
-
   .thick-green-border {
     border-color: green;
     border-width: 10px;
     border-style: solid;
     border-radius: 50%;
   }
-
   .smaller-image {
     width: 100px;
   }
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
-
 <p>View more <a href="http://www.freecatphotoapp.com">cat photos</a></p>
-
 <img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back. ">
-
 <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 <p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
 ```
+
 
 ## Make Dead Links using the Hash Symbol 
 Sometimes you want to add a elements to your website before you know where they will link.
 
 This is also handy when you're changing the behavior of a link using jQuery, which we'll learn about later.
 
-Replace the value of your a element's href attribute with a #, also known as a hash symbol, to turn it into a dead link.
+Replace the value of your a element's `href` attribute with a #, also known as a hash symbol, to turn it into a dead link.
 
 - [x] Your a element should be a dead link with a href attribute set to "#".
 
@@ -777,37 +729,30 @@ Replace the value of your a element's href attribute with a #, also known as a h
   .red-text {
     color: red;
   }
-
   h2 {
     font-family: Lobster, Monospace;
   }
-
   p {
     font-size: 16px;
     font-family: Monospace;
   }
-
   .thick-green-border {
     border-color: green;
     border-width: 10px;
     border-style: solid;
     border-radius: 50%;
   }
-
   .smaller-image {
     width: 100px;
   }
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
-
 <p>Click here for <a href="#">cat photos</a>.</p>
-
 <img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back. ">
-
 <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 <p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
 ```
+
 
 ## Turn an Image into a Link 
 You can make elements into links by nesting them within an a element.
@@ -832,44 +777,36 @@ Once you've done this, hover over your image with your cursor. Your cursor's nor
   .red-text {
     color: red;
   }
-
   h2 {
     font-family: Lobster, Monospace;
   }
-
   p {
     font-size: 16px;
     font-family: Monospace;
   }
-
   .thick-green-border {
     border-color: green;
     border-width: 10px;
     border-style: solid;
     border-radius: 50%;
   }
-
   .smaller-image {
     width: 100px;
   }
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
-
   <p>Click here for 
     <a href="#">cat photos</a>.
   </p>
-
     <a href="#">
       <img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
     </a>
-
   <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff. 
   </p>
-
   <p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.
   </p>
 ```
+
 
 ## Create a Bulleted Unordered List 
 HTML has a special element for creating unordered lists, or bullet point-style lists.
@@ -898,40 +835,33 @@ Remove the last two p elements and create an unordered list of three things that
   .red-text {
     color: red;
   }
-
   h2 {
     font-family: Lobster, Monospace;
   }
-
   p {
     font-size: 16px;
     font-family: Monospace;
   }
-
   .thick-green-border {
     border-color: green;
     border-width: 10px;
     border-style: solid;
     border-radius: 50%;
   }
-
   .smaller-image {
     width: 100px;
   }
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
-
 <p>Click here for <a href="#">cat photos</a>.</p>
-
 <a href="#"><img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back. "></a>
-
 <ul>
   <li>milk</li>
   <li>toys</li>
   <li>hairballs</li>
 </ul>
 ```
+
 
 ## Create an Ordered List 
 HTML has a special element for creating ordered lists, or numbered-style lists.
@@ -963,34 +893,26 @@ Create an ordered list of the top 3 things cats hate the most.
   .red-text {
     color: red;
   }
-
   h2 {
     font-family: Lobster, Monospace;
   }
-
   p {
     font-size: 16px;
     font-family: Monospace;
   }
-
   .thick-green-border {
     border-color: green;
     border-width: 10px;
     border-style: solid;
     border-radius: 50%;
   }
-
   .smaller-image {
     width: 100px;
   }
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
-
 <p>Click here for <a href="#">cat photos</a>.</p>
-
 <a href="#"><img class="smaller-image thick-green-border" alt="A cute orange cat lying on its back. " src="https://bit.ly/fcc-relaxing-cat"></a>
-
 <p>Things cats love:</p>
 <ul>
   <li>cat nip</li>
@@ -1004,6 +926,7 @@ Create an ordered list of the top 3 things cats hate the most.
   <li>baths</li>
 </ol>
 ```
+
 
 ## Create a Text Field 
 Now let's create a web form.
@@ -1024,34 +947,26 @@ Create an input element of type text below your lists.
   .red-text {
     color: red;
   }
-
   h2 {
     font-family: Lobster, Monospace;
   }
-
   p {
     font-size: 16px;
     font-family: Monospace;
   }
-
   .thick-green-border {
     border-color: green;
     border-width: 10px;
     border-style: solid;
     border-radius: 50%;
   }
-
   .smaller-image {
     width: 100px;
   }
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
-
 <p>Click here for <a href="#">cat photos</a>.</p>
-
 <a href="#"><img class="smaller-image thick-green-border" alt="A cute orange cat lying on its back. " src="https://bit.ly/fcc-relaxing-cat"></a>
-
 <p>Things cats love:</p>
 <ul>
   <li>cat nip</li>
@@ -1066,6 +981,7 @@ Create an input element of type text below your lists.
 </ol>
 <input type="text">
 ```
+
 
 ## Add Placeholder Text to a Text Field 
 Your placeholder text is what appears in your text input before your user has input anything.
@@ -1086,34 +1002,26 @@ Set the placeholder value of your text input to "cat photo URL".
   .red-text {
     color: red;
   }
-
   h2 {
     font-family: Lobster, Monospace;
   }
-
   p {
     font-size: 16px;
     font-family: Monospace;
   }
-
   .thick-green-border {
     border-color: green;
     border-width: 10px;
     border-style: solid;
     border-radius: 50%;
   }
-
   .smaller-image {
     width: 100px;
   }
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
-
 <p>Click here for <a href="#">cat photos</a>.</p>
-
 <a href="#"><img class="smaller-image thick-green-border" alt="A cute orange cat lying on its back. " src="https://bit.ly/fcc-relaxing-cat"></a>
-
 <p>Things cats love:</p>
 <ul>
   <li>cat nip</li>
@@ -1130,7 +1038,7 @@ Set the placeholder value of your text input to "cat photo URL".
 ```
 
 ## Create a Form Element 
-You can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an action on your form element.
+You can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an `action` on your form element.
 
 For example:
 
@@ -1139,7 +1047,7 @@ For example:
 Nest your text field in a form element. Add the `action="/submit-cat-photo"` attribute to this form element.
 
 - [x] Nest your text input element within a form element.
-- [x] Make sure your form has an action attribute which is set to /submit-cat-photo
+- [x] Make sure your form has an `action` attribute which is set to `/submit-cat-photo`
 - [x] Make sure your form element has a closing tag.
 
 ```
@@ -1148,34 +1056,26 @@ Nest your text field in a form element. Add the `action="/submit-cat-photo"` att
   .red-text {
     color: red;
   }
-
   h2 {
     font-family: Lobster, Monospace;
   }
-
   p {
     font-size: 16px;
     font-family: Monospace;
   }
-
   .thick-green-border {
     border-color: green;
     border-width: 10px;
     border-style: solid;
     border-radius: 50%;
   }
-
   .smaller-image {
     width: 100px;
   }
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
-
 <p>Click here for <a href="#">cat photos</a>.</p>
-
 <a href="#"><img class="smaller-image thick-green-border" alt="A cute orange cat lying on its back. " src="https://bit.ly/fcc-relaxing-cat"></a>
-
 <p>Things cats love:</p>
 <ul>
   <li>cat nip</li>
@@ -1193,17 +1093,18 @@ Nest your text field in a form element. Add the `action="/submit-cat-photo"` att
 </form>
 ```
 
+
 ## Add a Submit Button to a Form 
-Let's add a submit button to your form. Clicking this button will send the data from your form to the URL you specified with your form's action attribute.
+Let's add a submit button to your form. Clicking this button will send the data from your form to the URL you specified with your form's `action` attribute.
 
 Here's an example submit button:
 
 `<button type="submit">this button submits the form</button>`
 
-Add a submit button to your form element with type submit and "Submit" as its text.
+Add a submit button to your form element with `type submit` and "Submit" as its text.
 
 - [x] Your form should have a button inside it.
-- [x] Your submit button should have the attribute type set to submit.
+- [x] Your submit button should have the attribute `type` set to `submit`.
 - [x] Your submit button should only have the text "Submit".
 - [x] Make sure your button element has a closing tag.
 
@@ -1213,34 +1114,26 @@ Add a submit button to your form element with type submit and "Submit" as its te
   .red-text {
     color: red;
   }
-
   h2 {
     font-family: Lobster, Monospace;
   }
-
   p {
     font-size: 16px;
     font-family: Monospace;
   }
-
   .thick-green-border {
     border-color: green;
     border-width: 10px;
     border-style: solid;
     border-radius: 50%;
   }
-
   .smaller-image {
     width: 100px;
   }
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
-
 <p>Click here for <a href="#">cat photos</a>.</p>
-
 <a href="#"><img class="smaller-image thick-green-border" alt="A cute orange cat lying on its back. " src="https://bit.ly/fcc-relaxing-cat"></a>
-
 <p>Things cats love:</p>
 <ul>
   <li>cat nip</li>
@@ -1259,6 +1152,7 @@ Add a submit button to your form element with type submit and "Submit" as its te
 </form>
 ```
 
+
 ## Use HTML5 to Require a Field 
 You can require specific form fields so that your user will not be able to submit your form until he or she has filled them out.
 
@@ -1270,7 +1164,7 @@ Then try to submit the form without inputing any text. See how your HTML5 form n
 
 Note: This field does not work in Safari.
 
-- [x] Your text input element should have the required attribute.
+- [x] Your text input element should have the `required` attribute.
 
 ```
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
@@ -1278,34 +1172,26 @@ Note: This field does not work in Safari.
   .red-text {
     color: red;
   }
-
   h2 {
     font-family: Lobster, Monospace;
   }
-
   p {
     font-size: 16px;
     font-family: Monospace;
   }
-
   .thick-green-border {
     border-color: green;
     border-width: 10px;
     border-style: solid;
     border-radius: 50%;
   }
-
   .smaller-image {
     width: 100px;
   }
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
-
 <p>Click here for <a href="#">cat photos</a>.</p>
-
 <a href="#"><img class="smaller-image thick-green-border" alt="A cute orange cat lying on its back. " src="https://bit.ly/fcc-relaxing-cat"></a>
-
 <p>Things cats love:</p>
 <ul>
   <li>cat nip</li>
@@ -1324,14 +1210,15 @@ Note: This field does not work in Safari.
 </form>
 ```
 
+
 ## Create a Set of Radio Buttons 
 You can use radio buttons for questions where you want the user to only give you one answer.
 
-Radio buttons are a type of input
+Radio buttons are a `type` of input
 
 Each of your radio buttons should be nested within its own label element.
 
-All related radio buttons should have the same name attribute.
+All related radio buttons should have the same `name` attribute.
 
 Here's an example of a radio button:
 
@@ -1340,11 +1227,11 @@ Here's an example of a radio button:
 Add a pair of radio buttons to your form. One should have the option of indoor and the other should have the option of outdoor.
 
 - [x] Your page should have two radio button elements.
-- [x] Give your radio buttons the name attribute of indoor-outdoor.
+- [x] Give your radio buttons the `name` attribute of `indoor-outdoor`.
 - [x] Each of your two radio button elements should be nested in its own label element.
 - [x] Make sure each of your label elements has a closing tag.
-- [x] One of your radio buttons should have the label indoor.
-- [x] One of your radio buttons should have the label outdoor.
+- [x] One of your radio buttons should have the `label indoor`.
+- [x] One of your radio buttons should have the `label outdoor`.
 
 ```
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
@@ -1352,34 +1239,26 @@ Add a pair of radio buttons to your form. One should have the option of indoor a
   .red-text {
     color: red;
   }
-
   h2 {
     font-family: Lobster, Monospace;
   }
-
   p {
     font-size: 16px;
     font-family: Monospace;
   }
-
   .thick-green-border {
     border-color: green;
     border-width: 10px;
     border-style: solid;
     border-radius: 50%;
   }
-
   .smaller-image {
     width: 100px;
   }
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
-
 <p>Click here for <a href="#">cat photos</a>.</p>
-
 <a href="#"><img class="smaller-image thick-green-border" alt="A cute orange cat lying on its back. " src="https://bit.ly/fcc-relaxing-cat"></a>
-
 <p>Things cats love:</p>
 <ul>
   <li>cat nip</li>
@@ -1400,14 +1279,15 @@ Add a pair of radio buttons to your form. One should have the option of indoor a
 </form>
 ```
 
+
 ## Create a Set of Checkboxes 
 Forms commonly use checkboxes for questions that may have more than one answer.
 
-Checkboxes are a type of input
+Checkboxes are a `type` of input
 
 Each of your checkboxes should be nested within its own label element.
 
-All related checkbox inputs should have the same name attribute.
+All related checkbox inputs should have the same `name` attribute.
 
 Here's an example of a checkbox:
 
@@ -1426,34 +1306,26 @@ Add to your form a set of three checkboxes. Each checkbox should be nested withi
   .red-text {
     color: red;
   }
-
   h2 {
     font-family: Lobster, Monospace;
   }
-
   p {
     font-size: 16px;
     font-family: Monospace;
   }
-
   .thick-green-border {
     border-color: green;
     border-width: 10px;
     border-style: solid;
     border-radius: 50%;
   }
-
   .smaller-image {
     width: 100px;
   }
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
-
 <p>Click here for <a href="#">cat photos</a>.</p>
-
 <a href="#"><img class="smaller-image thick-green-border" alt="A cute orange cat lying on its back. " src="https://bit.ly/fcc-relaxing-cat"></a>
-
 <p>Things cats love:</p>
 <ul>
   <li>cat nip</li>
@@ -1477,10 +1349,11 @@ Add to your form a set of three checkboxes. Each checkbox should be nested withi
 </form>
 ```
 
-## Check Radio Buttons and Checkboxes by Default 
-You can set a checkbox or radio button to be checked by default using the checked attribute.
 
-To do this, just add the word "checked" to the inside of an input element. For example:
+## Check Radio Buttons and Checkboxes by Default 
+You can set a checkbox or radio button to be checked by default using the `checked` attribute.
+
+To do this, just add the word `"checked"` to the inside of an input element. For example:
 
 `<input type="radio" name="test-name" checked>`
 
@@ -1495,34 +1368,26 @@ Set the first of your radio buttons and the first of your checkboxes to both be 
   .red-text {
     color: red;
   }
-
   h2 {
     font-family: Lobster, Monospace;
   }
-
   p {
     font-size: 16px;
     font-family: Monospace;
   }
-
   .thick-green-border {
     border-color: green;
     border-width: 10px;
     border-style: solid;
     border-radius: 50%;
   }
-
   .smaller-image {
     width: 100px;
   }
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
-
 <p>Click here for <a href="#">cat photos</a>.</p>
-
 <a href="#"><img class="smaller-image thick-green-border" alt="A cute orange cat lying on its back. " src="https://bit.ly/fcc-relaxing-cat"></a>
-
 <p>Things cats love:</p>
 <ul>
   <li>cat nip</li>
@@ -1546,6 +1411,7 @@ Set the first of your radio buttons and the first of your checkboxes to both be 
 </form>
 ```
 
+
 ## Nest Many Elements within a Single Div Element 
 The div element, also known as a division element, is a general purpose container for other elements.
 
@@ -1568,34 +1434,26 @@ Nest your "Things cats love" and "Things cats hate" lists all within a single di
   .red-text {
     color: red;
   }
-
   h2 {
     font-family: Lobster, Monospace;
   }
-
   p {
     font-size: 16px;
     font-family: Monospace;
   }
-
   .thick-green-border {
     border-color: green;
     border-width: 10px;
     border-style: solid;
     border-radius: 50%;
   }
-
   .smaller-image {
     width: 100px;
   }
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
-
 <p>Click here for <a href="#">cat photos</a>.</p>
-
 <a href="#"><img class="smaller-image thick-green-border" alt="A cute orange cat lying on its back. " src="https://bit.ly/fcc-relaxing-cat"></a>
-
 <div><p>Things cats love:</p>
 <ul>
   <li>cat nip</li>
@@ -1620,8 +1478,9 @@ Nest your "Things cats love" and "Things cats hate" lists all within a single di
 </form>
 ```
 
+
 ## Give a Background Color to a Div Element 
-You can set an element's background color with the background-color property.
+You can set an element's background color with the `background-color` property.
 
 For example, if you wanted an element's background color to be green, you'd put this within your style element:
 ```
@@ -1629,9 +1488,9 @@ For example, if you wanted an element's background color to be green, you'd put 
   background-color: green;
 }
 ```
-Create a class called silver-background with the background-color of silver. Assign this class to your div element.
+Create a class called `silver-background` with the `background-color` of silver. Assign this class to your div element.
 
-- [x] Give your div element the class silver-background.
+- [x] Give your div element the class `silver-background`.
 - [x] Your div element should have a silver background.
 
 ```
@@ -1640,38 +1499,29 @@ Create a class called silver-background with the background-color of silver. Ass
   .red-text {
     color: red;
   }
-
   h2 {
     font-family: Lobster, Monospace;
   }
-
   p {
     font-size: 16px;
     font-family: Monospace;
   }
-
   .thick-green-border {
     border-color: green;
     border-width: 10px;
     border-style: solid;
     border-radius: 50%;
   }
-
   .smaller-image {
     width: 100px;
   }
-  
   .silver-background {
     background-color: silver;
   }
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
-
 <p>Click here for <a href="#">cat photos</a>.</p>
-
 <a href="#"><img class="smaller-image thick-green-border" alt="A cute orange cat lying on its back. " src="https://bit.ly/fcc-relaxing-cat"></a>
-
 <div class="silver-background">
   <p>Things cats love:</p>
   <ul>
@@ -1686,7 +1536,6 @@ Create a class called silver-background with the background-color of silver. Ass
     <li>other cats</li>
   </ol>
 </div>
-
 <form action="/submit-cat-photo">
   <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
   <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
@@ -1698,20 +1547,21 @@ Create a class called silver-background with the background-color of silver. Ass
 </form>
 ```
 
+
 ## Set the ID of an Element 
-In addition to classes, each HTML element can also have an id attribute.
+In addition to classes, each HTML element can also have an `id` attribute.
 
-There are several benefits to using id attributes, and you'll learn more about them once you start using jQuery.
+There are several benefits to using `id` attributes, and you'll learn more about them once you start using jQuery.
 
-id attributes should be unique. Browsers won't enforce this, but it is a widely agreed upon best practice. So please don't give more than one element the same id attribute.
+`id` attributes should be unique. Browsers won't enforce this, but it is a widely agreed upon best practice. So please don't give more than one element the same `id` attribute.
 
-Here's an example of how you give your h2 element the id of cat-photo-app:
+Here's an example of how you give your h2 element the `id` of `cat-photo-app`:
 
 `<h2 id="cat-photo-app">`
 
-Give your form element the id cat-photo-form.
+Give your form element the `id cat-photo-form`.
 
-- [x] Give your form element the id of cat-photo-form.
+- [x] Give your form element the `id` of `cat-photo-form`.
 
 ```
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
@@ -1719,23 +1569,19 @@ Give your form element the id cat-photo-form.
   .red-text {
     color: red;
   }
-
   h2 {
     font-family: Lobster, Monospace;
   }
-
   p {
     font-size: 16px;
     font-family: Monospace;
   }
-
   .thick-green-border {
     border-color: green;
     border-width: 10px;
     border-style: solid;
     border-radius: 50%;
   }
-
   .smaller-image {
     width: 100px;
   }
@@ -1743,13 +1589,9 @@ Give your form element the id cat-photo-form.
     background-color: silver;
   }
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
-
 <p>Click here for <a href="#">cat photos</a>.</p>
-
 <a href="#"><img class="smaller-image thick-green-border" alt="A cute orange cat lying on its back. " src="https://bit.ly/fcc-relaxing-cat"></a>
-
 <div class="silver-background">
   <p>Things cats love:</p>
   <ul>
@@ -1764,7 +1606,6 @@ Give your form element the id cat-photo-form.
     <li>other cats</li>
   </ol>
 </div>
-
 <form id="cat-photo-form" action="/submit-cat-photo">
   <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
   <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
@@ -1776,10 +1617,11 @@ Give your form element the id cat-photo-form.
 </form>
 ```
 
-## Use an ID Attribute to Style an Element 
-One cool thing about id attributes is that, like classes, you can style them using CSS.
 
-Here's an example of how you can take your element with the id attribute of cat-photo-element and give it the background color of green. In your style element:
+## Use an ID Attribute to Style an Element 
+One cool thing about `id` attributes is that, like `classes`, you can style them using CSS.
+
+Here's an example of how you can take your element with the `id` attribute of `cat-photo-element` and give it the background color of green. In your style element:
 ```
 #cat-photo-element {
   background-color: green;
@@ -1787,12 +1629,12 @@ Here's an example of how you can take your element with the id attribute of cat-
 ```
 Note that inside your style element, you always reference classes by putting a . in front of their names. You always reference ids by putting a # in front of their names.
 
-Try giving your form, which now has the id attribute of cat-photo-form, a green background.
+Try giving your form, which now has the `id` attribute of `cat-photo-form`, a green background.
 
-- [x] Give your form element the id of cat-photo-form.
-- [x] Your form element should have the background-color of green.
-- [x] Make sure your form element has an id attribute.
-- [x] Do not give your form any class or style attributes.
+- [x] Give your form element the `id` of `cat-photo-form`.
+- [x] Your form element should have the `background-color` of green.
+- [x] Make sure your form element has an `id` attribute.
+- [x] Do not give your form any `class` or `style` attributes.
 
 ```
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
@@ -1800,42 +1642,32 @@ Try giving your form, which now has the id attribute of cat-photo-form, a green 
   .red-text {
     color: red;
   }
-
   h2 {
     font-family: Lobster, Monospace;
   }
-
   p {
     font-size: 16px;
     font-family: Monospace;
   }
-
   .thick-green-border {
     border-color: green;
     border-width: 10px;
     border-style: solid;
     border-radius: 50%;
   }
-
   .smaller-image {
     width: 100px;
   }
-
   .silver-background {
     background-color: silver;
   }
-  
   #cat-photo-form {
     background: green;
   }
 </style>
-
 <h2 class="red-text">CatPhotoApp</h2>
-
 <p>Click here for <a href="#">cat photos</a>.</p>
-
 <a href="#"><img class="smaller-image thick-green-border" alt="A cute orange cat lying on its back. " src="https://bit.ly/fcc-relaxing-cat"></a>
-
 <div class="silver-background">
   <p>Things cats love:</p>
   <ul>
@@ -1850,7 +1682,6 @@ Try giving your form, which now has the id attribute of cat-photo-form, a green 
     <li>other cats</li>
   </ol>
 </div>
-
 <form action="/submit-cat-photo" id="cat-photo-form">
   <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
   <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
@@ -1862,12 +1693,13 @@ Try giving your form, which now has the id attribute of cat-photo-form, a green 
 </form>
 ```
 
+
 ## Adjusting the Padding of an Element 
 Now let's put our Cat Photo App away for a little while and learn more about styling HTML.
 
 You may have already noticed this, but all HTML elements are essentially little rectangles.
 
-Three important properties control the space that surrounds each HTML element: padding, margin, and border.
+Three important properties control the space that surrounds each HTML element: `padding`, `margin`, and `border`.
 
 An element's padding controls the amount of space between the element and its border.
 
@@ -1875,9 +1707,9 @@ Here, we can see that the green box and the red box are nested within the yellow
 
 When you increase the green box's padding, it will increase the distance between the text padding and the border around it.
 
-Change the padding of your green box to match that of your red box.
+Change the `padding` of your green box to match that of your red box.
 
-- [x] Your green-box class should give elements 20px of padding.
+- [x] Your `green-box` class should give elements `20px` of `padding`.
 
 ```
 <style>
@@ -1885,47 +1717,43 @@ Change the padding of your green box to match that of your red box.
     margin-bottom: -25px;
     text-align: center;
   }
-
   .box {
     border-style: solid;
     border-color: black;
     border-width: 5px;
     text-align: center;
   }
-
   .yellow-box {
     background-color: yellow;
     padding: 10px;
   }
-  
   .red-box {
     background-color: red;
     padding: 20px;
   }
-
   .green-box {
     background-color: green;
     padding: 20px;
   }
 </style>
 <h5 class="injected-text">margin</h5>
-
 <div class="box yellow-box">
   <h5 class="box red-box">padding</h5>
   <h5 class="box green-box">padding</h5>
 </div>
 ```
+
 
 ## Adjust the Margin of an Element 
-An element's margin controls the amount of space between an element's border and surrounding elements.
+An element's `margin` controls the amount of space between an element's border and surrounding elements.
 
-Here, we can see that the green box and the red box are nested within the yellow box. Note that the red box has more margin than the green box, making it appear smaller.
+Here, we can see that the green box and the red box are nested within the yellow box. Note that the red box has more `margin` than the green box, making it appear smaller.
 
-When you increase the green box's margin, it will increase the distance between its border and surrounding elements.
+When you increase the green box's `margin`, it will increase the distance between its border and surrounding elements.
 
-Change the margin of the green box to match that of the red box.
+Change the `margin` of the green box to match that of the red box.
 
-- [x] Your green-box class should give elements 20px of margin.
+- [x] Your `green-box` class should give elements `20px` of `margin`.
 
 ```
 <style>
@@ -1933,25 +1761,21 @@ Change the margin of the green box to match that of the red box.
     margin-bottom: -25px;
     text-align: center;
   }
-
   .box {
     border-style: solid;
     border-color: black;
     border-width: 5px;
     text-align: center;
   }
-
   .yellow-box {
     background-color: yellow;
     padding: 10px;
   }
-  
   .red-box {
     background-color: red;
     padding: 20px;
     margin: 20px;
   }
-
   .green-box {
     background-color: green;
     padding: 20px;
@@ -1959,23 +1783,23 @@ Change the margin of the green box to match that of the red box.
   }
 </style>
 <h5 class="injected-text">margin</h5>
-
 <div class="box yellow-box">
   <h5 class="box red-box">padding</h5>
   <h5 class="box green-box">padding</h5>
 </div>
 ```
 
-## Add a Negative Margin to an Element 
-An element's margin controls the amount of space between an element's border and surrounding elements.
 
-If you set an element's margin to a negative value, the element will grow larger.
+## Add a Negative Margin to an Element 
+An element's `margin` controls the amount of space between an element's border and surrounding elements.
+
+If you set an element's `margin` to a negative value, the element will grow larger.
 
 Try to set the margin to a negative value like the one for the red box.
 
-Change the margin of the green box to -15px, so it fills the entire horizontal width of the yellow box around it.
+Change the `margin` of the green box to `-15px`, so it fills the entire horizontal width of the yellow box around it.
 
-- [x] Your green-box class should give elements -15px of margin.
+- [x] Your `green-box` class should give elements `-15px` of `margin`.
 
 ```
 <style>
@@ -1983,49 +1807,45 @@ Change the margin of the green box to -15px, so it fills the entire horizontal w
     margin-bottom: -25px;
     text-align: center;
   }
-
   .box {
     border-style: solid;
     border-color: black;
     border-width: 5px;
     text-align: center;
   }
-
   .yellow-box {
     background-color: yellow;
     padding: 10px;
   }
-  
   .red-box {
     background-color: red;
     padding: 20px;
     margin: -15px;
   }
-
   .green-box {
     background-color: green;
     padding: 20px;
     margin: -15px;
   }
 </style>
-
 <div class="box yellow-box">
   <h5 class="box red-box">padding</h5>
   <h5 class="box green-box">padding</h5>
 </div>
 ```
+
 
 ## Add Different Padding to Each Side of an Element 
-Sometimes you will want to customize an element so that it has different padding on each of its sides.
+Sometimes you will want to customize an element so that it has different `padding` on each of its sides.
 
-CSS allows you to control the padding of an element on all four sides with padding-top, padding-right, padding-bottom, and padding-left properties.
+CSS allows you to control the `padding` of an element on all four sides with `padding-top`, `padding-right`, `padding-bottom`, and `padding-left` properties.
 
-Give the green box a padding of 40px on its top and left side, but only 20px on its bottom and right side.
+Give the green box a `padding` of `40px` on its top and left side, but only `20px` on its bottom and right side.
 
-- [x] Your green-box class should give the top of the elements 40px of padding.
-- [x] Your green-box class should give the left of the elements 40px of padding.
-- [x] Your green-box class should give the right of the elements 20px of padding.
-- [x] Your green-box class should give the bottom of the elements 20px of padding.
+- [x] Your `green-box` class should give the top of the elements `40px` of `padding`.
+- [x] Your `green-box` class should give the left of the elements `40px` of `padding`.
+- [x] Your `green-box` class should give the right of the elements `20px` of `padding`.
+- [x] Your `green-box` class should give the bottom of the elements `20px` of `padding`.
 
 ```
 <style>
@@ -2033,19 +1853,16 @@ Give the green box a padding of 40px on its top and left side, but only 20px on 
     margin-bottom: -25px;
     text-align: center;
   }
-
   .box {
     border-style: solid;
     border-color: black;
     border-width: 5px;
     text-align: center;
   }
-
   .yellow-box {
     background-color: yellow;
     padding: 10px;
   }
-  
   .red-box {
     background-color: red;
     padding-top: 40px;
@@ -2053,7 +1870,6 @@ Give the green box a padding of 40px on its top and left side, but only 20px on 
     padding-bottom: 20px;
     padding-left: 40px;
   }
-
   .green-box {
     background-color: green;
     padding-top: 40px;
@@ -2063,24 +1879,24 @@ Give the green box a padding of 40px on its top and left side, but only 20px on 
   }
 </style>
 <h5 class="injected-text">margin</h5>
-
 <div class="box yellow-box">
   <h5 class="box red-box">padding</h5>
   <h5 class="box green-box">padding</h5>
 </div>
 ```
+
 
 ## Add Different Margins to Each Side of an Element 
-Sometimes you will want to customize an element so that it has a different margin on each of its sides.
+Sometimes you will want to customize an element so that it has a different `margin` on each of its sides.
 
-CSS allows you to control the margin of an element on all four sides with margin-top, margin-right, margin-bottom, and margin-left properties.
+CSS allows you to control the margin of an element on all four sides with `margin-top`, `margin-right`, `margin-bottom`, and `margin-left` properties.
 
-Give the green box a margin of 40px on its top and left side, but only 20px on its bottom and right side.
+Give the green box a `margin` of `40px` on its top and left side, but only `20px` on its bottom and right side.
 
-- [x] Your green-box class should give the top of elements 40px of margin.
-- [x] Your green-box class should give the left of elements 40px of margin.
-- [x] Your green-box class should give the right of elements 20px of margin.
-- [x] Your green-box class should give the bottom of elements 20px of margin.
+- [x] Your `green-box` class should give the top of elements `40px` of `margin`.
+- [x] Your `green-box` class should give the left of elements `40px` of `margin`.
+- [x] Your `green-box` class should give the right of elements `20px` of `margin`.
+- [x] Your `green-box` class should give the bottom of elements `20px` of `margin`.
 
 ```
 <style>
@@ -2088,19 +1904,16 @@ Give the green box a margin of 40px on its top and left side, but only 20px on i
     margin-bottom: -25px;
     text-align: center;
   }
-
   .box {
     border-style: solid;
     border-color: black;
     border-width: 5px;
     text-align: center;
   }
-
   .yellow-box {
     background-color: yellow;
     padding: 10px;
   }
-  
   .red-box {
     background-color: red;
     margin-top: 40px;
@@ -2108,37 +1921,35 @@ Give the green box a margin of 40px on its top and left side, but only 20px on i
     margin-bottom: 20px;
     margin-left: 40px;
   }
-
   .green-box {
     background-color: green;
     margin-top: 40px;
     margin-left: 40px;
     margin-bottom: 20px;
     margin-right: 20px;
-    
   }
 </style>
 <h5 class="injected-text">margin</h5>
-
 <div class="box yellow-box">
   <h5 class="box red-box">padding</h5>
   <h5 class="box green-box">padding</h5>
 </div>
 ```
 
+
 ## Use Clockwise Notation to Specify the Padding of an Element 
-Instead of specifying an element's padding-top, padding-right, padding-bottom, and padding-left properties, you can specify them all in one line, like this:
+Instead of specifying an element's `padding-top`, `padding-right`, `padding-bottom`, and `padding-left` properties, you can specify them all in one line, like this:
 
 `padding: 10px 20px 10px 20px;`
 
 These four values work like a clock: top, right, bottom, left, and will produce the exact same result as using the side-specific padding instructions.
 
-Use Clockwise Notation to give the ".green-box" class a padding of 40px on its top and left side, but only 20px on its bottom and right side.
+Use Clockwise Notation to give the `".green-box"` class a `padding` of `40px` on its top and left side, but only `20px` on its bottom and right side.
 
-- [x] Your green-box class should give the top of elements 40px of padding.
-- [x] Your green-box class should give the right of elements 20px of padding.
-- [x] Your green-box class should give the bottom of elements 20px of padding.
-- [x] Your green-box class should give the left of elements 40px of padding.
+- [x] Your `green-box` class should give the top of elements `40px` of `padding`.
+- [x] Your `green-box` class should give the right of elements `20px` of `padding`.
+- [x] Your `green-box` class should give the bottom of elements `20px` of `padding`.
+- [x] Your `green-box` class should give the left of elements `40px` of `padding`.
 
 ```
 <style>
@@ -2146,52 +1957,48 @@ Use Clockwise Notation to give the ".green-box" class a padding of 40px on its t
     margin-bottom: -25px;
     text-align: center;
   }
-
   .box {
     border-style: solid;
     border-color: black;
     border-width: 5px;
     text-align: center;
   }
-
   .yellow-box {
     background-color: yellow;
     padding: 20px 40px 20px 40px;
   }
-  
   .red-box {
     background-color: red;
     padding: 20px 40px 20px 40px;
   }
-
   .green-box {
     background-color: green;
     padding: 40px 20px 20px 40px
   }
 </style>
 <h5 class="injected-text">margin</h5>
-
 <div class="box yellow-box">
   <h5 class="box red-box">padding</h5>
   <h5 class="box green-box">padding</h5>
 </div>
 ```
 
-## Use Clockwise Notation to Specify the Margin of an Element 
-Let's try this again, but with margin this time.
 
-Instead of specifying an element's margin-top, margin-right, margin-bottom, and margin-left properties, you can specify them all in one line, like this:
+## Use Clockwise Notation to Specify the Margin of an Element 
+Let's try this again, but with `margin` this time.
+
+Instead of specifying an element's `margin-top`, `margin-right`, `margin-bottom`, and `margin-left` properties, you can specify them all in one line, like this:
 
 `margin: 10px 20px 10px 20px;`
 
 These four values work like a clock: top, right, bottom, left, and will produce the exact same result as using the side-specific margin instructions.
 
-Use Clockwise Notation to give the element with the green-box class a margin of 40px on its top and left side, but only 20px on its bottom and right side.
+Use Clockwise Notation to give the element with the `green-box` class a `margin` of `40px` on its top and left side, but only `20px` on its bottom and right side.
 
-- [x] Your green-box class should give the top of elements 40px of margin.
-- [x] Your green-box class should give the right of elements 20px of margin.
-- [x] Your green-box class should give the bottom of elements 20px of margin.
-- [x] Your green-box class should give the left of elements 40px of margin.
+- [x] Your `green-box` class should give the top of elements `40px` of `margin`.
+- [x] Your `green-box` class should give the right of elements `20px` of `margin`.
+- [x] Your `green-box` class should give the bottom of elements `20px` of `margin`.
+- [x] Your `green-box` class should give the left of elements `40px` of `margin`.
 
 ```
 <style>
@@ -2199,43 +2006,39 @@ Use Clockwise Notation to give the element with the green-box class a margin of 
     margin-bottom: -25px;
     text-align: center;
   }
-
   .box {
     border-style: solid;
     border-color: black;
     border-width: 5px;
     text-align: center;
   }
-
   .yellow-box {
     background-color: yellow;
     padding: 20px 40px 20px 40px;
   }
-  
   .red-box {
     background-color: red;
     margin: 20px 40px 20px 40px;
   }
-
   .green-box {
     background-color: green;
     margin: 40px 20px 20px 40px;
   }
 </style>
 <h5 class="injected-text">margin</h5>
-
 <div class="box yellow-box">
   <h5 class="box red-box">padding</h5>
   <h5 class="box green-box">padding</h5>
 </div>
 ```
 
+
 ## Style the HTML Body Element 
 Now let's start fresh and talk about CSS inheritance.
 
 Every HTML page has a body element.
 
-We can prove that the body element exists here by giving it a background-color of black.
+We can prove that the body element exists here by giving it a `background-color` of black.
 
 We can do this by adding the following to our style element:
 ```
@@ -2244,7 +2047,7 @@ body {
 }
 ```
 
-- [x] Give your body element the background-color of black.
+- [x] Give your body element the `background-color` of black.
 - [x] Make sure your CSS rule is properly formatted with both opening and closing curly brackets.
 - [x] Make sure your CSS rule ends with a semi-colon.
 
@@ -2256,6 +2059,7 @@ body {
 </style>
 ```
 
+
 ## Inherit Styles from the Body Element 
 Now we've proven that every HTML page has a body element, and that its body element can also be styled with CSS.
 
@@ -2263,17 +2067,17 @@ Remember, you can style your body element just like any other HTML element, and 
 
 First, create a h1 element with the text Hello World
 
-Then, let's give all elements on your page the color of green by adding color: green; to your body element's style declaration.
+Then, let's give all elements on your page the color of green by adding `color: green;` to your body element's style declaration.
 
-Finally, give your body element the font-family of Monospace by adding font-family: Monospace; to your body element's style declaration.
+Finally, give your body element the `font-family` of `Monospace` by adding `font-family: Monospace;` to your body element's style declaration.
 
 - [x] Create an h1 element.
 - [x] Your h1 element should have the text Hello World.
 - [x] Make sure your h1 element has a closing tag.
-- [x] Give your body element the color property of green.
-- [x] Give your body element the font-family property of Monospace.
-- [x] Your h1 element should inherit the font Monospace from your body element.
-- [x] Your h1 element should inherit the color green from your body element.
+- [x] Give your body element the `color` property of `green`.
+- [x] Give your body element the `font-family` property of `Monospace`.
+- [x] Your h1 element should inherit the font `Monospace` from your body element.
+- [x] Your h1 element should inherit the color `green` from your body element.
 
 ```
 <style>
@@ -2282,10 +2086,10 @@ Finally, give your body element the font-family of Monospace by adding font-fami
     color: green;
     font-family: Monospace;
   }
-
 </style>
 <h1> Hello World</h1>
 ```
+
 
 ## Prioritize One Style Over Another 
 Sometimes your HTML elements will receive multiple styles that conflict with one another.
@@ -2294,12 +2098,12 @@ For example, your h1 element can't be both green and pink at the same time.
 
 Let's see what happens when we create a class that makes text pink, then apply it to an element. Will our class override the body element's `color: green;` CSS property?
 
-Create a CSS class called pink-text that gives an element the color pink.
+Create a CSS class called `pink-text` that gives an element the color pink.
 
-Give your h1 element the class of pink-text.
+Give your h1 element the class of `pink-text`.
 
-- [x] Your h1 element should have the class pink-text.
-- [x] Your `<style>` should have a pink-text CSS class with its color set to pink.
+- [x] Your h1 element should have the `class pink-text`.
+- [x] Your `<style>` should have a `pink-text` CSS class with its `color` set to `pink`.
 - [x] Your h1 element should be pink.
 
 ```
@@ -2316,14 +2120,15 @@ Give your h1 element the class of pink-text.
 <h1 class="pink-text">Hello World!</h1>
 ```
 
+
 ## Override Styles in Subsequent CSS 
-Our "pink-text" class overrode our body element's CSS declaration!
+Our `"pink-text"` class overrode our body element's CSS declaration!
 
-We just proved that our classes will override the body element's CSS. So the next logical question is, what can we do to override our pink-text class?
+We just proved that our classes will override the body element's CSS. So the next logical question is, what can we do to override our `pink-text` class?
 
-Create an additional CSS class called blue-text that gives an element the color blue. Make sure it's below your pink-text class declaration.
+Create an additional CSS class called `blue-text` that gives an element the color blue. Make sure it's below your `pink-text` class declaration.
 
-Apply the blue-text class to your h1 element in addition to your pink-text class, and let's see which one wins.
+Apply the `blue-text` class to your h1 element in addition to your `pink-text` class, and let's see which one wins.
 
 Applying multiple class attributes to a HTML element is done with a space between them like this:
 
@@ -2333,9 +2138,9 @@ Note: It doesn't matter which order the classes are listed in the HTML element.
 
 However, the order of the class declarations in the `<style>` section are what is important. The second declaration will always take precedence over the first. Because `.blue-text` is declared second, it overrides the attributes of `.pink-text`
 
-- [x] Your h1 element should have the class pink-text.
-- [x] Your h1 element should have the class blue-text.
-- [x] Both blue-text and pink-text should belong to the same h1 element.
+- [x] Your h1 element should have the class `pink-text`.
+- [x] Your h1 element should have the class `blue-text`.
+- [x] Both `blue-text` and `pink-text` should belong to the same h1 element.
 - [x] Your h1 element should be blue.
 
 ```
@@ -2355,31 +2160,32 @@ However, the order of the class declarations in the `<style>` section are what i
 <h1 class="pink-text blue-text">Hello World!</h1>
 ```
 
+
 ## Override Class Declarations by Styling ID Attributes 
 We just proved that browsers read CSS from top to bottom. That means that, in the event of a conflict, the browser will use whichever CSS declaration came last.
 
-But we're not done yet. There are other ways that you can override CSS. Do you remember id attributes?
+But we're not done yet. There are other ways that you can override CSS. Do you remember `id` attributes?
 
-Let's override your pink-text and blue-text classes, and make your h1 element orange, by giving the h1 element an id and then styling that id.
+Let's override your `pink-text` and `blue-text` classes, and make your h1 element orange, by giving the h1 element an `id` and then styling that id.
 
-Give your h1 element the id attribute of orange-text. Remember, id styles look like this:
+Give your h1 element the `id` attribute of `orange-text`. Remember, id styles look like this:
 
 `<h1 id="orange-text">`
 
-Leave the blue-text and pink-text classes on your h1 element.
+Leave the `blue-text` and `pink-text` classes on your h1 element.
 
-Create a CSS declaration for your orange-text id in your style element. Here's an example of what this looks like:
+Create a CSS declaration for your `orange-text` id in your style element. Here's an example of what this looks like:
 ```
 #brown-text {
   color: brown;
 }
 ```
-Note: It doesn't matter whether you declare this css above or below pink-text class, since id attribute will always take precedence.
+Note: It doesn't matter whether you declare this css above or below `pink-text` class, since id attribute will always take precedence.
 
-- [x] Your h1 element should have the class pink-text.
-- [x] Your h1 element should have the class blue-text.
-- [x] Give your h1 element the id of orange-text.
-- [x] Create a CSS declaration for your orange-text id
+- [x] Your h1 element should have the class `pink-text`.
+- [x] Your h1 element should have the class `blue-text`.
+- [x] Give your h1 element the id of `orange-text`.
+- [x] Create a CSS declaration for your `orange-text` id
 - [x] Do not give your h1 any style attributes.
 - [x] Your h1 element should be orange.
 
@@ -2403,6 +2209,7 @@ Note: It doesn't matter whether you declare this css above or below pink-text cl
 <h1 class="pink-text blue-text" id="orange-text">Hello World!</h1>
 ```
 
+
 ## Override Class Declarations with Inline Styles 
 So we've proven that id declarations override class declarations, regardless of where they are declared in your style element CSS.
 
@@ -2412,12 +2219,12 @@ Use an in-line style to try to make our h1 element white. Remember, in line styl
 
 `<h1 style="color: green">`
 
-Leave the blue-text and pink-text classes on your h1 element.
+Leave the `blue-text` and `pink-text` classes on your h1 element.
 
-- [x] Your h1 element should have the class pink-text.
-- [x] Your h1 element should have the class blue-text.
-- [x] Your h1 element should have the id of orange-text.
-- [x] Give your h1 element the inline style of color: white.
+- [x] Your h1 element should have the class `pink-text`.
+- [x] Your h1 element should have the class `blue-text`.
+- [x] Your h1 element should have the id of `orange-text`.
+- [x] Give your h1 element the inline style of `color: white`.
 - [x] Your h1 element should be white.
 
 ```
@@ -2440,25 +2247,26 @@ Leave the blue-text and pink-text classes on your h1 element.
 <h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1>
 ```
 
+
 ## Override All Other Styles by using Important 
 Yay! We just proved that in-line styles will override all the CSS declarations in your style element.
 
 But wait. There's one last way to override CSS. This is the most powerful method of all. But before we do it, let's talk about why you would ever want to override CSS.
 
-In many situations, you will use CSS libraries. These may accidentally override your own CSS. So when you absolutely need to be sure that an element has specific CSS, you can use !important
+In many situations, you will use CSS libraries. These may accidentally override your own CSS. So when you absolutely need to be sure that an element has specific CSS, you can use `!important`
 
-Let's go all the way back to our pink-text class declaration. Remember that our pink-text class was overridden by subsequent class declarations, id declarations, and in-line styles.
+Let's go all the way back to our `pink-text` class declaration. Remember that our `pink-text` class was overridden by subsequent class declarations, id declarations, and in-line styles.
 
-Let's add the keyword !important to your pink-text element's color declaration to make 100% sure that your h1 element will be pink.
+Let's add the keyword `!important` to your `pink-text` element's color declaration to make 100% sure that your h1 element will be pink.
 
 An example of how to do this is: `color: red !important;`
 
 
-- [x] Your h1 element should have the class pink-text.
-- [x] Your h1 element should have the class blue-text.
-- [x] Your h1 element should have the id of orange-text.
-- [x] Your h1 element should have the inline style of color: white.
-- [x] Your pink-text class declaration should have the !important keyword to override all other declarations.
+- [x] Your h1 element should have the class `pink-text`.
+- [x] Your h1 element should have the class `blue-text`.
+- [x] Your h1 element should have the id of `orange-text`.
+- [x] Your h1 element should have the inline style of `color: white`.
+- [x] Your pink-text class declaration should have the `!important` keyword to override all other declarations.
 - [x] Your h1 element should be pink.
 
 ```
@@ -2481,16 +2289,17 @@ An example of how to do this is: `color: red !important;`
 <h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1>
 ```
 
+
 ## Use Hex Code for Specific Colors 
 Did you know there are other ways to represent colors in CSS? One of these ways is called hexadecimal code, or hex code for short.
 
 We usually use decimals, or base 10 numbers, which use the symbols 0 to 9 for each digit. Hexadecimals (or hex) are base 16 numbers. This means it uses sixteen distinct symbols. Like decimals, the symbols 0-9 represents values zero to nine. Then A,B,C,D,E,F represent values ten to fifteen. Altogether, 0 to F can represent a digit in hexadecimal, giving us 16 total possible values. You can find more information about hexadecimal numbers here.
 
-In CSS, we can use 6 hexadecimal digits to represent colors, two each for the red (R), green (G), and blue (B) components. For example, #000000 is black and is also the lowest possible value. You can find more information about the RGB color system here.
+In CSS, we can use 6 hexadecimal digits to represent colors, two each for the red (R), green (G), and blue (B) components. For example, `#000000` is black and is also the lowest possible value. You can find more information about the RGB color system here.
 
-Replace the word black in our body element's background-color with its hex code representation, `#000000`.
+Replace the word black in our body element's `background-color` with its hex code representation, `#000000`.
 
-- [x] Give your body element the background-color of black.
+- [x] Give your body element the `background-color` of black.
 - [x] Use the hex code for the color black instead of the word black. For example body `{ color: #000000; }`
 
 ```
@@ -2514,11 +2323,11 @@ The digit F is the highest number in hex code, and represents the maximum possib
 
 Replace the color words in our style element with their correct hex codes.
 ```
-Color	Hex Code
-Dodger Blue	#2998E4
-Green	#00FF00
-Orange	#FFA500
-Red	#FF0000
+Color Hex Code
+Dodger Blue #2998E4
+Green #00FF00
+Orange  #FFA500
+Red #FF0000
 ```
 
 - [x] Give your h1 element with the text I am red! the color red.
@@ -2545,15 +2354,12 @@ Red	#FF0000
     color: #FFA500;
   }
 </style>
-
 <h1 class="red-text">I am red!</h1>
-
 <h1 class="green-text">I am green!</h1>
-
 <h1 class="dodger-blue-text">I am dodger blue!</h1>
-
 <h1 class="orange-text">I am orange!</h1>
 ```
+
 
 ## Use Abbreviated Hex Code 
 Many people feel overwhelmed by the possibilities of more than 16 million colors. And it's difficult to remember hex code. Fortunately, you can shorten it.
@@ -2564,11 +2370,11 @@ This reduces the total number of possible colors to around 4,000. But browsers w
 
 Go ahead, try using the abbreviated hex codes to color the correct elements.
 ```
-Color	Short Hex Code
-Cyan	#0FF
-Green	#0F0
-Red	#F00
-Fuchsia	#F0F
+Color Short Hex Code
+Cyan  #0FF
+Green #0F0
+Red #F00
+Fuchsia #F0F
 ```
 
 - [x] Give your h1 element with the text I am red! the color red.
@@ -2595,15 +2401,12 @@ Fuchsia	#F0F
     color: #0F0;
   }
 </style>
-
 <h1 class="red-text">I am red!</h1>
-
 <h1 class="fuchsia-text">I am fuchsia!</h1>
-
 <h1 class="cyan-text">I am cyan!</h1>
-
 <h1 class="green-text">I am green!</h1>
 ```
+
 
 ## Use RGB values to Color Elements 
 Another way you can represent colors in CSS is by using RGB values.
@@ -2629,16 +2432,17 @@ Let's replace the hex code in our body element's background color with the RGB v
 </style>
 ```
 
+
 ## Use RGB to Mix Colors 
 Just like with hex code, you can mix colors in RGB by using combinations of different values.
 
 Replace the color words in our style element with their correct RGB values.
 ```
-Color	RGB
-Blue	rgb(0, 0, 255)
-Red	rgb(255, 0, 0)
-Orchid	rgb(218, 112, 214)
-Sienna	rgb(160, 82, 45)
+Color RGB
+Blue  rgb(0, 0, 255)
+Red rgb(255, 0, 0)
+Orchid  rgb(218, 112, 214)
+Sienna  rgb(160, 82, 45)
 ```
 
 - [x] Give your h1 element with the text I am red! the color red.
@@ -2665,12 +2469,8 @@ Sienna	rgb(160, 82, 45)
     color: rgb(0,0,255);
   }
 </style>
-
 <h1 class="red-text">I am red!</h1>
-
 <h1 class="orchid-text">I am orchid!</h1>
-
 <h1 class="sienna-text">I am sienna!</h1>
-
 <h1 class="blue-text">I am blue!</h1>
 ```
