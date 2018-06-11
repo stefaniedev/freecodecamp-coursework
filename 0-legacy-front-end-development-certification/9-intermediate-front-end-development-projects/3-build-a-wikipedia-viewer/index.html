@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- bootstap 4.0.0 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- custom css -->
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+
+    <!-- bootstrap font library open iconic -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.css">
+
+    <!-- mini jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <!-- custom js -->
+    <script src="scripts/script.js"></script>
+
+</head>
+<body>
+    <div id="outer" class="container-fluid">
+        <div id="load"></div>
+        <div id="inner" class="container-fluid">
+            <div id="main" class="container-fluid">
+                <div id="wiki" class="container-fluid">
+                    <img id="wikipedia" src="https://farm1.staticflickr.com/813/26625352657_8d088fecb0_o.png">
+                </div>
+                    <div id="search" class="input-group input-group-lg mx-auto front">
+                        <input id="searchBox" type="search" class="form-control text-right px-1" placeholder="" aria-label="search" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button id="searchBtn" class="btn px-1" data-when="first" type="button" role="button" tabindex="1"><span class="oi oi-magnifying-glass"></span></button>
+                                    <button id="randomBtn" class="btn px-1" type="button" role="button" tabindex="1"><span class="oi oi-random"></span></button>
+                            </div>
+                    </div>
+                <div id="predictions"></div>
+            </div>
+            <div id="etc">
+                <div id="bugs"></div>
+                <div id="more"></div>
+            </div>
+        </div>
+        <div id="footer">
+            <footer class="container-fluid">
+                    <p class="made">made with <span class="oi oi-heart btn-sm" aria-hidden="true"></span> by Stefanie Feltman</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
