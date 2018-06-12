@@ -176,7 +176,6 @@ So far in the grids you have created, the columns have all been tight up against
 `grid-column-gap: 10px;`
 This creates `10px` of empty space between all of our columns.
 
-
 Give the columns in the grid a `20px` gap.
 
 - [x] `container` class should have a `grid-column-gap` property that has the value of `20px`.
@@ -344,7 +343,7 @@ Of course, you can make items consume multiple rows just like you can with colum
 
 Make the element with the `item5` class consume the last two rows.
 
-`item5` class should have a `grid-row` property that has the value of `2 / 4`.
+- [x] `item5` class should have a `grid-row` property that has the value of `2 / 4`.
 
 ```
 <style>
@@ -392,7 +391,7 @@ In CSS Grid, the content of each item is located in a box which is referred to a
 
 Use the `justify-self` property to center the item with the class `item2`.
 
-`item2` class should have a `justify-self` property that has the value of `center`.
+- [x] `item2` class should have a `justify-self` property that has the value of `center`.
 
 ```
 <style>
@@ -1043,4 +1042,3 @@ Turn the element with the `item3` class into a grid with two columns with a widt
   <div class="item4">footer</div>
 </div>
 ```
-
