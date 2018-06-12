@@ -333,7 +333,7 @@ The tweet embed `header` and `footer` used the `flex-direction` property earlier
 
 Add the CSS property `flex-direction` to the header's `.profile-name` element and set the value to `column`.
 
-The `.profile-name` element should have a `flex-direction` property set to `column`.
+- [x] The `.profile-name` element should have a `flex-direction` property set to `column`.
 
 ```
 <style>
@@ -1017,4 +1017,3 @@ Add the CSS property `align-self` to both `#box-1` and `#box-2`. Give `#box-1` a
   <div id="box-2"></div>
 </div>
 ```
-
