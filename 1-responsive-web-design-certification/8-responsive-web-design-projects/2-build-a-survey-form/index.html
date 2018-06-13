@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- bootstap 4.0.0 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- custom css -->
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+    <div class="jumbotron bg-light">
+        <div class="container rounded p-5" id="main">
+            <div class="container text-center">
+                <h1 id="title">Root & Fruit Food Survey</h1>
+                <p id="description">Take a survey about the types of foods you eat on a daily basis.</p>
+            </div>
+            <div class="container px-5">
+                <form id="survey-form" class="p-5">
+                    <div class="form-group row px-5">
+                        <label for="name" class="questions col-sm-5 col-form-label" id="name-label">Name</label>
+                        <input type="name" class="form-control col-sm-6" id="name" placeholder="Full name" required>
+                    </div>
+                    <div class="form-group row px-5">
+                        <label for="email" class="questions col-sm-5 col-form-label" id="email-label">Email</label>
+                        <input type="email" class="form-control col-sm-6" id="email" placeholder="email@domain.com" required>
+                    </div>
+                    <div class="form-group row px-5">
+                        <label for="number" class="questions col-sm-5 col-form-label" id="number-label">Age</label>
+                        <input type="number" min="18" max="123" class="form-control col-sm-6" id="number" placeholder="age" required>
+                    </div>
+                    <div class="form-group row px-5">
+                        <label for="occupation" class="questions col-sm-5 col-form-label">Occupation</label>
+                        <select class="form-control col-sm-6" id="dropdown" required>
+                            <option selected disabled>Please select an option.</option>
+                            <option>Full-time worker</option>
+                            <option>Part-time worker</option>
+                            <option>Student</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="form-row px-5">
+                        <div class="row col-sm-5 py-3">
+                            <label for="radioGroup" class="qCheckRadio col col-form-label">Do you eat healthy?</label>
+                        </div>
+                        <div class="row col-sm-6 py-3">
+                            <ul>
+                                <li class="form-check">
+                                    <input class="form-check-input" type="radio" name="radioHealthy" id="yesHealthy" value="option1">
+                                    <label class="form-check-label" for="yesHealthy">
+                                        Yes
+                                    </label>
+                                </li>
+                                <li class="form-check">
+                                    <input class="form-check-input" type="radio" name="radioHealthy" id="noHealthy" value="option2">
+                                    <label class="form-check-label" for="noHealthy">
+                                        No
+                                    </label>
+                                </li>
+                                <li class="form-check">
+                                    <input class="form-check-input" type="radio" name="radioHealthy" id="someHealthy" value="option3">
+                                    <label class="form-check-label" for="someHealthy">
+                                        Sometimes
+                                    </label>
+                                </li>
+                                <li class="form-check">
+                                    <input class="form-check-input" type="radio" name="radioHealthy" id="tryHealthy" value="option4">
+                                    <label class="form-check-label" for="tryHealthy">
+                                        I try but I fail
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="form-row px-5">
+                        <div class="row col-sm-5">
+                            <label for="radioGroup" class="qCheckRadio col col-form-label">Which of these root vegetables, if any, do you eat on a regular basis?</label>
+                        </div>
+                        <div class="row col-sm-6">
+                            <ul>
+                                <li class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="checkFood" id="carrots" value="carrots">
+                                    <label class="form-check-label" for="carrots">
+                                        Carrots
+                                    </label>
+                                </li>
+                                <li class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="checkFood" id="beets" value="beets">
+                                    <label class="form-check-label" for="beets">
+                                        Beets
+                                    </label>
+                                </li>
+                                <li class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="checkFood" id="parsnips" value="parsnips">
+                                    <label class="form-check-label" for="parsnips">
+                                        Parsnips
+                                    </label>
+                                </li>
+                                <li class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="checkFood" id="sweetpotatoes" value="sweetpotatoes">
+                                    <label class="form-check-label" for="sweetpotatoes">
+                                        Sweet Potatoes
+                                    </label>
+                                </li>
+                                <li class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="checkFood" id="turnips" value="turnips">
+                                    <label class="form-check-label" for="turnips">
+                                        Turnips
+                                    </label>
+                                </li>
+                                <li class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="checkFood" id="ginger" value="ginger">
+                                    <label class="form-check-label" for="ginger">
+                                        Ginger
+                                    </label>
+                                </li>
+                                <li class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="checkFood" id="onions" value="onions">
+                                    <label class="form-check-label" for="onions">
+                                        Onions
+                                    </label>
+                                </li>
+                                <li class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="checkFood" id="garlic" value="garlic">
+                                    <label class="form-check-label" for="garlic">
+                                        Garlic
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="form-row px-5">
+                        <div class="row col-sm-5">
+                            <label for="radioGroup" class="qCheckRadio col col-form-label">Which of these fruits, if any, do you eat on a regular basis?</label>
+                        </div>
+                        <div class="row col-sm-6">
+                            <ul>
+                                <li class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="checkFood" id="blueberries" value="blueberries">
+                                    <label class="form-check-label" for="blueberries">
+                                        Blueberries
+                                    </label>
+                                </li>
+                                <li class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="checkFood" id="kiwis" value="kiwis">
+                                    <label class="form-check-label" for="kiwis">
+                                        Kiwis
+                                    </label>
+                                </li>
+                                <li class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="checkFood" id="raspberries" value="raspberries">
+                                    <label class="form-check-label" for="raspberries">
+                                        Raspberries
+                                    </label>
+                                </li>
+                                <li class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="checkFood" id="oranges" value="oranges">
+                                    <label class="form-check-label" for="oranges">
+                                        Oranges
+                                    </label>
+                                </li>
+                                <li class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="checkFood" id="lemons" value="lemons">
+                                    <label class="form-check-label" for="lemons">
+                                        Lemons
+                                    </label>
+                                </li>
+                                <li class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="checkFood" id="blackberries" value="blackberries">
+                                    <label class="form-check-label" for="blackberries">
+                                        Blackberries
+                                    </label>
+                                </li>
+                                <li class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="checkFood" id="strawberries" value="strawberries">
+                                    <label class="form-check-label" for="strawberries">
+                                        Strawberries
+                                    </label>
+                                </li>
+                                <li class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="checkFood" id="grapefruit" value="grapefruit">
+                                    <label class="form-check-label" for="grapefruit">
+                                        Grapefruit
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="form-group row px-5">
+                        <label for="textArea" class="questions col-sm-5">What other foods are a staple in your diet?</label>
+                        <textarea class="form-control col-sm-6" id="textArea" rows="3" placeholder="Type any other foods which you eat regularly here."></textarea>
+                    </div>
+                    <div class="text-center">
+                      <button type="submit" class="btn text-light" id="submit">Submit Survey</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+  <footer class="footer text-center text-light">
+    <h5 class="font-weight-light">Written and coded by <a href="https://www.freecodecamp.org/portfolio/stefaniedev" target="_blank" id="made">Stefanie Feltman</a>.</h5>
+  </footer>
+</body>
+</html>
