@@ -27,3 +27,14 @@ body {
 #made {
 	color: #eae8ff;
 }
+
+/*// Smaller Devices*/
+@media screen and (max-width: 768px) and (max-height: 768px){
+	.px-5 {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	.questions, .qCheckRadio {
+		text-align: left;
+	}
+}
