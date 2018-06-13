@@ -11,3 +11,7 @@ I started FreeCodeCamp in 2017, before the most recent beta release (June 2018).
 [LinkedIn](https://www.linkedin.com/in/stefaniefeltman/) |
 [Twitter](https://twitter.com/stefaniedev) |
 [CodePen](https://codepen.io/stefaniedev/)
+
+## Wiki
+I have made a [FreeCodeCamp coursework wiki](https://github.com/stefaniedev/freecodecamp-coursework/wiki) where you can find all of the challenges and my solutions laid out in an organized fashion.
+Feel free to browse and make a pull request if you see something that doesn't look quite right. Thanks for visiting!
