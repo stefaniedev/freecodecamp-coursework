@@ -1,0 +1,203 @@
+/*// Laptop & Desktop (1920 x 1080, 2560 x 1600) */
+
+/* html {
+	font-size: 20px;
+} */
+body {
+	background-color: #232323;
+}
+#main {
+	display: grid;
+	grid-template-rows: 1fr 10fr;
+	grid-template-areas: 
+	"header"
+	"content"
+	"text"
+	"video"
+	"pictures"
+	"email";
+	background-color: #fcfbf9; 
+}
+#home, #about, #start, #recipe, #more {
+	background-color: #fcfbf9;
+	display: grid;
+/* FIX MIN-HEIGHT IT HIDES THE FOOTER	 */
+/* 	min-height: 50vh; */
+	max-width: 100%;
+}
+#nav-bar {
+	grid-area: header;
+	background-color: #fcfbf9;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 0;
+	padding-left: 0; 
+	width: 100%;
+}
+#logo {
+	background-color: transparent;
+}
+.nav-link, .nav-click {
+	background-color: transparent;
+	color: black;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.7vh;
+}
+.nav-link:hover {
+	color: red;
+}
+.navbar-collapse {
+	flex-basis: 1%;
+}
+.navbar-nav {
+	flex-direction: row;
+}
+.nav-item {
+	padding-right: 2vw !important;
+}
+.icon {
+	max-width: 7vw;
+	height: auto;
+	color: black;
+}
+.icon:hover {
+	color: red !important;
+}
+.active, .nav-click:hover {
+	background-color: transparent !important;
+	color: red !important;
+	opacity: 0.5;
+}
+#header-img {
+	max-width: 10vw;
+	height: auto;
+}
+.btn:hover {
+	cursor: pointer;
+}
+.display-1, .display-4 {
+	font-family: 'Oswald', sans-serif;
+}
+#home {
+	grid-area: content;
+}
+#fatty {
+	font-size: 20vw;
+}
+#cole {
+	background-color: #FFFFFF;
+	padding-bottom: 0;
+}
+.card-img-bottom {
+	padding-top: 0;
+}
+.iconLg {
+	max-width: 9vw;
+	height: auto;
+}
+.iconHide {
+	position: absolute;
+/* 	HIDE ICON UNTIL SCREEN IS LARGE ENOUGH */
+}
+.youText {
+	font-size: 4.5vw;
+}
+.snakeText {
+	font-family: 'Oswald', sans-serif;
+	display: inline;
+}
+.sectionTitle {
+	font-size: 8vw;
+}
+#about {
+	grid-area: text;
+}
+#start {
+	grid-area: video;
+}
+#video {
+	width: 900px;
+	height: 506px;
+/* 	NEED TO MAKE SURE THE VIDEO IS SCALEABLE */
+	margin-left: auto;
+	margin-right: auto;
+}
+#recipe {
+	grid-area: pictures;
+}
+.card {
+	border: none;
+	border-radius: 0;
+	background-color: transparent;
+}
+.thumb {
+	min-height: 350px;
+}
+.cardImg {
+	display: block;
+	color: black;
+	opacity: 0.6;
+	border: none;
+}
+.imgCard {
+	width: 100%;
+	border-radius: 0;
+}
+.titleRec {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Oswald', sans-serif;
+	font-size: 4rem;
+}
+.cardImg:hover, .titleRec:hover {
+	opacity: 0.9;
+	color: white;
+}
+.cardBen {
+	background-color: transparent;
+	display: inline;
+	color: transparent;
+}
+.cardBen:hover {
+	opacity: 0.5;
+	color: red;
+}
+.titleBen {
+	width: 100%;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Oswald', sans-serif;
+	font-size: 2rem;
+}
+.iconCardMore {
+	max-width: 200px;
+}
+.cTitle {
+	font-family: 'Oswald', sans-serif;
+}
+#more {
+	grid-area: email;
+}
+#submit {
+	background-color: red;
+	font-family: 'Oswald', sans-serif;
+}
+.snakeDiet {
+	max-width: 300px;
+	height: auto;
+}
+.made {
+	color: white;
+	font-family: 'Oswald', sans-serif;
+}
+footer a:hover {
+	color: white;
+	text-decoration: none;
+}
+

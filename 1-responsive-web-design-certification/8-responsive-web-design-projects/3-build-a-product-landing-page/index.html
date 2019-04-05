@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     
     <!-- bootstap 4.0.0 -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -10,20 +10,190 @@
     <!-- custom css -->
     <link rel="stylesheet" type="text/css" href="styles/style.css">
 
-    <!-- bootstrap font library open iconic -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.css">
-
-    <!-- mini jQuery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-
-    <!-- custom js -->
-    <script src="scripts/script.js"></script>
-
     <!-- bootstrap javascript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- google font library -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="text-center" id="main">
+        <header id="header">
+            <nav class="navbar navbar-expand-lg fixed-top py-1" id="nav-bar">
+                <a class="navbar-brand py-0">
+                    <button type="button" class="btn" id="logo">
+                        <img id="header-img" src="https://farm2.staticflickr.com/1724/42783930141_7b124a9675_o.png">
+                    </button>
+                </a>
+                <ul class="nav navbar-nav collapse navbar-collapse">
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#main">Home</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#start">Start</a>
+                    </li>                    
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#recipe">Recipes</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#more">Subscribe</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div id="home">
+            <div class="card">
+				<div class="card-body pt-5" id="cole">
+                    <h1 class="card-title display-1 text-center" id="fatty">HEY FATTY!</h1>
+				</div>
+                <img class="card-img-bottom" src="https://farm1.staticflickr.com/884/42785127721_5984ae1ef8_o.png" alt="Snake Diet founder Cole Robinson">
+			</div>
+			<div class="text-center">
+				<a href="#about"><img class="iconLg d-none d-lg-block d-xl-none" src="https://farm2.staticflickr.com/1738/40970025350_ec918b3c90_o.png"></a>
+			</div>
+		</div>
+        <div class="text-left" id="about">
+            <div class="container col-sm-8 pt-5" id="description">
+                <h1 class="display-1 my-5">YEAH, YOU!</h1>
+                <h2 class="youText">Tried everything and still fat? Don't give up before you try Cole Robinson's <span class="snakeText">Snake Diet</span>. It has already changed so many lives, why not yours?</h2>
+                <div class="text-center pt-5" id="aboutArrow">
+                    <a href="#start"><img src="https://farm2.staticflickr.com/1738/40970025350_ec918b3c90_o.png" class="iconLg my-4"></a>
+                </div>
+            </div>
+        </div>
+        <div id="start">
+			<div class="pt-5">
+				<h3 class="sectionTitle display-4 font-weight-light mt-4 pt-5">WHAT IS THE SNAKE DIET?</h3>
+			</div>
+			<iframe id="video" class="mx-auto" src="https://www.youtube.com/embed/t8794X4I8nk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<div class="text-center">
+				<a href="#recipe"><img class="iconLg d-none d-lg-block d-xl-none" src="https://farm2.staticflickr.com/1738/40970025350_ec918b3c90_o.png"></a>
+			</div>
+        </div>
+        <div class="container-fluid" id="recipe">
+			<div class="container pt-5">
+				<h3 class="sectionTitle display-4 mt-4">RECIPES</h3>
+			</div>
+			<div class="card-group row">
+				<div class="card col-sm px-0">
+					<a href="https://www.youtube.com/watch?v=1onQ0nxgWFM">
+						<div class="card cardImg">
+							<img class="card-img-top imgCard" src="https://farm1.staticflickr.com/880/42219879994_1eb2b46ec2_o.jpg" alt="Card image">
+							<div class="card-img-overlay">
+								<h5 class="card-title titleRec">BASIC</h5>
+							</div>
+						</div>
+					</a>
+                    <div class="card-body mb-0 pb-1 text-muted">
+                        <h5 class="card-title cTitle">SNAKE JUICE FOR WEIGHT LOSS</h5>
+                        <p class="card-text font-weight-light my-1">Overcome addictions</p>
+                        <p class="card-text font-weight-light">Burn body fat</p>
+                        <h6 class="card-text cTitle font-weight-bold">ESSENTIAL ELECTROLYTES</h6>
+                        <p class="card-text font-weight-light"> This recipe contains essential salts that ensure you can continue with your day-to-day routine, feeling great even while working out.</p>
+                    </div>
+				</div>
+				<div class="card col-sm px-0">
+					<a href="https://www.youtube.com/watch?v=AgTGAPz-1M0">
+						<div class="card cardImg">
+							<img class="card-img-top imgCard" src="https://farm1.staticflickr.com/895/42077446254_be10850e95_o.jpg" alt="Card image">
+							<div class="card-img-overlay">
+								<h5 class="card-title titleRec">ADVANCED</h5>
+							</div>
+						</div>
+					</a>
+                    <div class="card-body mb-0 pb-1 text-muted">
+                        <h5 class="card-title cTitle">HEALING KIDNEY DRINK</h5>
+                        <p class="card-text font-weight-light my-1">Alkalize your body</p>
+                        <p class="card-text font-weight-light">Eliminate toxins</p>
+                        <h6 class="card-text cTitle font-weight-bold">LOWER INSULIN</h6>
+                        <p class="card-text font-weight-light">The ingredients in this detox drink provide a multitude of benefits, and act as a powerful kidney cleanser.</p>
+                    </div>
+                </div>
+				<div class="card col-sm px-0">
+					<a href="https://www.youtube.com/watch?v=HTitvqRRzr8">
+						<div class="card cardImg">
+							<img class="card-img-top imgCard" src="https://farm2.staticflickr.com/1785/42219879694_bb2cde770e_o.jpg" alt="Card image">
+							<div class="card-img-overlay">
+								<h5 class="card-title titleRec">DRY</h5>
+							</div>
+						</div>
+					</a>
+                    <div class="card-body mb-0 pb-1 text-muted">
+                        <h5 class="card-title cTitle">BREAKING THE DRY FAST</h5>
+                        <p class="card-text font-weight-light my-1">Replenish  electrolytes & minerals</p>
+                        <p class="card-text font-weight-light">Prepare the body for food</p>
+                        <h6 class="card-text cTitle font-weight-bold">SLOWLY READAPT</h6>
+                        <p class="card-text font-weight-light">Safely break a dry fast by slowly reintroducing a small electrolyte drink, and then whole foods, into your diet.</p>
+                    </div>
+				</div>
+            </div>
+
+            
+            <div class="text-center my-0 py-0">
+                <a href="#more"><img src="https://farm2.staticflickr.com/1738/40970025350_ec918b3c90_o.png" class="iconLg"></a>
+            </div>
+        </div>
+        <div class="mt-5 py-4" id="more">
+			<div class="container">
+            	<h3 class="sectionTitle display-4 mt-3 pt-5">NEWS & UPDATES</h3>
+			</div>
+			<div class="container">
+			<a class="nav-click" href="https://www.youtube.com/channel/UC_yUeH8TsG5pxqvkOxBtsFA" target="_blank"><img class="icon" src="https://farm2.staticflickr.com/1724/40970890380_03497116f5_o.png"></a>
+			<a class="nav-click" href="https://www.instagram.com/snake_diet_wizard/" target="_blank"><img class="icon" src="https://farm2.staticflickr.com/1739/27913406547_5e5ed9a376_o.png"></a>
+			<a class="nav-click" href="https://www.facebook.com/freestylefasting/" target="_blank"><img class="icon" src="https://farm1.staticflickr.com/879/42064814964_52f9efd8a2_o.png"></a>
+			<a class="nav-click" href="https://twitter.com/SnakeDiet" target="_blank"><img class="icon" src="https://farm2.staticflickr.com/1735/27913406467_3cfdd144eb_o.png"></a>
+				<div class="px-5 pt-5 containPY5 text-center">
+				<form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+					<div class="container form-group text-center px-5">
+						<label for="email" class="col-sm-12 col-form-label" id="email-label">Subscribe to our mailing list for Snake Diet News & Updates!</label>
+						<input type="email" class="form-control col-sm-6 mx-auto my-3" id="email" name="email" placeholder="email@domain.com" required>
+						<input type="submit" class="btn-lg text-light" id="submit" value="SUBSCRIBE">
+					</div>
+				</form>
+			<div>
+			<div class="container py-5 containPY5">	
+				<h3 class="cTitle font-weight-bold">CLICK BELOW TO LEARN MORE</h3>
+			</div>
+				<a href="https://www.youtube.com/watch?v=whzbormp93s">
+					<div class="card border-0 cardBen col-sm-3">
+						<img class="card-img iconCardMore" src="https://farm2.staticflickr.com/1751/27923731137_41407ceb6e_o.png" alt="Card image">
+						<div class="card-img-overlay">
+							<h5 class="card-title titleBen">BURN FAT</h5>
+						</div>
+					</div>
+				</a>
+				<a href="https://www.youtube.com/watch?v=81a10sZ4duU">
+					<div class="card border-0 cardBen col-sm-3">
+						<img class="card-img iconCardMore" src="https://farm2.staticflickr.com/1753/42743031562_3278314b65_o.png" alt="Card image">
+						<div class="card-img-overlay">
+							<h5 class="card-title titleBen">HEAL</h5>
+						</div>
+					</div>
+				</a>
+				<a href="https://www.youtube.com/watch?v=jgr3L8nW4dQ">
+					<div class="card border-0 cardBen col-sm-3">
+						<img class="card-img iconCardMore" src="https://farm1.staticflickr.com/891/40982327880_522f31e3ef_o.png" alt="Card image">
+						<div class="card-img-overlay">
+							<h5 class="card-title titleBen">REBUILD</h5>
+						</div>
+					</div>
+				</a>
+			</div>
+    </div>
+    <footer class="footer row text-light font-weight-light align-items-end mx-auto">
+        <div class="col-sm-3 text-left">
+			<p>Inspired by Cole Robinson's <a class="made" href="https://www.snakediet.com/" target="_blank">Snake Diet</a></p>
+        </div>
+        <div class="col text-center">
+            <img class="snakeDiet py-3" src="https://farm2.staticflickr.com/1798/42943147941_bf7175d71a_o.png" alt="snake-diet-logo-text-white">
+        </div>
+        <div class="col-sm-3 text-right">
+			<p>Written and coded by <a class="made" href="https://www.freecodecamp.org/portfolio/stefaniedev" target="_blank"">Stefanie Feltman</a></p>
+        </div>
+    </footer>
 </body>
 </html>

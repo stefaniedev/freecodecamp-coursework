@@ -1,0 +1,483 @@
+/*// Laptop & Desktop (1920 x 1080, 2560 x 1600) */
+html {
+	font-size: 20px;
+}
+body {
+	background-color: #232323;
+}
+#main {
+	display: grid;
+	grid-template-rows: 1fr 10fr;
+	grid-template-areas: 
+	"header"
+	"content"
+	"text"
+	"video"
+	"pictures"
+	"email";
+	background-color: #fcfbf9; 
+}
+#fatty {
+	color: red;
+}
+#home, #about, #start, #recipe {
+	background-color: #fcfbf9;
+	display: grid;
+	height: 100vh;
+	max-width: 100%;
+}
+#more {
+	min-height: 85vh;
+	max-width: 100%;
+}
+#nav-bar {
+	grid-area: header;
+	background-color: #fcfbf9;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+#logo {
+	background-color: transparent;
+}
+.nav-link, .nav-click {
+	background-color: transparent;
+	color: black;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.3rem;
+}
+.nav-link:hover {
+	color: red;
+}
+.icon {
+	max-width: 40px;
+	height: auto;
+}
+.icon:hover {
+	color: red !important;
+}
+.active, .nav-click:hover {
+	background-color: transparent !important;
+	color: red !important;
+	opacity: 0.5;
+}
+#header-img {
+	max-width: 80px;
+	height: auto;
+}
+.btn:hover {
+	cursor: pointer;
+}
+.display-1, .display-4 {
+	font-family: 'Oswald', sans-serif;
+}
+#home {
+	grid-area: content;
+}
+#fatty {
+	position: absolute;
+	top: 1rem;
+	left: 9rem;
+}
+.iconLg {
+	max-width: 75px;
+	height: auto;
+}
+.iconFatty {
+	position: absolute;
+	bottom: 9rem;
+	left: 14rem;
+}
+.snake {
+	display: inline;
+}
+.snakeText {
+	font-family: 'Oswald', sans-serif;
+	display: inline;
+}
+#about {
+	grid-area: text;
+}
+#start {
+	grid-area: video;
+}
+#video {
+	width: 900px;
+	height: 506px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#recipe {
+	grid-area: pictures;
+}
+.card {
+	border: none;
+	border-radius: 0;
+	background-color: transparent;
+}
+.cardImg {
+	display: inline;
+	color: black;
+	opacity: 0.6;
+	border: none;
+}
+.imgCard {
+	max-width: 350px;
+	border-radius: 0;
+}
+.titleRec {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Oswald', sans-serif;
+	font-size: 4rem;
+}
+.cardImg:hover, .titleRec:hover {
+	opacity: 0.9;
+	color: white;
+}
+.cardBen {
+	background-color: transparent;
+	display: inline;
+	color: transparent;
+}
+.cardBen:hover {
+	opacity: 0.5;
+	color: red;
+}
+.titleBen {
+	width: 100%;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Oswald', sans-serif;
+	font-size: 2rem;
+}
+.iconCardMore {
+	max-width: 200px;
+}
+.cTitle {
+	font-family: 'Oswald', sans-serif;
+}
+#more {
+	grid-area: email;
+}
+#submit {
+	background-color: red;
+	font-family: 'Oswald', sans-serif;
+}
+.snakeDiet {
+	max-width: 300px;
+	height: auto;
+}
+.made {
+	color: white;
+	font-family: 'Oswald', sans-serif;
+}
+footer a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+/*// Laptop & Desktop (1024 x 720) */
+@media screen and (min-width: 695px) and (max-width: 1024px) and (min-height: 695px) and (max-height: 767px) {
+	.navbar-collapse {
+		flex-basis: 0%;
+	}
+	.navbar-nav {
+		flex-direction: row;
+	}
+	.nav-link {
+		padding: .3rem !important;
+	}
+	#fatty {
+		font-size: 4rem;
+		top: 2rem;
+		left: 7rem;
+	}
+	.iconLg {
+		max-width: 50px;
+	}
+	.iconFatty {
+		bottom: 12rem;
+		left: 10rem;
+	}
+	.sectionTitle {
+		font-size: 3.5rem;
+	}
+	#youText {
+		font-size: 1.3rem;
+	}
+	#description p {
+		font-size: 0.85rem;
+	}
+	#descVideo {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#video {
+		width: 750px;
+		height: 421px;
+	}
+	.titleRec {
+		font-size: 2rem;
+	}
+	.imgCard {
+		max-width: 250px;
+	}
+	.cTitle {
+		font-size: 1rem;
+	}
+	#recipe .card-text {
+		font-size: .7rem;
+	}
+	.iconCardMore {
+		max-width: 125px;
+	}
+	.snakeDiet {
+		max-width: 200px;
+	}
+	footer p {
+		font-size: 0.8rem;
+	}
+}
+
+/*// Laptop & Desktop -- height restrict (height 678px & below) */
+@media screen and (min-width: 834px) and (max-height: 678px) {
+
+}
+
+/*// iPad Pro -- Landscape (1112 x 834, 1366 x 1024) */
+@media screen and (min-width: 1111.98px) and (max-width: 1366px) and (min-height: 833.98px) and (max-height: 1024px) {
+	.navbar-brand, #logo {
+		margin: 0;
+		padding: .5rem 0 0 0;
+	}
+	.navbar-collapse {
+		flex-basis: 0%;
+	}
+	.navbar-nav {
+		flex-direction: row;
+	}
+	.nav-link, .nav-click {
+		padding: 0rem !important;
+	}
+	.nav-item {
+		padding-right: .4rem !important;
+	}
+	#home .card {
+		margin-top: 250px;
+	}
+	#fatty {
+		font-size: 6rem;
+		top: -9rem;
+		left: -15rem;
+		text-align: center;
+		width: 100%
+	}
+	.cole {
+		margin-top: -240px;
+	}
+	.iconLg {
+		max-width: 70px;
+		height: auto;
+	}
+	.iconFatty {
+		position: absolute;
+		top: 78%;
+		left: 50%;
+		width: 70px;
+		margin-top: -35px;
+		margin-left: -35px;
+	}
+	#about .sectionTitle {
+		font-size: 4rem;
+	}
+	#video {
+		width: 750px;
+		height: 421px;
+	}
+	.titleRec {
+		font-size: 2.5rem;
+	}
+	.imgCard {
+		max-width: 200px;
+	}
+	.containPY5 {
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+	}
+}
+
+/*// iPad mini, iPad, iPad Pro -- Portrait (768 x 1024, 834 x 1112, 1024 x 1366) */
+@media screen and (min-width: 833.98px) and (max-width: 1024px) and (min-height: 1111.98px) and (max-height: 1366px) {
+	.navbar-brand, #logo {
+		margin: 0;
+		padding: .5rem 0 0 0;
+	}
+	.navbar-collapse {
+		flex-basis: 0%;
+	}
+	.navbar-nav {
+		flex-direction: row;
+	}
+	.nav-item {
+		padding-right: .4rem !important;
+	}
+	#home {
+		max-height: 90vh;
+	}
+	#home .card {
+		margin-top: 500px;
+	}
+	#fatty {
+		font-size: 6rem;
+		top: -20rem;
+		left: 0rem;
+		text-align: center;
+		width: 100%
+	}
+	.cole {
+		margin-top: -240px;
+	}
+	.iconLg {
+		max-width: 70px;
+		height: auto;
+	}
+	.iconFatty {
+		position: absolute;
+		top: 75%;
+		left: 50%;
+		width: 70px;
+		margin-top: -35px;
+		margin-left: -35px;
+	}
+	#aboutArrow {
+		padding-top: 5rem !important;
+	}
+	#about, #start {
+		padding-top: 50px;
+	}
+	#recipe {
+		padding-top: 100px;
+	}
+	.titleRec {
+		font-size: 2.5rem;
+	}
+}
+/*// iPad mini, iPad -- Landscape (1024 x 768), */
+@media screen and (min-width: 1023px) and (max-width: 1024px) and (min-height: 767px) and (max-height: 768px) {
+	#about .iconLg {
+		padding-top: 1rem;
+	}
+	.iconFatty {
+		position: absolute;
+		top: 84%;
+		left: 50%;
+		width: 70px;
+		margin-top: -35px;
+		margin-left: -35px;
+	}
+	#youText {
+		font-size: 1.3rem;
+	}
+	#start {
+		padding-top: 0rem;
+	}
+	.sectionTitle {
+		padding-top: .5rem !important;
+	}
+	#video {
+		width: 750px;
+		height: 421px;
+	}
+	#more {
+		padding-top: 5rem !important;
+	}
+	.containPY5 {
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+	}
+}
+
+/*// Split Screen in iPad -- Landscape (694 x 768, 782 x 834, 981 x 1024, --678 x 1024--) */
+@media screen and (min-width: 676px) and (max-width: 981px) and (min-height: 767px) and (max-height: 1025px) {
+/* STOPPED HERE */
+/* CANNOT GET SPLIT SCREEN IPAD PRO 12.9" INCLUDED?? */
+/* 	#fatty {
+		color: pink;
+	} */
+	.navbar-brand, #logo {
+		margin: 0;
+		padding: 0;
+	}
+	.navbar-collapse {
+		flex-basis: 0%;
+	}
+	#nav-bar {
+		padding-right: .3rem;
+		padding-left: 0; 
+	}
+	.navbar-nav {
+		flex-direction: row;
+	}
+	.nav-item {
+		padding-right: .3rem !important;
+	}
+	.sectionTitle {
+		font-size: 3rem;
+	}
+	#about .iconLg {
+		padding-top: 1rem;
+	}
+	.iconFatty {
+		position: absolute;
+		top: 84%;
+		left: 50%;
+		width: 70px;
+		margin-top: -35px;
+		margin-left: -35px;
+	}
+	#youText {
+		font-size: 1.3rem;
+	}
+	#start {
+		padding-top: 0rem;
+	}
+	.sectionTitle {
+		padding-top: .5rem !important;
+	}
+	#video {
+		width: 750px;
+		height: 421px;
+	}
+	#more {
+		padding-top: 5rem !important;
+	}
+	.containPY5 {
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+	}
+}
+
+/*// iPhone SE, iPhone 8, iPhone 8 Plus -- Landscape (568 x 320, 667 x 375, 736 x 414) px */
+/* @media screen and (max-width: 736px) and (max-height: 414px) {
+
+} */
+
+/*// Split Screen in iPad -- Portrait (438 x 1024, 504 x 1112, 639 x 1366, 507 x 768, 551 x 834) */
+/*// iPhone 8 Plus -- Portrait (414 x 736)*/
+/* @media screen and (min-width: 376px) and (max-width: 639.98px) and (min-height: 737px) {
+
+} */
+
+/*// Split Screen in iPad -- Slim Portrait & Landscape (320 x 1024, 320 x 1112, 375 x 1366, 320 x 768, 320 x 834, 375 x 1024)*/
+@media screen and (max-width: 375.98px) and (min-height: 737px) {
+
+}
+
+/*// iPhone SE, iPhone 8 -- Portrait (320 x 568, 375 x 667) px */
+
