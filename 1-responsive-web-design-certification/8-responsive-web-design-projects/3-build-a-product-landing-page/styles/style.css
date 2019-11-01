@@ -93,7 +93,7 @@ body {
 	height: auto;
 }
 #homeArrow {
-	padding-top: 1.5rem;
+	padding-top: 1.25rem;
 }
 .iconLg {
 	max-width: 12vw;
@@ -133,7 +133,7 @@ body {
 	font-size: 5vw;
 }
 #startArrow {
-	padding-top: .25rem;
+	padding-top: .75rem;
 	padding-bottom: 3rem;
 }
 #recipe {} 
@@ -225,7 +225,7 @@ body {
 	padding-bottom: 1rem;
 }
 #subscribe > .col-xl > .container {
-	padding: .25rem;
+	padding: .5rem;
 }
 #subscribe > .col-xl > .container > .icon-click {
 	padding-left: .5rem;
@@ -280,9 +280,5 @@ footer a:hover {
 .iconSocial {
 	max-width: 10vw;
 	height: auto;
-}
-.iconSocial::after {
-	background: white !important; 
-    mix-blend-mode: multiply !important;
 }
 
