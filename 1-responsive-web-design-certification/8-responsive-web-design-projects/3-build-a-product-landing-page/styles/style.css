@@ -10,7 +10,7 @@
 body {
 	background-color: #232323;
 }
-#main {
+#home {
 	background-color: #fcfbf9; 
 }
 #nav-bar {
@@ -21,15 +21,26 @@ body {
 	padding-left: 0; 
 	width: 100%;
 }
+#nav-bar > a {
+	margin-left: 0;
+	margin-right: 0;
+}
 #logo {
+	cursor: default !important;
+	padding-left: 0;
+	padding-right: 0;
 	background-color: transparent;
+}
+.nav-item {
+	padding-left: .25rem;
+	padding-right: .25rem;
 }
 .nav-link, .nav-click {
 	background-color: transparent;
 	color: black;
 	text-transform: uppercase;
 	font-family: 'Oswald', sans-serif;
-	font-size: 2.7vh;
+	font-size: 3.5vh;
 }
 .nav-link:hover {
 	color: red;
@@ -43,8 +54,8 @@ body {
 .nav-item {
 	padding-right: 2vw !important;
 }
-.active, .nav-click:hover {
-	background-color: transparent !important;
+.active, .nav-click:hover, .icon-click:hover {
+/*	background-color: transparent !important;*/
 	color: red !important;
 	opacity: 0.5;
 }
@@ -52,68 +63,90 @@ body {
 	max-width: 10vw;
 	height: auto;
 }
-.btn:hover {
-	cursor: pointer;
-}
-#home, #about, #start, #recipe, #more {
-	background-color: #fcfbf9;
-/* 	min-height: 50vh; */
-	max-width: 100%;
-/*	height: 100%;*/
+#home {}
+#home > .card {
+	padding-top: 2.5rem;
+	padding-bottom: 1rem;
 }
 .display-1, .display-4 {
 	font-family: 'Oswald', sans-serif;
-}
-#home {
-
-}
-#fatty {
-	font-size: 20vw;
 }
 #cole {
 	background-color: #FFFFFF;
 	padding-bottom: 0;
 }
+#fatty {
+	font-size: 20vw;
+}
 .card-img-bottom {
 	padding-top: 0;
+}
+.subTextImg {
+	padding-bottom: 0;
+	padding-top: .25rem;
+	font-family: 'Oswald', sans-serif;
+	font-size: 10vw;
+}
+.subSnakeDiet {
+	margin-bottom: .5rem;
+	max-width: 45vw;
+	height: auto;
+}
+#homeArrow {
+	padding-top: 1.5rem;
 }
 .iconLg {
 	max-width: 12vw;
 	height: auto;
 }
-.iconHide {
-	position: absolute;
-/* 	HIDE ICON UNTIL SCREEN IS LARGE ENOUGH */
+#start, #recipe, #subscribe {
+	background-color: #fcfbf9;
+/* 	min-height: 50vh; */
+	max-width: 100%;
 }
-.youText {
-	font-size: 4.5vw;
-}
-/*.snakeText {
-	font-family: 'Oswald', sans-serif;
-	display: inline;
-}*/
+#start {}
 .sectionTitle {
-	font-size: 8vw;
+	font-size: 13vw;
 }
-#about {
-
-}
-#start {
-
+#start > .sectionTitle {
+	padding-top: 5rem;
+	padding-bottom: 3rem;
 }
 #wrapper {
+	padding-top: 1rem;
 	position: relative;
 	padding-bottom: 56.25%;
 }
 #video {
+	padding-left: auto;
+	padding-right: auto;
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 }
-#recipe {
-
+#subTextVid {
+	padding-top: .25rem;
+	padding-bottom: 0;
+	font-family: 'Oswald', sans-serif;
+	font-size: 5vw;
+}
+#startArrow {
+	padding-top: .25rem;
+	padding-bottom: 3rem;
+}
+#recipe {} 
+#recipe > .container {
+	padding-top: 3rem;
+}
+#recipe > .container > .sectionTitle {
+	padding-top: 1.5rem;
+	padding-bottom: 1rem;
+}
+#recipe > .row > .card {
+	padding-left: 0;
+	padding-right: 0;
 }
 .card {
 	border: none;
@@ -127,6 +160,10 @@ body {
 	color: black;
 	opacity: 0.6;
 	border: none;
+}
+.cardImg:hover {
+	opacity: 0.9;
+	color: white;
 }
 .imgCard {
 	/*width: 100%;*/
@@ -143,29 +180,58 @@ body {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-family: 'Oswald', sans-serif;
-	font-size: 3rem;
+	font-size: 2rem;
 	color: black;
 }
-.cardImg:hover {
-	opacity: 0.9;
-	color: white;
+#recipe > .row > .card > .card-body {
+	margin-bottom: 0;
+	padding-bottom: .25rem;
 }
 .cTitle {
 	font-family: 'Oswald', sans-serif;
 }
-#more {
-
+#subscribeArrow {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
 }
-.nav-click {
-	padding-left: 3%;
-	padding-right: 3%;
+#subscribe {}
+#subscribe > .container {
+	padding-top: 3rem;
+	padding-bottom: 2rem;
 }
-.iconSocial {
-	max-width: 10vw;
-	height: auto;
-	color: black;
+#subscribe > .container > h3 {
+	padding-top: 0;
 }
-.cardNews {
+#subscribe > div > #form > .form-group {
+	padding-bottom: 1rem;
+}
+#subscribe > div > #form > .form-group > label {
+	padding-bottom: 2rem;
+}
+#subscribe > div > #form > .form-group > div {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.btn:hover {
+	cursor: pointer;
+}
+#submit {
+	background-color: red;
+	font-family: 'Oswald', sans-serif;
+}
+#subscribe > .col-xl {
+	padding-bottom: 1rem;
+}
+#subscribe > .col-xl > .container {
+	padding: .25rem;
+}
+#subscribe > .col-xl > .container > .icon-click {
+	padding-left: .5rem;
+	padding-right: .5rem;
+}
+/*.cardNews {
 	background-color: transparent;
 	display: inline;
 	color: transparent;
@@ -186,12 +252,17 @@ body {
 }
 .iconCardMore {
 	max-width: 100px;
+}*/
+.footer {
+	padding: 1rem 0 0;
+	margin-left: .25rem;
+	margin-right: .25rem;
 }
-#submit {
-	background-color: red;
-	font-family: 'Oswald', sans-serif;
+.footer > .col-md > p {
+	margin-bottom: .25rem;
 }
 .snakeDiet {
+	margin-bottom: .25rem;
 	max-width: 30vw;
 	height: auto;
 }
@@ -202,5 +273,16 @@ body {
 footer a:hover {
 	color: white;
 	text-decoration: none;
+}
+.icon-click {
+	background-color: transparent;
+}
+.iconSocial {
+	max-width: 10vw;
+	height: auto;
+}
+.iconSocial::after {
+	background: white !important; 
+    mix-blend-mode: multiply !important;
 }
 
