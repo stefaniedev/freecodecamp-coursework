@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
-    <div class="text-center" id="home">
+    <div class="text-center" id="main">
         <header id="header">
             <nav class="navbar navbar-expand-lg fixed-top" id="nav-bar">
                 <a class="navbar-brand">
@@ -30,10 +30,10 @@
                         <a class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#start">Start</a>
+                        <a class="nav-link" href="#scStart">Start</a>
                     </li>                    
                     <li class="nav-item">
-                        <a class="nav-link" href="#recipe">Recipes</a>
+                        <a class="nav-link" href="#scRecipe">Recipes</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#subscribe">Subscribe</a>
@@ -41,169 +41,145 @@
                 </ul>
             </nav>
         </header>
-        <div id="home">
-            <div class="card">
-                <div class="card-body" id="cole">
-                    <h1 class="card-title display-1 text-center" id="fatty">HEY FATTY!</h1>
-                </div>
-                <img class="card-img-bottom" src="https://farm1.staticflickr.com/884/42785127721_5984ae1ef8_o.png" alt="Snake Diet founder Cole Robinson">
-                <div class="card-body text-center subTextImg">
-                    HEARD ABOUT THE <img class="subSnakeDiet" src="https://live.staticflickr.com/888/42733905092_94ff684aae_o.png" alt="snake-diet-logo-text">?
-                </div>
+        <div class="container-fluid" id="home">
+            <div class="container-fluid navPad"></div>
+            <div class="container-fluid">
+                <h1 class="display-1 text-center" id="fatty">HEY FATTY!</h1>
             </div>
-            <div class="text-center" id="homeArrow">
-                <a href="#start"><img src="https://farm2.staticflickr.com/1738/40970025350_ec918b3c90_o.png" class="iconLg"></a>
+            <div class="container-fluid">
+                <img id="cole" src="https://farm1.staticflickr.com/884/42785127721_5984ae1ef8_o.png" alt="Snake Diet founder Cole Robinson">
             </div>
-        </div>
-        <div id="start">
-                <h3 class="sectionTitle display-4 font-weight-light">WHAT DO YOU EAT?</h3>
-            <div class="text-center" id="wrapper">
-                <iframe id="video" src="https://www.youtube.com/embed/t8794X4I8nk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-            <div class="card-body">
-                <p class="card-title text-center" id="subTextVid">⚠️ WARNING: STRONG LANGUAGE ⚠️</p>
-            </div>
-            <div class="text-center" id="startArrow">
-                <a href="#recipe"><img src="https://farm2.staticflickr.com/1738/40970025350_ec918b3c90_o.png" class="iconLg"></a>
+            <div class="container-fluid text-center subTextImg">
+                HEARD ABOUT THE <img class="subSnakeDiet" src="https://live.staticflickr.com/888/42733905092_94ff684aae_o.png" alt="snake-diet-logo-text">?
+                <!-- <div id="scStart"></div> -->
             </div>
         </div>
-        <div class="container-fluid" id="recipe">
-            <div class="container">
-                <h3 class="sectionTitle display-4">RECIPES</h3>
+        <div id="scStart">
+            <div class="container-fluid" id="start">
+                <div class="container-fluid navPad"></div>
+                <div class="container-fluid">
+                    <h3 class="sectionTitle display-4 font-weight-light">WHAT DO YOU EAT?</h3>
+                </div>
+                <div class="container-fluid" id="wrapper">
+                    <iframe id="video" src="https://www.youtube.com/embed/t8794X4I8nk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div class="container-fluid">
+                <!-- <div class="card-body"> -->
+                    <!-- <div id="scRecipe"></div> -->
+                    <p class="text-center" id="subTextVid">
+                    ⚠️ WARNING: STRONG LANGUAGE ⚠️</p>
+                </div>
+                <div class="container-fluid navPad"></div>
+                <!-- <div id="scRecipe"></div> -->
             </div>
-            <div class="card-group row">
-                <div class="card col-sm">
-                        <div class="card">
-                            <div class="card cardImg">
-                                <a href="https://www.youtube.com/watch?v=1onQ0nxgWFM" target="_blank">
-                                    <img class="card-img-top imgCard" src="https://farm1.staticflickr.com/880/42219879994_1eb2b46ec2_o.jpg" alt="Card image">
-                                    <div class="card-img-overlay recipeOverlay">
-                                        <h5 class="card-title titleRec">BASIC</h5>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    <div class="card-body text-muted">
-                        <h5 class="card-title cTitle">SNAKE JUICE FOR WEIGHT LOSS</h5>
-                        <p class="card-text font-weight-light">Overcome food addiction</p>
-                        <p class="card-text font-weight-light">Burn body fat</p>
-                        <h6 class="card-text cTitle font-weight-bold">ESSENTIAL ELECTROLYTES</h6>
-                        <p class="card-text font-weight-light"> This recipe contains essential salts that ensure you can continue with your day-to-day routine, feeling great while fasting.</p>
-                    </div>
+        </div>
+        <div id="scRecipe">
+            <div class="container-fluid" id="recipe">
+                <div class="container-fluid" id="recTitle">
+                    <div class="container-fluid navPad"></div>
+                    <h3 class="sectionTitle display-4">RECIPES</h3>
                 </div>
-                <div class="card col-sm">
-                        <div class="card">
-                            <div class="card cardImg">
-                                <a href="https://www.youtube.com/watch?v=AgTGAPz-1M0" target="_blank">
-                                    <img class="card-img-top imgCard" src="https://farm1.staticflickr.com/895/42077446254_be10850e95_o.jpg" alt="Card image">
-                                    <div class="card-img-overlay recipeOverlay">
-                                        <h5 class="card-title titleRec">ADVANCED</h5>
+                <div class="container-fluid cards">
+                    <div class="card-deck row">
+                        <div class="col-lg firstCard">
+                                <div class="card">
+                                    <div class="card cardImg">
+                                        <a href="https://www.youtube.com/watch?v=1onQ0nxgWFM" target="_blank">
+                                            <img class="card-img-top imgCard" src="https://farm1.staticflickr.com/880/42219879994_1eb2b46ec2_o.jpg" alt="Card image">
+                                            <div class="card-img-overlay recipeOverlay">
+                                                <h5 class="card-title titleRec">BASIC</h5>
+                                            </div>
+                                        </a>
                                     </div>
-                                </a>
-                            </div>
-                        </div>
-                    <div class="card-body text-muted">
-                        <h5 class="card-title cTitle">HEALING KIDNEY DRINK</h5>
-                        <p class="card-text font-weight-light">Alkalize your body</p>
-                        <p class="card-text font-weight-light">Eliminate stored toxins</p>
-                        <h6 class="card-text cTitle font-weight-bold">LOWER INSULIN</h6>
-                        <p class="card-text font-weight-light">The ingredients in this detoxifying drink provide a multitude of benefits, and act as a powerful kidney cleanser and insulin regulator.</p>
-                    </div>
-                </div>
-                <div class="card col-sm">
-                    <div class="card">
-                        <div class="card cardImg">
-                            <a href="https://www.youtube.com/watch?v=HTitvqRRzr8" target="_blank">
-                                <img class="card-img-top imgCard" src="https://farm2.staticflickr.com/1785/42219879694_bb2cde770e_o.jpg" alt="Card image">
-                                <div class="card-img-overlay recipeOverlay">
-                                    <h5 class="card-title titleRec">DRY</h5>
                                 </div>
-                            </a>
+                            <div class="card-body text-muted">
+                                <h5 class="card-title cTitle">SNAKE JUICE FOR WEIGHT LOSS</h5>
+                                <p class="card-text font-weight-light">Overcome food addiction</p>
+                                <p class="card-text font-weight-light">Burn body fat</p>
+                                <h6 class="card-text cTitle font-weight-bold">ESSENTIAL ELECTROLYTES</h6>
+                                <p class="card-text font-weight-light"> This recipe contains essential salts that ensure you can continue with your day-to-day routine, feeling great while fasting.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card-body text-muted">
-                        <h5 class="card-title cTitle">BREAKING THE DRY FAST</h5>
-                        <p class="card-text font-weight-light">Replenish  electrolytes & minerals</p>
-                        <p class="card-text font-weight-light">Prepare the body for food</p>
-                        <h6 class="card-text cTitle font-weight-bold">SLOW READAPTATION</h6>
-                        <p class="card-text font-weight-light">Safely break a dry fast by slowly reintroducing a healthful electrolyte drink, and then small portions of whole foods, back into your diet.</p>
+                        <div class="col-lg secCard">
+                                <div class="card">
+                                    <div class="card cardImg">
+                                        <a href="https://www.youtube.com/watch?v=AgTGAPz-1M0" target="_blank">
+                                            <img class="card-img-top imgCard" src="https://farm1.staticflickr.com/895/42077446254_be10850e95_o.jpg" alt="Card image">
+                                            <div class="card-img-overlay recipeOverlay">
+                                                <h5 class="card-title titleRec">ADVANCED</h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            <div class="card-body text-muted">
+                                <h5 class="card-title cTitle">HEALING KIDNEY DRINK</h5>
+                                <p class="card-text font-weight-light">Alkalize your body</p>
+                                <p class="card-text font-weight-light">Eliminate stored toxins</p>
+                                <h6 class="card-text cTitle font-weight-bold">LOWER INSULIN</h6>
+                                <p class="card-text font-weight-light">The ingredients in this detoxifying drink provide a multitude of benefits, and act as a powerful kidney cleanser and insulin regulator.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg thirdCard">
+                            <div class="card">
+                                <div class="card cardImg">
+                                    <a href="https://www.youtube.com/watch?v=HTitvqRRzr8" target="_blank">
+                                        <img class="card-img-top imgCard" src="https://farm2.staticflickr.com/1785/42219879694_bb2cde770e_o.jpg" alt="Card image">
+                                        <div class="card-img-overlay recipeOverlay">
+                                            <h5 class="card-title titleRec">DRY</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-body text-muted">
+                                <h5 class="card-title cTitle">BREAKING THE DRY FAST</h5>
+                                <p class="card-text font-weight-light">Replenish  electrolytes & minerals</p>
+                                <p class="card-text font-weight-light">Prepare the body for food</p>
+                                <h6 class="card-text cTitle font-weight-bold">SLOW READAPTATION</h6>
+                                <p class="card-text font-weight-light">Safely break a dry fast by slowly reintroducing a healthful electrolyte drink, and then small portions of whole foods, back into your diet.</p>
+                                <!-- <div id="scSubscribe"></div> -->
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="text-center" id="subscribeArrow">
-                <a href="#subscribe"><img src="https://farm2.staticflickr.com/1738/40970025350_ec918b3c90_o.png" class="iconLg"></a>
-            </div>
         </div>
-        <div id="subscribe">
-            <div class="container">
+        <div class="container-fluid" id="subscribe">
+            <div class="container-fluid" id="subTitle">
                    <h3 class="sectionTitle display-4">NEWS & UPDATES</h3>
             </div>
-            <div>
+            <div class="container-fluid" id="subBox">
                 <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
-                    <div class="container form-group text-center">
+                    <div class="container-fluid form-group text-center" id="emailBox">
                             <label for="email" class="col-lg col-form-label" id="email-label">Subscribe to our mailing list for Snake Diet News & Updates!</label>
                             <input type="email" class="form-control col-sm" id="email" name="email" placeholder="email@domain.com" required>
-                        <div>
+                        <div class="container-fluid" id="subBtn">
                             <input type="submit" class="btn btn-lg text-light" id="submit" value="SUBSCRIBE">
                         </div>
                     </div>
                 </form>
             </div>
             <div class="col-xl">
-                <div class="container text-center">
+                <div class="container-fluid text-center" id="iconBox">
                     <a class="icon-click" href="https://www.youtube.com/channel/UC_yUeH8TsG5pxqvkOxBtsFA" target="_blank"><img class="iconSocial" src="https://farm2.staticflickr.com/1724/40970890380_03497116f5_o.png"></a>
                     <a class="icon-click" href="https://www.instagram.com/snake_diet_wizard/" target="_blank"><img class="iconSocial" src="https://farm2.staticflickr.com/1739/27913406547_5e5ed9a376_o.png"></a>
                     <a class="icon-click" href="https://www.facebook.com/snakediet/" target="_blank"><img class="iconSocial" src="https://farm1.staticflickr.com/879/42064814964_52f9efd8a2_o.png"></a>
                     <a class="icon-click" href="https://twitter.com/SnakeDiet" target="_blank"><img class="iconSocial" src="https://farm2.staticflickr.com/1735/27913406467_3cfdd144eb_o.png"></a>
                 </div>
             </div>
-<!--             <div class="container mx-0 px-0 pb-3"> 
-                <h4 class="cTitle font-weight-bold">CLICK BELOW TO LEARN MORE</h4>
+            <div class="container-fluid navPad"></div>
+        </div>
+        <footer class="footer row text-light font-weight-light text-center">
+            <div class="col" id="leftFoot">
+                <p>Inspired by Cole Robinson's</p>
             </div>
-            <div class="row px-4 pb-3">
-                <div class="col px-1">
-                    <a href="https://www.youtube.com/watch?v=whzbormp93s" target="_blank">
-                        <div class="card border-0 cardNews col-sm-3 px-0">
-                            <img class="card-img iconCardMore" src="https://farm2.staticflickr.com/1751/27923731137_41407ceb6e_o.png" target="_blank" alt="Lose Weight">
-                            <div class="card-img-overlay">
-                                <h5 class="card-title titleNews">BURN</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col px-4">
-                    <a href="https://www.youtube.com/watch?v=81a10sZ4duU" target="_blank">
-                        <div class="card border-0 cardNews col-sm-3 px-0">
-                            <img class="card-img iconCardMore" src="https://farm2.staticflickr.com/1753/42743031562_3278314b65_o.png" target="_blank" alt="Dry Fasting">
-                            <div class="card-img-overlay">
-                                <h5 class="card-title titleNews">HEAL</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="https://www.youtube.com/watch?v=jgr3L8nW4dQ" target="_blank">
-                        <div class="card border-0 cardNews col-sm-3 px-0">
-                            <img class="card-img iconCardMore" src="https://farm1.staticflickr.com/891/40982327880_522f31e3ef_o.png" target="_blank" alt="Muscle building">
-                            <div class="card-img-overlay">
-                                <h5 class="card-title titleNews">BUILD</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div> -->
-        </div>
-    </div>
-    <footer class="footer row text-light font-weight-light text-center">
-        <div class="col-md">
-            <p>Inspired by Cole Robinson's</p>
-        </div>
-        <div class="col-md">
-            <a href="https://www.snakediet.com/" target="_blank"><img class="snakeDiet" src="https://farm2.staticflickr.com/1798/42943147941_bf7175d71a_o.png" alt="snake-diƒet-logo-text-white"></a>
-        </div>
-        <div class="col-md">
-            <p>Coded with<span class="oi oi-heart btn-sm" aria-hidden="true"></span>by <a class="made" href="https://www.freecodecamp.org/portfolio/stefaniedev" target="_blank">Stefanie Feltman</a></p>
-        </div>
-    </footer>
+            <div class="col" id="snakeFoot">
+                <a href="https://www.snakediet.com/" target="_blank"><img class="snakeDiet" src="https://farm2.staticflickr.com/1798/42943147941_bf7175d71a_o.png" alt="snake-diƒet-logo-text-white"></a>
+            </div>
+            <div class="col" id="rightFoot">
+                <p>Coded with<span class="oi oi-heart btn-sm" aria-hidden="true"></span>by <a class="made" href="https://www.freecodecamp.org/portfolio/stefaniedev" target="_blank">Stefanie Feltman</a></p>
+            </div>
+        </footer>
+</div>
+</div>
 </body>
 </html>
