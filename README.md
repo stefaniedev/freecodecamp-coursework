@@ -6,7 +6,7 @@ I started FreeCodeCamp in 2017, before the most recent beta release (June 2018).
 --Made with 💗 by Stefanie Feltman
 
 ## Social Media
-[FreeCodeCamp](https://www.freecodecamp.org/portfolio/stefaniedev) |
+[FreeCodeCamp](https://www.freecodecamp.org/stefaniedev) |
 [GitHub](https://github.com/stefaniedev) |
 [LinkedIn](https://www.linkedin.com/in/stefaniefeltman/) |
 [Twitter](https://twitter.com/stefaniedev) |

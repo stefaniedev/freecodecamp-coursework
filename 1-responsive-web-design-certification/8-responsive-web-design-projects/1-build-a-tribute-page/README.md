@@ -6,7 +6,7 @@ View the project here: [GitHub](https://stefaniedev.github.io/freecodecamp-cours
 --Made with 💗 by Stefanie Feltman
 
 ## Social Media
-[FreeCodeCamp](https://www.freecodecamp.org/portfolio/stefaniedev) |
+[FreeCodeCamp](https://www.freecodecamp.org/stefaniedev) |
 [GitHub](https://github.com/stefaniedev) |
 [LinkedIn](https://www.linkedin.com/in/stefaniefeltman/) |
 [Twitter](https://twitter.com/stefaniedev) |
