@@ -1,0 +1,34 @@
+/*// iPhones -- Portrait (320 x 568, 375 x 667, 414 x 736) px */
+/*// Slim Split Screen in iPad -- Portrait & Landscape (320 x 1024, 320 x 768, 320 x 1112, 320 x 834, 375 x 1366, 375 x 1024) px */
+/*// Wide Split Screen in iPad -- Portrait (438 x 1024, 504 x 1112, 639 x 1366) px */
+/*// Split Screen in iPad -- Landscape (507 x 768, 551 x 834, 678 x 1024) px */
+#fatty {color: #33cccc; teal}
+body, footer {
+	background-color: #ffffff;
+}
+
+/*// iPad -- Portrait (768 x 1024, 834 x 1112, 1024 x 1366) px */
+/*// Wide Split Screen in iPad -- Landscape (694 x 768, 782 x 834, 981 x 1024) px */
+@media screen and (min-aspect-ratio: 2/3) and (max-aspect-ratio: 1/1) {
+	#fatty {color: #99ffcc; sea foam}
+}
+
+/*// iPad -- Landscape (1024 x 768, 1112 x 834, 1366 x 1024) px */
+/*// Small, Large Desktop (1024 x 720 2560 x 1600) px */
+@media screen and (min-aspect-ratio: 1/1) and (max-aspect-ratio: 33/20) {
+	#fatty {color:  #fb9084; salmon}
+}
+
+/*// iPhone SE, iPhone 8, iPhone 8 Plus -- Landscape (568 x 320, 667 x 375, 736 x 414) px */
+/*// Laptop & Desktop -- height restrict (height 678px & below) */
+@media screen and (min-aspect-ratio: 33/20) {
+	#fatty {color: #9999ff; purple}
+
+	@media screen and (min-width: 1000px) {
+		/*#fatty {color: #ff99bb; pink}*/
+	}
+}
+
+
+
+
