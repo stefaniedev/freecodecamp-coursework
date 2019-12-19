@@ -11,7 +11,7 @@ $(document).ready(function() {
 		    $("#generate").on("click", function(){
 			    $("#quote").html('Please try again. <br> If the issue persists, tweet me this issue by clicking baby Bender!');
 			    $("#quoteBox").scrollTop(0);
-				var link = 'https://twitter.com/intent/tweet?text=' + '@stefaniedev Please fix freeCodeCamp Futurama Quote Generator in CodePen - cannot connect to API! https://bit.ly/2H38AIL';
+				var link = 'https://twitter.com/intent/tweet?text=' + '@stefaniedev Please fix freeCodeCamp Futurama Quote Generator - cannot connect to API! https://bit.ly/2s5LwGO';
 				$(".btnLink").attr("href", link);
 		  	});
 		});
@@ -35,7 +35,7 @@ $(document).ready(function() {
 				$("#episode").html(season + ' ~ "' + episode + '"');
 				$("#quoteBox").scrollTop(0);
 
-				var link = 'https://twitter.com/intent/tweet?text=' + '"' + quotes + '"' + '%20~' + episode + ' https://bit.ly/2H38AIL';
+				var link = 'https://twitter.com/intent/tweet?text=' + '"' + quotes + '"' + '%20~' + episode + ' https://bit.ly/2s5LwGO';
 				$(".btnLink").attr("href", link);
 				
 				console.log(quotes, season, episode);
@@ -47,7 +47,7 @@ $(document).ready(function() {
 			    $("#generate").on("click", function(){
 				    $("#quote").html('Please try again. <br> If the issue persists, tweet me this issue by clicking baby Bender!');
 				    $("#quoteBox").scrollTop(0);
-					var link = 'https://twitter.com/intent/tweet?text=' + '@stefaniedev Please fix freeCodeCamp Futurama Quote Generator in CodePen - cannot load quotes! https://bit.ly/2H38AIL';
+					var link = 'https://twitter.com/intent/tweet?text=' + '@stefaniedev Please fix freeCodeCamp Futurama Quote Generator - cannot load quotes! https://bit.ly/2s5LwGO';
 					$(".btnLink").attr("href", link);
 			  	});
 			});
