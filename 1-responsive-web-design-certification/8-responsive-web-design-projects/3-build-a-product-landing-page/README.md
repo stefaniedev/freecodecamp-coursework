@@ -1,5 +1,5 @@
 # Build project
-This is my FreeCodeCamp project. I aimed to use HTML with Bootstrap, and minimal CSS. I chose to make a survey about types of food eaten by the surveyed. Enjoy!
+This is my FreeCodeCamp Product Landing Page project. I aimed to use HTML with Bootstrap and CSS with media queries, purposefully excluding jQuery and JavaScript. I chose to make a webpage showcasing the "wizard" who introduced me to fasting. WARNING: EXPLICIT LANGUAGE. Enjoy!
 
 --Made with 💗 by Stefanie Feltman
 
