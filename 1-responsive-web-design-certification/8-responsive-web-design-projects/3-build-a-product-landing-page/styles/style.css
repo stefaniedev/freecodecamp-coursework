@@ -348,7 +348,7 @@ footer a:hover {
 }
 
 /*// iPad -- Landscape (1024 x 768, 1112 x 834, 1366 x 1024) px */
-/*// Small, Large Desktop (1024 x 720 2560 x 1600) px */
+/*// Small, Large Desktop (1024 x 720, 2560 x 1600) px */
 @media screen and (min-aspect-ratio: 1/1) and (max-aspect-ratio: 33/20) {
 	/*#fatty {color:  #fb9084; salmon}*/
 	.nav-link {
@@ -567,8 +567,8 @@ footer a:hover {
 	.snakeDiet {
 		max-width: 17vw;
 	}
-
-	@media screen and (min-width: 1000px) {
+	/*// Medium Desktop -- (1920 x 1080) px */
+	@media screen and (min-width: 1200px) {
 		/*#fatty {color: #ff99bb; pink}*/
 		#nav-bar {
 			height: 10vh;
