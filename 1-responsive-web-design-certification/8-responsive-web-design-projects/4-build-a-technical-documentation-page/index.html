@@ -4,75 +4,233 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <!-- google font library -->
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Code" rel="stylesheet">
     <!-- bootstrap font library open iconic -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.css">
     <!-- custom css -->
     <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
-    <nav id="navbar">
-        <a class="navbar-brand">
-            <button disabled type="button" class="btn" id="logo">
-                <img id="header-img" src="images/flask-icon.png" onerror="this.onerror=null;this.src='https://farm2.staticflickr.com/1724/42783930141_7b124a9675_o.png'">
-            </button>
-        </a>
-        <ul class="nav">
-            <header>
-                <li class="nav-item">
-                        <a class="nav-link" href="#Chips_n_Crisps">Chips n Crisps</a>
-                </li>
-                <li class="nav-item">
-                        <a class="nav-link" href="#MavaScript_and_Java">MavaScript and Java</a>
-                </li>                    
-                <li class="nav-item">
-                        <a class="nav-link" href="#BavaScript_and_Java">BavaScript and Java</a>
-                </li>
-                <li class="nav-item">
-                        <a class="nav-link" href="#CavaScript_and_Java">CavaScript and Java</a>
-                </li>
-                <li class="nav-item">
-                        <a class="nav-link" href="#LavaScript_and_Java">LavaScript and Java</a>
-                </li>
-            </header>
-        </ul>
-    </nav>
-    <main id="main-doc">
-        <section class="main-section" id="Chips_n_Crisps">
-            <header>Chips n Crisps</header>
-                <p>JavaScript and Java</p>
-                <code>JavaScript and Java</code>
-                <li>JavaScript and Java</li>
-                <p>JavaScript and Java</p>
-        </section>
-        <section class="main-section" id="MavaScript_and_Java">
-            <header>MavaScript and Java</header>
-                <p>MavaScript and Java</p>
-                <code>MavaScript and Java</code>
-                <li>MavaScript and Java</li>
-                <p>MavaScript and Java</p>
-        </section>
-        <section class="main-section" id="BavaScript_and_Java">
-            <header>BavaScript and Java</header>
-                <p>BavaScript and Java</p>
-                <code>BavaScript and Java</code>
-                <li>BavaScript and Java</li>
-                <p>BavaScript and Java</p>
-        </section>
-        <section class="main-section" id="CavaScript_and_Java">
-            <header>CavaScript and Java</header>
-                <p>CavaScript and Java</p>
-                <code>CavaScript and Java</code>
-                <li>CavaScript and Java</li>
-                <p>CavaScript and Java</p>
-        </section>
-        <section class="main-section" id="LavaScript_and_Java">
-            <header>LavaScript and Java</header>
-                <p>LavaScript and Java</p>
-                <code>LavaScript and Java</code>
-                <li>LavaScript and Java</li>
-                <p>LavaScript and Java</p>
-        </section>
-    </main>
+    <div class="contain">
+        <nav id="navbar">
+            <div class="imgCtn">
+                <a href="https://flask.palletsprojects.com/en/1.1.x/">
+                    <img id="header-img" src="images/flask-logo.png" onerror="this.onerror=null;this.src='https://live.staticflickr.com/65535/49243492216_41c8172f99_o.png'" alt="flask logo">
+                </a>
+            </div>
+            <ul class="nav">
+                <header>Quickstart Docs »</header>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#Quickstart">Quickstart</a><span class="headLink">¶</span>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#A_Minimal_Application">A Minimal Application</a><span class="headLink">¶</span>
+                    </li>                    
+                    <li class="nav-item">
+                            <a class="nav-link" href="#What_to_do_if_the_Server_does_not_Start">What to do if the Server does not Start</a><span class="headLink">¶</span>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#Old_Version_of_Flask">Old Version of Flask</a><span class="headLink">¶</span>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#Invalid_Import_Name">Invalid Import Name</a><span class="headLink">¶</span>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#Debug_Mode">Debug Mode</a><span class="headLink">¶</span>
+                    </li>
+    <!--                 <li class="nav-item">
+                            <a class="nav-link" href="#Reference">Reference</a><span class="headLink">¶</span>
+                    </li> -->
+            </ul>
+        </nav>
+        <main id="main-doc">
+            <section class="main-section" id="Quickstart">
+                <header><h1 id="mainHead">Quickstart<a class="headLink" href="#Quickstart" title="Permalink to this headline">¶</a></h1></header>
+                    <p>Eager to get started? This page gives a good introduction to Flask. It assumes you already have Flask installed. If you do not, head over to the <a class="blueLink" href="https://flask.palletsprojects.com/en/1.1.x/installation/#installation">Installation</a> section.</p>
+            </section>
+            <section class="main-section" id="A_Minimal_Application">
+                <header><h1>A Minimal Application<a class="headLink" href="#A_Minimal_Application" title="Permalink to this headline">¶</a></h1></header>
+                <article>
+                    <p>A minimal Flask application looks something like this:</p>
+                    <div class="codeBox">
+                        <code>
+                            <p class="blue">from</p> flask <p class="blue">import</p> Flask<br>
+                            app = Flask(__name__)<br>
+                            <br>
+                            <p class="grey">@app</p>.route(<p class="green">'/'</p>)<br>
+                            <p class="blue">def</p> hello_world():<br>
+                                <p class="blue">return</p> <p class="green">'Hello, World!'</p>
+                        </code>
+                    </div>
+                    <p>So what did that code do?</p>
+                    <ol>
+                        <li>
+                            First we imported the <a class="blackLink" href="https://flask.palletsprojects.com/en/1.1.x/api/#flask.Flask">Flask</a> class. An instance of this class will be our WSGI application.
+                        </li>
+                        <li>
+                            Next we create an instance of this class. The first argument is the name of the application’s module or package. If you are using a single module (as in this example), you should use <code>__name__</code> because depending on if it’s started as application or imported as module the name will be different (<code>'__main__'</code> versus the actual import name). This is needed so that Flask knows where to look for templates, static files, and so on. For more information have a look at the <a class="blackLink" href="https://flask.palletsprojects.com/en/1.1.x/api/#flask.Flask">Flask</a> documentation.
+                        </li>
+                        <li>
+                            We then use the <a class="blackLink" href="https://flask.palletsprojects.com/en/1.1.x/api/#flask.Flask.route">route()</a> decorator to tell Flask what URL should trigger our function.
+                        </li>
+                        <li>
+                            The function is given a name which is also used to generate URLs for that particular function, and returns the message we want to display in the user’s browser.
+                        </li>
+                    </ol>
+                    <p>
+                        Just save it as <code>hello.py</code> or something similar. Make sure to not call your application <code>flask.py</code> because this would conflict with Flask itself.
+                    </p>
+                    <p>
+                        To run the application you can either use the <strong>flask</strong> command or python’s <code>-m</code> switch with Flask. Before you can do that you need to tell your terminal the application to work with by exporting the <code>FLASK_APP</code> environment variable:
+                    </p>
+                    <div class="codeBox">
+                        <code>
+                            $ export FLASK_APP=hello.py<br>
+                            $ flask run<br>
+                             * Running on http://127.0.0.1:5000/
+                         </code>
+                     </div>
+                     <p>
+                        If you are on Windows, the environment variable syntax depends on command line interpreter. On Command Prompt:
+                    </p>
+                    <div class="codeBox">
+                        <code>C:\path\to\app><p class="blue">set</p> FLASK_APP=hello.py</code>
+                    </div>
+                    <p>And on PowerShell:</p>
+                    <div class="codeBox">
+                        <code>PS C:\path\to\app> $env:FLASK_APP = "hello.py"</code>
+                    </div>
+                    <p>Alternatively you can use <strong>python -m</strong> flask:</p>
+                    <div class="codeBox">
+                        <code>
+                            $ export FLASK_APP=hello.py<br>
+                            $ python -m flask run<br>
+                             * Running on http://127.0.0.1:5000/
+                        </code>
+                    </div>
+                    <p>
+                        This launches a very simple builtin server, which is good enough for testing but probably not what you want to use in production. For deployment options see <a class="blueLink" href="https://flask.palletsprojects.com/en/1.1.x/deploying/#deployment">Deployment Options</a>.
+                    </p>
+                    <p>Now head over to <a class="blueLink" href="http://127.0.0.1:5000/">http://127.0.0.1:5000/</a>, and you should see your hello world greeting.</p>
+                </article>
+                <div class="codeCtn">
+                    <article>
+                        <h2>Externally Visible Server:</h2>
+                        <p>
+                            If you run the server you will notice that the server is only accessible from your own computer, not from any other in the network. This is the default because in debugging mode a user of the application can execute arbitrary Python code on your computer.
+                        </p>
+                        <p>
+                            If you have the debugger disabled or trust the users on your network, you can make the server publicly available simply by adding <code>--host=0.0.0.0</code> to the command line:
+                        </p>
+                        <div class="codeBox codeInside">
+                            <code>$ flask run --host=0.0.0.0</code>
+                        </div>
+                        <p>This tells your operating system to listen on all public IPs.</p>
+                    </article>
+                </div>
+            </section>
+            <section class="main-section" id="What_to_do_if_the_Server_does_not_Start">
+                <header><h1>What to do if the Server does not Start<a class="headLink" href="#What_to_do_if_the_Server_does_not_Start" title="Permalink to this headline">¶</a></h1></header>
+                    <article class="lower">
+                        <p>
+                            In case the <strong>python -m flask</strong> fails or <strong>flask</strong> does not exist, there are multiple reasons this might be the case. First of all you need to look at the error message.
+                        </p>
+                    </article>
+            </section>
+            <section class="main-section" id="Old_Version_of_Flask">
+                <header><h1 class="small">Old Version of Flask<a class="headLink" href="#Old_Version_of_Flask" title="Permalink to this headline">¶</a></h1></header>
+                    <article class="lower">
+                        <p>
+                            Versions of Flask older than 0.11 use to have different ways to start the application. In short, the <strong>flask</strong> command did not exist, and neither did <strong>python -m flask</strong>. In that case you have two options: either upgrade to newer Flask versions or have a look at the <a class="blueLink" href="https://flask.palletsprojects.com/en/1.1.x/server/#server">Development Server</a> docs to see the alternative method for running a server.
+                        </p>
+                    </article>
+            </section>
+            <section class="main-section" id="Invalid_Import_Name">
+                <header><h1 class="small">Invalid Import Name<a class="headLink" href="#Invalid_Import_Name" title="Permalink to this headline">¶</a></h1></header>
+                    <article class="lower">
+                        <p>
+                            The <code>FLASK_APP</code> environment variable is the name of the module to import at <strong>flask run</strong>. In case that module is incorrectly named you will get an import error upon start (or if debug is enabled when you navigate to the application). It will tell you what it tried to import and why it failed.
+                        </p>
+                        <p>
+                            The most common reason is a typo or because you did not actually create an <code>app</code> object.
+                        </p>
+                    </article>
+            </section>
+            <section class="main-section" id="Debug_Mode">
+                <header><h1>Debug Mode<a class="headLink" href="#Debug_Mode" title="Permalink to this headline">¶</a></h1></header>
+                    <article class="lower">
+                        <p>
+                            (Want to just log errors and stack traces? See <a class="blueLink" href="https://flask.palletsprojects.com/en/1.1.x/errorhandling/#application-errors">Application Errors</a>)
+                        </p>
+                        <p>
+                            The <strong>flask</strong> script is nice to start a local development server, but you would have to restart it manually after each change to your code. That is not very nice and Flask can do better. If you enable debug support the server will reload itself on code changes, and it will also provide you with a helpful debugger if things go wrong.
+                        </p>
+                        <p>
+                            To enable all development features (including debug mode) you can export the <code>FLASK_ENV</code> environment variable and set it to <code>development</code> before running the server:
+                        </p>
+                        <div class="codeBox">
+                            <code>
+                                $ export FLASK_ENV=development<br>
+                                $ flask run
+                            </code>
+                        </div>
+                        <p>(On Windows you need to use <code>set</code> instead of <code>export</code>.)</p>
+                        <p>This does the following things:</p>
+                        <ol>
+                            <li>it activates the debugger</li>
+                            <li>it activates the automatic reloader</li>
+                            <li>it enables the debug mode on the Flask application.</li>
+                        </ol>
+                        <p>
+                            You can also control debug mode separately from the environment by exporting <code>FLASK_DEBUG=1</code>.
+                        </p>
+                        <p>
+                            There are more parameters that are explained in the <a class="blueLink" href="https://flask.palletsprojects.com/en/1.1.x/server/#server">Development Server</a> docs.
+                        </p>
+                    </article>
+                    <div class="codeCtn">
+                        <article>
+                            <h2>Attention:</h2>
+                            <p>
+                                Even though the interactive debugger does not work in forking environments (which makes it nearly impossible to use on production servers), it still allows the execution of arbitrary code. This makes it a major security risk and therefore it <strong>must never be used on production machines</strong>.
+                            </p>
+                    </div>
+                            <p>Screenshot of the debugger in action:</p>
+                            <div id="debugSc">
+                                <img src="images/debugger.png" onerror="this.onerror=null;this.src='https://live.staticflickr.com/65535/49242862508_bd1623a2e9_o.png'" alt="screenshot of debugger in action">
+                            </div>
+                            <p>
+                                More information on using the debugger can be found in the <a class="blueLink" href="https://werkzeug.palletsprojects.com/debug/#using-the-debugger">Werkzeug documentation</a>.
+                            </p>
+                            <p>Have another debugger in mind? See <a class="blueLink" href="https://flask.palletsprojects.com/en/1.1.x/errorhandling/#working-with-debuggers">Working with Debuggers</a>.</p>
+                        </article>
+            </section>
+    <!--         <section class="main-section" id="Reference">
+                <div class="codeCtn">
+                    <header><h1>Reference<a class="headLink" href="#Reference" title="Permalink to this headline">¶</a></h1></header>
+                        <article>
+                            <p>
+                                All the documentation on this page is taken from <a href="https://flask.palletsprojects.com/en/1.1.x/quickstart/#a-minimal-application">Flask</a>.
+                            </p>
+                        </article>
+                    </div>
+            </section> -->
+        </main>
+    </div>
+        <footer class="footer row text-light font-weight-light text-center">
+            <!-- <div class="row"> -->
+            <div class="col" id="leftFoot">
+                <p>Inspired by The Pallets Projects' Flask</p>
+            </div>
+            <div class="col" id="midFoot">
+                <a href="https://flask.palletsprojects.com/en/1.1.x/quickstart/">
+                    <img id="footer-img" src="images/flask-icon.png" onerror="this.onerror=null;this.src='https://live.staticflickr.com/65535/49243023981_decee05066_o.png'" alt="flask icon">
+                </a>
+            </div>
+            <div class="col" id="rightFoot">
+                <p>Coded with<span class="oi oi-heart btn-sm" aria-hidden="true"></span>by <a class="blueLink" href="https://www.freecodecamp.org/stefaniedev" target="_blank">Stefanie Feltman</a></p>
+            </div>
+            <!-- </div> -->
+        </footer>
 </body>
 </html>
