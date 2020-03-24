@@ -1,73 +1,151 @@
-html {
-	font-size: 17px;
+/*// iPhones -- Portrait (320 x 568, 375 x 667, 414 x 736) px */
+/*// Slim Split Screen in iPad -- Portrait & Landscape (320 x 1024, 320 x 768, 320 x 1112, 320 x 834, 375 x 1366, 375 x 1024) px */
+/*// Wide Split Screen in iPad -- Portrait (438 x 1024, 504 x 1112, 639 x 1366) px */
+/*// Split Screen in iPad -- Landscape (507 x 768, 551 x 834, 678 x 1024) px */
+.oi-code {color: #33cccc; /*teal*/}
+body, footer {
+	background-color: #6ac7ae;
+	margin: 0;
 }
-body {
-	position: relative;
+.contain {
 	background-color: #F8F9FA;
+	display: flex;
+	flex-direction: column;
 }
-#about, #portfolio, #contact {
-	height: 100vh;
+#navbar {
+	background: rgba(248, 248, 248, 0.8);
 	width: 100vw;
+	overflow: hidden;
+	list-style-type: none;
+/*	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;*/
+	position: fixed;
+	padding: 1% 1% 0;
+	z-index: 2;
 }
-#about, #contact {
-	background-image: url("http://wall--art.com/wp-content/uploads/2014/05/calm-seas.jpg");
-	background-size: 1440px 785px;
+#navbar a {
+	text-decoration: none;
+}
+#logo-img {
+	width: 50vw;
+	height: auto;
+	padding-left: 5%;
+}
+#collapse-menu {
+	text-align: right;
+	width: 40vw;
+	margin: 4% 3% 0 0;
+	float: right;
+}
+#collapse-menu a {
+	cursor: pointer;
+	padding-right: 10%;
+}
+/*input#menu {
+	display: none;
+}*/
+.menu-items {
+	visibility: hidden;
+	opacity: 0;
+	display: none;
+	transition: all 0.5s ease;
+	overflow: hidden;
+	width: 100vw;
+	margin-left: -60vw;
+}
+#collapse-menu:hover > .menu-items {
+	visibility: visible;
+	opacity: 1;
+	display: block;
+}
+/*input:checked ~ .menu-items {
+    max-height: 100%;
+}
+input:checked + label span {
+	color: #00e6b8;
+}*/
+.nav-item {
+	list-style: none;
+}
+/*SELECT MENU-ITEMS AND SET MAX-HEIGHT TO 0*/
+.whtBtn {
+	background: rgba(248, 248, 248, 0.9);
+	border: none;
+	border-radius: 10px;
+	width: 90vw;
+	text-align: right;
+	padding-right: 10%;
+	cursor: pointer;
+}
+.oi-nav {
+	color: #00CCCC;
+	font-size: 1.6rem;
+	line-height: 2rem;
+	height: 10vw;
+}
+.oi-nav:hover {
+	color: #00e6b8;
+	opacity: 0.5;	
+}
+/*.active {
+	background-color: #fff;
+	color: #00e6b8;
+	opacity: 0.5;
+}*/
+#welcome-section, #contact {
+	background-image: url("../images/calm-seas.jpg");
+	background-color: #fff;
+	background-size: cover;
   	background-repeat: no-repeat;
 	background-position: bottom;
 	background-attachment: fixed;
-	padding-top: 51px;
+	margin-top: 10vh;
 }
-#portfolio {
-  	background-color: #fff;
-	padding-top: 102px;
+#welcome-section {
+	padding-top: 7vh;
+	height: 83vh;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	color: #fff;
 }
 .top-top {
-	position: absolute;
-  	top: 7%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-	width: 90vw;
+	flex-grow: 0;
 }
-.top-center {
-	position: absolute;
-  	top: 16%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-	width: 90vw;
+.icon-top {
+	font-size: 5rem;
 }
-.top-bottom {
-	position: absolute;
-  	top: 29%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-	width: 90vw;
+.top-mid {
+	flex-grow: 3;
+}
+.top-mid h1 {
+	font-size: 3.5rem;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.top-mid h2 {
+	font-size: 1.75rem;
+	font-family: 'Lekton', sans-serif;
+}
+.top-bot {
+	flex-grow: 1;
+}
+.icon-bot {
+	font-size: 2rem;
+	color: #fff;
+}
+#projects {
+	min-height: 100vh;
 }
 .bottom-top {
-	position: absolute;
-  	top: 74%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-	width: 90vw;
+
 }
 .bottom {
-	position: absolute;
-  	top: 81%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-	width: 90vw;
+
 }
 .bottom-bottom {
-	position: absolute;
-  	top: 88%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-	width: 90vw;
+
 }
 .bottom-foot {
 	position: absolute;
@@ -76,26 +154,6 @@ body {
 	transform: translate(-50%, -50%);
 	text-align: center;
 	width: 100vw;
-}
-.nav-trans {
-	background: rgba(248, 248, 248, 0.7);
-	max-width: 100vw;
-}
-.nav-click {
-	background-color: #fff;
-	color: #00CCCC;
-}
-.nav-click:hover {
-	color: #00e6b8;
-	opacity: 0.3;	
-}
-.active {
-	background: #fff !important;
-	color: #00e6b8 !important;
-	opacity: 0.3;
-}
-.oi-nav {
-	font-size: 1.5em;
 }
 .btn-trans {
   	background: rgba(255, 255, 255, 0.2);
@@ -110,194 +168,34 @@ body {
 	opacity: 0.7;
 }
 .thumb {
-	max-width: 350px;
+	max-width: 90vw;
 }
 
-@media only screen and (max-height: 765px) {
-	#portfolio {
-		height: 135vh;
-	}
-	.top-top {
-		top: 5%;
-	}
-	.top-center {
-		top: 12%;
-	}
-	.top-bottom {
-		top: 23%;
-	}
-	.bottom-top {
-		top: 79%;
-	}
-	.bottom {
-		top: 84%;
-	}
-	.bottom-bottom {
-		top: 90%;
-	}
-}
-@media only screen and (max-height: 565px) {
-	#portfolio {
-		height: 165vh;
-	}
-}
-@media only screen and (max-height: 465px) {
-	#portfolio {
-		height: 210vh;
-	}
-	.top-top {
-		top: 6%;
-	}
-	.top-bottom {
-		top: 20%;
-	}
-	.bottom-top {
-		top: 84%;
-	}
-	.bottom {
-		top: 88%;
-	}
-	.bottom-bottom {
-		top: 94%;
-	}
-}
-@media only screen and (max-height: 365px) {
-	#portfolio {
-		height: 250vh;
-	}
-	.textH1 {
-	  	font-size: 4em;
-	}
-	.textH2 {
-	  	font-size: 2em;
-	}
-	.textP {
-		font-size: 1.8em;
-	}
-	.icon-top {
-		font-size: 4.5em;
-	}
-	.icon-bot {
-		font-size: 4em;
-	}
-	.icon-con {
-		font-size: 2em;
-	}
-	.btn-trans {
-		height: 80px;
-		width: 80px;
-	}
-}
-@media only screen and (max-height: 305px) {
-	#portfolio {
-		height: 375vh;
-	}
-	.top-top {
-		top: 8%;
-	}
-	.top-center {
-		top: 12%;
-	}
-	.top-bottom {
-		top: 15%;
-	}
-	.bottom-top {
-		top: 89%;
-	}
-	.bottom {
-		top: 92%;
-	}
-	.bottom-bottom {
-		top: 95%;
-	}
-	.textH1 {
-	  	font-size: 2em;
-	}
-	.textH2 {
-	  	font-size: 1em;
-	}
-	.textP {
-		font-size: 1em;
-	}
-	.icon-top {
-		font-size: 2em;
-	}
-	.icon-bot {
-		font-size: 2em;
-	}
-	.icon-con {
-		font-size: 1em;
-	}
-	.btn-trans {
-		height: 60px;
-		width: 60px;
-	}
+/*// iPad -- Portrait (768 x 1024, 834 x 1112, 1024 x 1366) px */
+/*// Wide Split Screen in iPad -- Landscape (694 x 768, 782 x 834, 981 x 1024) px */
+@media screen and (min-aspect-ratio: 2/3) and (max-aspect-ratio: 1/1) {
+	.oi-code {color: #99ffcc; sea foam}
 }
 
-@media only screen and (max-width: 1000px) {
-	.textH1 {
-	  	font-size: 4em;
-	}
-	.textP {
-		font-size: 1.8em;
-	}
-	.icon-top {
-		font-size: 4.5em;
-	}
-	.icon-bot {
-		font-size: 4em;
-	}
-	.icon-con {
-		font-size: 3em;
-	}
-	.btn-trans {
-		height: 100px;
-		width: 100px;
-	}
+/*// iPad -- Landscape (1024 x 768, 1112 x 834, 1366 x 1024) px */
+/*// Small, Large Desktop (1024 x 720, 2560 x 1600) px */
+@media screen and (min-aspect-ratio: 1/1) and (max-aspect-ratio: 33/20) {
+	.oi-code {color:  #fb9084; salmon}
 }
 
-@media only screen and (max-width: 767px) {
-	#portfolio {
-		height: 180vh;
-	}
-	.top-top {
-		top: 5%;
-	}
-	.top-center {
-		top: 12%;
-	}
-	.top-bottom {
-		top: 23%;
-	}
-	.bottom-top {
-		top: 79%;
-	}
-	.bottom {
-		top: 84%;
-	}
-	.bottom-bottom {
-		top: 90%;
-	}
-	.textH2 {
-	  	font-size: 2.4em;
-	}
-}
+/*// iPhone SE, iPhone 8, iPhone 8 Plus -- Landscape (568 x 320, 667 x 375, 736 x 414) px */
+/*// Laptop & Desktop -- height restrict (height 678px & below) */
+@media screen and (min-aspect-ratio: 33/20) {
+	.oi-code {color: #9999ff; purple}
 
-@media only screen and (max-width: 555px) {
-	.bottom-bottom {
-		width: 85vw;
-	}
-	.textH2 {
-	  	font-size: 2em;
-	}
-	.textP {
-		font-size: 1.7em;
-	}
-	.icon-con {
-		font-size: 2em;
-	}
-	.btn-trans {
-		height: 80px;
-		width: 80px;
-	}
+	/*// Medium Desktop -- (1920 x 1080) px */
+		@media screen and (min-width: 1200px) {
+			.oi-code {color: #ff99bb; pink}
+		}
+	/*// Large Desktop (2560 x 1600) px*/
+	@media screen and (min-width: 2000px) {
+			#Quickstart h1 {color: #ffd11a; gold}
+
+
+		}
 }
