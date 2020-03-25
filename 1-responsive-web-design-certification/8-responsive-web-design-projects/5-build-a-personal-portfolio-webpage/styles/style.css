@@ -3,7 +3,7 @@
 /*// Wide Split Screen in iPad -- Portrait (438 x 1024, 504 x 1112, 639 x 1366) px */
 /*// Split Screen in iPad -- Landscape (507 x 768, 551 x 834, 678 x 1024) px */
 .oi-code {color: #33cccc; /*teal*/}
-body, footer {
+body {
 	background-color: #6ac7ae;
 	margin: 0;
 }
@@ -33,51 +33,53 @@ body, footer {
 	height: auto;
 	padding-left: 5%;
 }
-#collapse-menu {
+.collapse-menu {
 	text-align: right;
 	width: 40vw;
 	margin: 4% 3% 0 0;
 	float: right;
 }
-#collapse-menu a {
+.collapse-menu label {
 	cursor: pointer;
+	height: 10vw;
+	width: 10vw;
 	padding-right: 10%;
 }
-/*input#menu {
+input#menu {
 	display: none;
-}*/
+}
+.oi-x {
+	display: none;
+}
 .menu-items {
-	visibility: hidden;
-	opacity: 0;
-	display: none;
-	transition: all 0.5s ease;
+	max-height: 0;
 	overflow: hidden;
 	width: 100vw;
 	margin-left: -60vw;
 }
-#collapse-menu:hover > .menu-items {
-	visibility: visible;
-	opacity: 1;
-	display: block;
-}
-/*input:checked ~ .menu-items {
+input:checked ~ .menu-items {
     max-height: 100%;
 }
-input:checked + label span {
-	color: #00e6b8;
-}*/
+input:checked + label span.oi-menu {
+	display: none;
+}
+input:checked + label span.oi-x {
+	display: inline-block;
+}
 .nav-item {
 	list-style: none;
 }
-/*SELECT MENU-ITEMS AND SET MAX-HEIGHT TO 0*/
+/*.collapse-menu a:active {
+	display: none;
+}*/
+/*SELECT MENU-ITEMS AND SET MAX-HEIGHT TO 0 > can't in css need js*/
 .whtBtn {
 	background: rgba(248, 248, 248, 0.9);
 	border: none;
-	border-radius: 10px;
+	border-radius: 3px;
 	width: 90vw;
 	text-align: right;
 	padding-right: 10%;
-	cursor: pointer;
 }
 .oi-nav {
 	color: #00CCCC;
@@ -85,15 +87,11 @@ input:checked + label span {
 	line-height: 2rem;
 	height: 10vw;
 }
-.oi-nav:hover {
+.whtBtn:hover > .oi-nav, .oi-nav:hover, .icon-bot:hover  {
 	color: #00e6b8;
-	opacity: 0.5;	
+	opacity: 0.7;
+	cursor: pointer;
 }
-/*.active {
-	background-color: #fff;
-	color: #00e6b8;
-	opacity: 0.5;
-}*/
 #welcome-section, #contact {
 	background-image: url("../images/calm-seas.jpg");
 	background-color: #fff;
@@ -101,11 +99,11 @@ input:checked + label span {
   	background-repeat: no-repeat;
 	background-position: bottom;
 	background-attachment: fixed;
-	margin-top: 10vh;
+	margin-top: 10.5vh;
 }
 #welcome-section {
-	padding-top: 7vh;
-	height: 83vh;
+	padding-top: 5vh;
+	height: 85vh;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -118,11 +116,13 @@ input:checked + label span {
 	font-size: 5rem;
 }
 .top-mid {
-	flex-grow: 3;
+	flex-grow: 4;
 }
 .top-mid h1 {
 	font-size: 3.5rem;
 	font-family: 'Roboto Condensed', sans-serif;
+	margin-top: 3vh;
+	margin-bottom: 0;
 }
 .top-mid h2 {
 	font-size: 1.75rem;
@@ -137,38 +137,135 @@ input:checked + label span {
 }
 #projects {
 	min-height: 100vh;
-}
-.bottom-top {
-
-}
-.bottom {
-
-}
-.bottom-bottom {
-
-}
-.bottom-foot {
-	position: absolute;
-  	top: 99%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	padding-top: 10vh;
+	display: flex;
+	flex-direction: column;
 	text-align: center;
-	width: 100vw;
+	color: #666;
 }
-.btn-trans {
-  	background: rgba(255, 255, 255, 0.2);
-  	border-color: #fff;
-	border-width: 2px;
-	border-radius: 50%;
-	height: 120px;
-	width: 120px;
+#projects .icon-top {
+	font-size: 2rem;
 }
-.btn-trans:hover {
-	cursor: pointer;
-	opacity: 0.7;
+#projects h1 {
+	font-size: 1.5rem;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 .thumb {
 	max-width: 90vw;
+}
+.thumb:hover {
+	cursor: pointer;
+	opacity: 0.7;
+}
+/*#profile-link {
+	font-size: 1.3rem;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #00CCCC;
+}*/
+/*#profile-link:hover {
+	cursor: pointer;
+	color: #00e6b8;
+	opacity: 0.7;
+}*/
+.oi-eye {
+	top: 3px;
+}
+.sqBtn {
+	font-size: 1.3rem;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #00CCCC;
+	border: 3px solid #00CCCC;
+	background: #fff;
+	border-radius: 3px;
+	padding: 2%;
+	margin-top: 3vh;
+}
+.sqBtn:hover {
+	cursor: pointer;
+	color: #00e6b8;
+	border: 3px solid #00e6b8;
+	opacity: 0.7;
+}
+#projects h2 {
+	font-size: 1rem;
+	font-family: 'Lekton', sans-serif;
+	padding: 0 4%;
+}
+#projects .icon-bot {
+	color: #666;
+}
+#projects .icon-bot:hover {
+	cursor: pointer;
+	color: #00e6b8;
+	opacity: 0.7;
+}
+#contact {
+	padding-top: 7vh;
+	height: 73vh;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	color: #fff;
+}
+#contact .icon-top {
+	font-size: 3rem;
+}
+.bottom-top {
+	flex-grow: 0;
+}
+.bottom {
+	flex-grow: 1;
+}
+.bottom h1 {
+	font-size: 3rem;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.bottom-bot {
+	flex-grow: 3;
+}
+#email-link {
+	font-size: 3rem;
+	color: #00CCCC;
+}
+.oi-envelope-open {
+	display: none;
+}
+#email-link:hover .oi-envelope-closed {
+	display: none;
+}
+#email-link:hover .oi-envelope-open {
+	display: inline-block;
+}
+#email-link:hover {
+	cursor: pointer;
+	color: #00e6b8;
+	/*opacity: 0.7;*/
+}
+footer {
+	background-color: #fff;
+	height: 10vh;
+}
+footer .col {
+	display: inline-block;
+}
+.left {
+	text-align: left;
+	width: 50vw;
+	padding-left: 3vw;
+}
+.right {
+	text-align: right;
+	width: 42vw;
+	padding-right: 3vw;
+}
+footer h6 {
+	color: #595959;
+	font-family: 'Lekton', sans-serif;
+	display: inline-block;
+	margin: 3vh 0 1vh;
+}
+footer .oi-heart {
+	padding-right: 6vw;
 }
 
 /*// iPad -- Portrait (768 x 1024, 834 x 1112, 1024 x 1366) px */
