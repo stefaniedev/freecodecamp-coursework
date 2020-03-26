@@ -4,26 +4,39 @@
 /*// Split Screen in iPad -- Landscape (507 x 768, 551 x 834, 678 x 1024) px */
 .oi-code {color: #33cccc; /*teal*/}
 body {
-	background-color: #6ac7ae;
+	background-color: #F8F9FA;
 	margin: 0;
+	/*z-index: 1;*/
+}
+body::after{
+      content: "";
+      top: 0;
+      height: 100vh;
+      left: 0;
+      right: 0;
+      position: fixed;
+      z-index: -1;
+      background: #6ac7ae url("../images/calm-seas.jpg") no-repeat bottom;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      /*background-attachment: scroll;*/
 }
 .contain {
-	background-color: #F8F9FA;
+	/*background-color: #F8F9FA;*/
 	display: flex;
 	flex-direction: column;
 }
 #navbar {
-	background: rgba(248, 248, 248, 0.8);
+	background: rgba(248, 249, 250, 0.9);
 	width: 100vw;
+	height: 10vh;
 	overflow: hidden;
 	list-style-type: none;
-/*	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;*/
 	position: fixed;
 	padding: 1% 1% 0;
-	z-index: 2;
+	/*z-index: 2;*/
 }
 #navbar a {
 	text-decoration: none;
@@ -31,13 +44,14 @@ body {
 #logo-img {
 	width: 50vw;
 	height: auto;
-	padding-left: 5%;
+	padding: 1% 0 0 5%;
 }
 .collapse-menu {
 	text-align: right;
 	width: 40vw;
 	margin: 4% 3% 0 0;
 	float: right;
+	z-index: 3;
 }
 .collapse-menu label {
 	cursor: pointer;
@@ -69,10 +83,6 @@ input:checked + label span.oi-x {
 .nav-item {
 	list-style: none;
 }
-/*.collapse-menu a:active {
-	display: none;
-}*/
-/*SELECT MENU-ITEMS AND SET MAX-HEIGHT TO 0 > can't in css need js*/
 .whtBtn {
 	background: rgba(248, 248, 248, 0.9);
 	border: none;
@@ -92,34 +102,44 @@ input:checked + label span.oi-x {
 	opacity: 0.7;
 	cursor: pointer;
 }
-#welcome-section, #contact {
+#welcome-section::before {
+	display: block;
+	height: 10.5vh;
+	background-color: #fff;
+	/*margin-top: 5vh;*/
+	/*padding-bottom: 5vh;*/
+	/*margin-top: -1vh;*/
+	/*visibility: hidden;*/
+	content: " ";
+	margin-bottom: 5vh;
+}
+/*#welcome-section {
 	background: #6ac7ae url("../images/calm-seas.jpg") no-repeat bottom;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-attachment: fixed;
+	background-attachment: scroll;
 	width: 100%;
 	height: 100%;
 	margin-top: 10.5vh;
-}
-
+}*/
 #welcome-section {
-	padding-top: 5vh;
-	height: 85vh;
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	color: #fff;
 }
 .top-top {
-	flex-grow: 0;
+	flex-grow: 2;
 }
 .icon-top {
 	font-size: 5rem;
 }
 .top-mid {
-	flex-grow: 4;
+	flex-grow: 5;
 }
 .top-mid h1 {
 	font-size: 3.5rem;
@@ -143,6 +163,7 @@ input:checked + label span.oi-x {
 	color: #00e6b8;
 }
 #projects {
+	background-color: #F8F9FA;
 	min-height: 100vh;
 	padding-top: 10vh;
 	display: flex;
@@ -206,9 +227,12 @@ input:checked + label span.oi-x {
 	color: #00e6b8;
 	opacity: 0.7;
 }
+#scContact {
+	height: 10vh;
+}
 #contact {
 	padding-top: 7vh;
-	height: 73vh;
+	height: 70vh;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -248,32 +272,38 @@ input:checked + label span.oi-x {
 	color: #00e6b8;
 }
 footer {
-	background-color: #fff;
-	height: 10vh;
+	background-color: #F8F9FA;
+	height: 13vh;
 }
 footer .col {
-	display: inline-block;
+	display: block;
+	text-align: center;
+	line-height: .5rem;
+	font-size: 1.3rem;
 }
 .left {
-	text-align: left;
-	width: 50vw;
-	padding-left: 3vw;
+	/*text-align: left;*/
+	/*width: 50vw;*/
+	/*padding-left: 3vw;*/
+	font-family: 'Roboto Condensed', sans-serif;
 }
 .right {
-	text-align: right;
-	width: 42vw;
-	padding-right: 3vw;
+	/*text-align: right;*/
+	/*width: 42vw;*/
+	/*padding-right: 3vw;*/
+	font-family: 'Lekton', sans-serif;
 }
 footer h6 {
 	color: #595959;
-	font-family: 'Lekton', sans-serif;
 	display: inline-block;
 	margin: 3vh 0 1vh;
 }
 footer .oi-heart {
-	padding-right: 6vw;
+	padding-right: 1vw;
 }
-
+.right br {
+	display: none;
+}
 /*// iPad -- Portrait (768 x 1024, 834 x 1112, 1024 x 1366) px */
 /*// Wide Split Screen in iPad -- Landscape (694 x 768, 782 x 834, 981 x 1024) px */
 @media screen and (min-aspect-ratio: 2/3) and (max-aspect-ratio: 1/1) {
