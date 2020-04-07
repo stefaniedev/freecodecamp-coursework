@@ -3,11 +3,19 @@
 /*// Wide Split Screen in iPad -- Portrait (438 x 1024, 504 x 1112, 639 x 1366) px */
 /*// Split Screen in iPad -- Landscape (507 x 768, 551 x 834, 678 x 1024) px */
 .oi-code {color: #33cccc; /*teal*/}
+
 body {
 	background-color: #F8F9FA;
 	margin: 0;
-	/*z-index: 1;*/
 }
+/*WHITE BLOCK FOR NAVBAR*/
+#welcome-section::before {
+	display: block;
+	height: 10vh;
+	background-color: #fff;
+	content: " ";
+}
+/*THIRD ITERATION NEEDS TOP PADDING FOR NAV*/
 body::after{
       content: "";
       top: 0;
@@ -21,22 +29,23 @@ body::after{
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      /*background-attachment: scroll;*/
+      background-attachment: scroll;
 }
 .contain {
 	/*background-color: #F8F9FA;*/
 	display: flex;
 	flex-direction: column;
 }
+a {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
 #navbar {
 	background: rgba(248, 249, 250, 0.9);
 	width: 100vw;
-	height: 10vh;
 	overflow: hidden;
 	list-style-type: none;
 	position: fixed;
-	padding: 1% 1% 0;
-	/*z-index: 2;*/
+	z-index: 2;
 }
 #navbar a {
 	text-decoration: none;
@@ -51,7 +60,6 @@ body::after{
 	width: 40vw;
 	margin: 4% 3% 0 0;
 	float: right;
-	z-index: 3;
 }
 .collapse-menu label {
 	cursor: pointer;
@@ -59,7 +67,7 @@ body::after{
 	width: 10vw;
 	padding-right: 10%;
 }
-input#menu {
+.collapse-menu input {
 	display: none;
 }
 .oi-x {
@@ -71,13 +79,16 @@ input#menu {
 	width: 100vw;
 	margin-left: -60vw;
 }
-input:checked ~ .menu-items {
+.nav {
+	margin-bottom: .5rem;
+}
+.collapse-menu > input:checked ~ .menu-items {
     max-height: 100%;
 }
-input:checked + label span.oi-menu {
+.collapse-menu > input:checked + label span.oi-menu {
 	display: none;
 }
-input:checked + label span.oi-x {
+.collapse-menu > input:checked + label span.oi-x {
 	display: inline-block;
 }
 .nav-item {
@@ -97,23 +108,18 @@ input:checked + label span.oi-x {
 	line-height: 2rem;
 	height: 10vw;
 }
-.whtBtn:hover > .oi-nav, .oi-nav:hover {
+.whtBtn:hover, .whtBtn:hover > .oi-nav {
 	color: #00e6b8;
 	opacity: 0.7;
 	cursor: pointer;
 }
-#welcome-section::before {
-	display: block;
-	height: 10.5vh;
-	background-color: #fff;
-	/*margin-top: 5vh;*/
-	/*padding-bottom: 5vh;*/
-	/*margin-top: -1vh;*/
-	/*visibility: hidden;*/
-	content: " ";
-	margin-bottom: 5vh;
-}
-/*#welcome-section {
+/*.collapse-menu button:active {
+}*/
+/*.nav-item > input:checked {
+
+}*/
+/*SECOND ITERATION STILL IMAGE
+/*#welcome-section, #contact-section {
 	background: #6ac7ae url("../images/calm-seas.jpg") no-repeat bottom;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -124,7 +130,17 @@ input:checked + label span.oi-x {
 	width: 100%;
 	height: 100%;
 	margin-top: 10.5vh;
-}*/
+}
+/*FIRST ITERATION NOT WORK ON MOBILE
+/*#welcome-section, #contact-section {
+ 	background-image: url("../images/calm-seas.jpg");
+ 	background-color: #fff;
+ 	background-size: cover;
+   	background-repeat: no-repeat;
+ 	background-position: bottom;
+ 	background-attachment: fixed;
+ 	margin-top: 10vh;
+ }*/
 #welcome-section {
 	height: 100vh;
 	display: flex;
@@ -227,10 +243,10 @@ input:checked + label span.oi-x {
 	color: #00e6b8;
 	opacity: 0.7;
 }
-#scContact {
+#contact {
 	height: 10vh;
 }
-#contact {
+#contact-section {
 	padding-top: 7vh;
 	height: 70vh;
 	display: flex;
@@ -238,14 +254,14 @@ input:checked + label span.oi-x {
 	text-align: center;
 	color: #fff;
 }
-#contact .icon-top {
+#contact-section .icon-top {
 	font-size: 3rem;
 }
 .bottom-top {
-	flex-grow: 0;
+	flex-grow: 1;
 }
 .bottom {
-	flex-grow: 1;
+	flex-grow: 2;
 }
 .bottom h1 {
 	font-size: 3rem;
